@@ -1,0 +1,1 @@
+{"Tagging":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9028","SuperCategory":"DICOM term","Id":"nlx_151111","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Definition":"Tagging. Required if Frame Type (0008,9007) Value 1 is ORIGINAL. May be present otherwise."}}

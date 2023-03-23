@@ -1,0 +1,1 @@
+{"Nominal Interval":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1062","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150332","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Average R-R interval used for the scans in msec."}}

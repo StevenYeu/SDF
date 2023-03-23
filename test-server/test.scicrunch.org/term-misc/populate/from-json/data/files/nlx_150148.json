@@ -1,0 +1,1 @@
+{"Images in Acquisition":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_1002","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150148","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Number of images that resulted from this acquisition of data."}}

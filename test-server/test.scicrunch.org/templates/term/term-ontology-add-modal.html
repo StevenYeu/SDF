@@ -1,0 +1,23 @@
+<script type="text/ng-template" id="term-ontology-add-modal">
+<form ng-submit="submit()">
+    <div class="modal-header">
+        <h4>Add an ontology</h4>
+    </div>
+
+    <div class="modal-body" style="height:100%;">
+        <table style="width:100%;border-spacing:5px;border-collapse:separate;">
+        <tr>
+        <td><label class="col-sm-3">URL</label></td>
+        <td class="col-sm-9">
+            <input type="text" class="form-control input-sm" ng-model="newOntologyEntry.url" enter-directive />
+        </td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">OK</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+</script>

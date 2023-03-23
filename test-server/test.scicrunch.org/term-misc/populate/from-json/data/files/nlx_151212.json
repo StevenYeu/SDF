@@ -1,0 +1,1 @@
+{"Trigger Window":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1094","SuperCategory":"DICOM term","Id":"nlx_151212","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Percent of R-R interval, based on Heart Rate (0018,1088), prescribed as a window for a valid\/usable trigger."}}

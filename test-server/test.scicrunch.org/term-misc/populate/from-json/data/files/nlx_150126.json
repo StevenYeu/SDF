@@ -1,0 +1,1 @@
+{"Image Frame Origin":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:60xx_0051","SuperCategory":"DICOM term","Id":"nlx_150126","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Frame number of Multi-frame Image to which this overlay applies; frames are numbered from 1."}}

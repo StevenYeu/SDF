@@ -1,0 +1,1 @@
+{"Tagging Delay":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9184","SuperCategory":"DICOM term","Id":"nlx_151112","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FD","Definition":"Delay time in ms of the beginning of the application of the tagging pattern relative to the last R-peak."}}

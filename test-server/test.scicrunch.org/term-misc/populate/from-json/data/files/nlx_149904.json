@@ -1,0 +1,1 @@
+{"Doppler Sample Volume Y Position":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_603B","SuperCategory":"DICOM term","Id":"nlx_149904","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"The y displacement, in pixels, from the Reference pixel to the center of the Doppler sample volume."}}

@@ -1,0 +1,36 @@
+.tablehead {
+    -moz-transform: translateY(20px) rotate(-45deg);
+    -o-transform: translateY(20px) rotate(-45deg);
+    -webkit-transform: translateY(20px) rotate(-45deg);
+    -ms-transform: translateY(20px) rotate(-45deg);
+    -moz-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    /*
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-0.083);
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-0.083)";
+    transform: translateY(20px) rotate(-45deg);
+    transform-origin: 0% 0%;
+    */
+    float: left;
+    white-space: nowrap;
+    width: 40px;
+    max-width: 40px;
+    height: 40px;
+    max-height: 40px;
+}
+.tableside {
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.tablecell {
+    width: 40px;
+    max-width: 40px;
+    height: 40px;
+    max-height: 40px;
+}
+#comention-grid table {
+    table-layout: fixed;
+}

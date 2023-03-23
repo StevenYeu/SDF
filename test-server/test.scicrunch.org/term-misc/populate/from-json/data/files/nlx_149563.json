@@ -1,0 +1,1 @@
+{"Application Setup Manufacturer":{"ValueRepresentation":"LO","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0238","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_149563","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Manufacturer of Application Setup."}}

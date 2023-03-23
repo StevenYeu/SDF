@@ -1,0 +1,21 @@
+<div class="container" ng-show="relationships.loading">
+    <h3>Loading relationships...</h3>
+    <i class="fa fa-spin fa-spinner" style="font-size: 26px"></i>
+</div>
+<div class="container" ng-hide="relationships.loading">
+    <div class="row" ng-hide="relationships.relationships.length > 0">
+    No relationships found for this resource
+    </div>
+    <h5 class="row"> Showing {{relationships.relationships.length}} relationships</h5>
+    <div class="row" ng-repeat="rel in relationships.relationships | filter:relationshipFilter">
+        <ul class="list-inline up-ul">
+            <li>This resource <strong class="relationship1">{{ rel.relationship }}</strong> <a target="_self" ng-href="{{rel.link_other}}"><span class="relationship2">{{ rel.other_name }}</span></a></li>
+            <li><i class="input-button delete-button glyphicon glyphicon-remove" ng-show="rel.canon == 1 && page_type == 'edit'" ng-click="removeRelationship(rel.other_rid, rel.relationship)"></i></li>
+        </ul>
+    </div>
+    <hr/>
+    <div ng-hide="relationships.seen_all">
+        <button class="row btn btn-info" ng-click="loadAllRelationships()">Load all relationships</button>
+        <h6 class="row"> *can take a while if the resource has many relationships...</h6>
+    </div>
+</div>

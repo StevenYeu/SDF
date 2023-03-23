@@ -1,0 +1,1 @@
+{"Ultrasound Color Data Present":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0014","SuperCategory":"DICOM term","Id":"nlx_151218","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"This element indicates if any ultrasound color data is present in an image."}}

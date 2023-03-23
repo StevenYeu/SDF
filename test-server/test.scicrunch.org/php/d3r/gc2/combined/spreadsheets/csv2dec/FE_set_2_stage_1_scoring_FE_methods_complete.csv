@@ -1,0 +1,41 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands, Kendalls Tau, Kendalls Tau Error,RMSEc (kcal/mol),RMSEc Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Full FE Method?
+2efa1,Carlos Camacho,Bentley Wingert,0,18,0.34,0.15,1.25,0.22,quasi-exact,Quasi exact method,Structure-based scoring method
+5nsef,In silico Drug Design Master,Olivier Bequignon,0,18,0.35,0.15,1.18,0.16,UCSF Chimera/MGLTools/AutoDock Vina/RDKIT/Knime Method 1,Vina,Structure-based scoring method
+b5mvu,,,1,18,-0.11,0.17,1.61,0.20,Tscore/Maestro/GOLD,In-house machine learning score,Structure-based scoring method
+cut86,,,1,18,0.31,0.17,1.40,0.19,In_house_machine_learning_score/Maestro/GOLD,In-house machine learning score,Structure-based scoring method
+eg8rg,In silico Drug Design Master,doha naga,0,18,0.35,0.15,1.18,0.16,UCSF Chimera/MGLTools/AutoDock Vina/RDKIT/Knime Method 1,Vina,Structure-based scoring method
+fxtpq,Julien Michel,Julien Michel,0,18,0.24,0.19,2.02,0.41,Expert opinion,Visual,Structure-based scoring method
+fyt14,Merck,Yuan Hu,0,18,0.11,0.18,4.23,0.76,MMGBSA ranking from 20 MD replicates,MMGBSA,Structure-based scoring method
+ga5bt,Nagamani Sukumar,Pinaki Saha,0,18,0.07,0.19,3.55,0.76,MOE ,MOE,Structure-based scoring method
+j507m,Xiaoqin Zou,Xiaoqin Zou,0,18,0.36,0.15,2.09,0.37,MMPBSA,MMPBSA,Structure-based scoring method
+qvnq5,Julien Michel,Julien Michel,0,18,-0.14,0.19,4.07,0.73,alchemical free energy protocol with average network analysis ,"FESetup, NetworkX",Free energy method
+sndmm,Mingyue Zheng,Zhaoping Xiong,0,18,0.37,0.17,1.36,0.19,monte carlo free energy perturbation,MCPro,Free energy method
+ukb3f,Zoe Cournia,Christina Athanasiou,0,18,0.24,0.18,1.88,0.35,Free energy perturbation calculations,"FEP-Desmond, Visual",Free energy method
+1t2p5,"Rognan, Didier",Didier ROGNAN,0,18,0.17,0.18,1.87,0.25,Surflex/GRIM Interaction Pattern Similarity/ HYDE (Protocol 2) ,"Ichem-GRIM, HYDE",Structure-based scoring method
+2o6iv,"Rognan, Didier",Didier ROGNAN,0,18,0.29,0.14,2.04,0.39,Surflex/Grim/Hyde (Protocol 1) ,"Ichem-GRIM, HYDE",Structure-based scoring method
+2umsq,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,18,-0.37,0.18,1.50,0.19,SILCS-MC  ,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based scoring method
+3qyiy,Xiaoqin Zou,Xiaoqin Zou,0,18,0.36,0.16,2.09,0.37,MMPBSA  ,Amber-MMPBSA,Structure-based scoring method
+4ynsp,"Rognan, Didier",Didier ROGNAN,0,18,0.44,0.18,1.96,0.37,Surflex/GRIM Interaction Pattern Similarity/ HYDE (Protocol3) ,"Ichem-GRIM, HYDE",Structure-based scoring method
+6pf5g,,,1,18,0.20,0.19,1.61,0.28,glide_ensemble_docking ,Glide-XP,Structure-based scoring method
+87x7c,In silico Drug Design Master,doha naga,0,18,0.35,0.15,1.18,0.16,UCSF Chimera/MGLTools/AutoDock Vina/RDKIT/CDK/Knime  ,AutoDock Vina,Structure-based scoring method
+aaveo,David Evans,Matthew Baumgartner,0,18,0.29,0.16,1.76,0.33,align_close  ,"Smina, Visual",Structure-based scoring method
+c0l1t,,,1,18,0.31,0.17,1.40,0.19,In_house_machine_learning_score/Maestro/GOLD ,In-house machine learning score,Structure-based scoring method
+cs2lm,Stefano Moro,Stefano Moro,0,18,0.28,0.16,2.21,0.35,MMS DockBench CrossDocking - MMGBSA Method 1 ,Amber-MMGBSA,Structure-based scoring method
+cwip8,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,18,-0.34,0.19,1.69,0.24,SILCS-MC,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based scoring method
+dlvjf,Alfonso T. Garcia-Sosa,Alfonso T. Garcia-Sosa,0,18,-0.36,0.15,1.92,0.23,grandconsen_qpld_XP_SP_Vina_AD4  ,"qpld, Glide-XP, Glide-SP, AutoDock Vina, AutoDock 4",Structure-based scoring method
+dnil6,,,1,18,-0.11,0.17,1.61,0.20,In_house_machine_learning_score/Maestro/GOLD ,In-house machine learning score,Structure-based scoring method
+ec84y,,,1,18,0.19,0.20,1.79,0.32,xScore  ,xScore,Structure-based scoring method
+fzr1f,Enrico Purisima,Enrico Purisima,0,18,0.32,0.17,1.39,0.20,SIE Method 1,SIE (Solvated Interaction Energy),Structure-based scoring method
+g7q2q,In silico Drug Design Master,Olivier Bequignon,0,18,0.35,0.15,1.18,0.16,UCSF Chimera/MGLTools/AutoDock Vina/RDKIT/CDK/Knime  ,AutoDock Vina,Structure-based scoring method
+gzd7a,David Evans,Matthew Baumgartner,0,18,0.50,0.13,1.07,0.17,smina_ens  ,Smina,Structure-based scoring method
+k2um8,Alfonso T. Garcia-Sosa,Alfonso T. Garcia-Sosa,0,18,-0.36,0.15,1.92,0.23,grandconsen_qpld_XP_SP_Vina_AD4  ,"qpld, Glide-XP, Glide-SP, AutoDock Vina, AutoDock 4",Structure-based scoring method
+keum2,Nagamani Sukumar,Pinaki Saha,0,18,0.07,0.19,3.55,0.77,MOE  ,GBVI/WSA scoring,Structure-based scoring method
+l8rmr,Steve Jones,Oleksandr Yakovenko,0,18,0.30,0.18,1.35,0.24,LIE  ,LIE (Linear Interaction Energy Model),Structure-based scoring method
+lpcmd,Mingyue Zheng,Zhaoping Xiong,0,18,0.37,0.17,1.36,0.18,Glide xp  ,Glide-XP,Ligand-based scoring method
+mseke,David Koes,David Koes,0,18,0.28,0.19,1.49,0.28,vina ,Smina,Structure-based scoring method
+o3nlu,Mingyue Zheng,Zhaoping Xiong,0,18,0.37,0.17,1.36,0.18,Glide xp,Glide-XP,Structure-based scoring method
+pcy26,Max Totrov,Maxim Totrov,0,18,-0.08,0.19,1.69,0.25,ICM/APF 3D QSAR ,Molsoft ICM,Structure-based scoring method
+pgbuh,Charles L. Brooks III,Xinqiang Ding,0,18,-0.17,0.16,2.30,0.56,Scoring using AutoDock Vina,AutoDock Vina,Structure-based scoring method
+tdbsk,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,18,0.34,0.17,1.92,0.41,SILCS-MC ,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based scoring method
+vskkl,David R. Bevan,Anne Brown,0,18,-0.31,0.15,3.90,0.67,AutoDock Vina ,AutoDock Vina,Structure-based scoring method
+yprv4,Garland R. Marshall,Flavio Ballante,0,18,0.35,0.18,1.36,0.27,FBRHGRM Method 1,"AutoDock Vina, Clusterizer-DockAccessor",Structure-based scoring method

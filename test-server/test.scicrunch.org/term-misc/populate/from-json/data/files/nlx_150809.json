@@ -1,0 +1,1 @@
+{"Retrieve AE Title":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0054","SuperCategory":"DICOM term","Id":"nlx_150809","Has role":"Non-imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"AE","Definition":"Title of the DICOM Application Entity where the Image(s) may be retrieved on the network."}}

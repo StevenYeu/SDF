@@ -1,0 +1,1 @@
+{"Grid Thickness":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_7042","SuperCategory":"DICOM term","Id":"nlx_150095","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The thickness in mm of the X-Ray absorbing material used in the grid."}}

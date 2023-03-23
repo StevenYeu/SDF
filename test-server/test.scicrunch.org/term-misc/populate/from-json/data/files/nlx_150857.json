@@ -1,0 +1,1 @@
+{"RT ROI Relationship":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3006_0033","SuperCategory":"DICOM term","Id":"nlx_150857","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Relationship of referenced ROI with respect to referencing ROI."}}

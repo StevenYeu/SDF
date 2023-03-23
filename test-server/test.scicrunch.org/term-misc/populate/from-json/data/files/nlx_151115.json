@@ -1,0 +1,1 @@
+{"Target Prescription Dose":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0026","SuperCategory":"DICOM term","Id":"nlx_151115","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Prescribed dose (in Gy) to Dose Reference if Dose Reference Type (300A,0020) is TARGET."}}

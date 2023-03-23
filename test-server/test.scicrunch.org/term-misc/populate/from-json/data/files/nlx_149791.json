@@ -1,0 +1,1 @@
+{"Counts Accumulated":{"ValueRepresentation":"IS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0070","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149791","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Sum of all gamma events for all frames in the image."}}

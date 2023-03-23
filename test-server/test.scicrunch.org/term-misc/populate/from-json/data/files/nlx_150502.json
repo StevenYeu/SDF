@@ -1,0 +1,1 @@
+{"Performed Procedure Step End Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0251","SuperCategory":"DICOM term","Id":"nlx_150502","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"Time at which the Performed Procedure Step ended."}}

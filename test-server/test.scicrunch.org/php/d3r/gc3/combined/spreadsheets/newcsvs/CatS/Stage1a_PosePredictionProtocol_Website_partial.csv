@@ -1,0 +1,9 @@
+Submission ID,Last Name,First Name,PI Name,Number of Ligands, Median RMSD, Mean RMSD, STD RMSD,Method Name,Software
+va7rj,iorga,bogdan,bogdan iorga,23,2.03,2.96,1.94,d3r-gc3-pose-best-score-constraints-md,cactvs chemoinformatics toolkit v3.433/schrê_dinger suite 2016-1/corina v3.60/ucsf chimera v1.10.2/gold v5.2/gromacs 4.6.5   system preparation
+r87j3,warren,gregory,none,23,2.66,4.08,3.1,hdef,hybrid v3.2.0.2  system preparation
+cmv4q,warren,gregory,none,23,2.59,4.1,3.16,pchd,hybrid v3.2.0.2; smzap 1.2.1.4  system preparation
+ccxri,warren,gregory,none,23,2.6,4.16,3.25,cchs,hybrid v3.2.0.2; smzap 1.2.1.4  system preparation
+pskfu,warren,gregory,none,23,2.73,4.23,3.05,cchd,hybrid v3.2.0.2; smzap 1.2.1.4  system preparation
+bnexw,warren,gregory,none,23,2.6,4.32,3.33,pchs,hybrid v3.2.0.2; smzap 1.2.1.4  system preparation
+pi5vu,xie,bing,david d.l. minh,22,11.58,11.26,2.09,algdock,"openeye quacpac, modeller-9.18, ucsf dock6, ambertools 14, namd 2.9   system preparation"
+8bafj,xie,bing,david d.l. minh,22,11.87,11.72,3.04,algdock,"openeye quacpac, modeller-9.18, ucsf dock6, ambertools 14, namd 2.9   system preparation"

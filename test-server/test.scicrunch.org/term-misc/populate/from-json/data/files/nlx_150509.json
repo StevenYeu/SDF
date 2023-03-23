@@ -1,0 +1,1 @@
+{"Performed Protocol Code Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_1032","SuperCategory":"DICOM term","Id":"nlx_150509","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"A sequence that conveys the (single) type of procedure performed."}}

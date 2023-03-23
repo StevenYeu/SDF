@@ -1,0 +1,1 @@
+{"Active Source Diameter":{"ValueRepresentation":"DS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0218","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149528","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Diameter of active Source (mm)."}}

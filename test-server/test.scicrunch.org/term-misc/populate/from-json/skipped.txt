@@ -1,0 +1,459 @@
+'Acquisitions in Series' (Id:nlx_149526) skipped. definition:
+TBD
+
+'Alternate Representation Sequence' (Id:nlx_149542) skipped. definition:
+TBD.
+
+'Anatomic Structure' (Id:nlx_149545) skipped. definition:
+TBD (retired).
+
+'Angle Number' (Id:nlx_149551) skipped. definition:
+TBD (retired).
+
+'Angular Position' (Id:nlx_149552) skipped. definition:
+TBD (retired).
+
+'Annotation Flag' (Id:nlx_149555) skipped. definition:
+TBD (retired).
+
+'Arbitrary' (Id:nlx_149572) skipped. definition:
+TBD (retired).
+
+'Barcode Symbology' (Id:nlx_149580) skipped. definition:
+TBD.
+
+'Basic Color Image Sequence' (Id:nlx_149583) skipped. definition:
+TBD.
+
+'Basic Grayscale Image Sequence' (Id:nlx_149584) skipped. definition:
+TBD.
+
+'Basic Greyscale Image Sequence' (Id:nlx_152146 ) skipped. definition:
+TBD.
+
+'Bi-Plane Acquisition Sequence' (Id:nlx_149604) skipped. definition:
+TBD (retired).
+
+'Bulk Motion Status' (Id:nlx_149664) skipped. definition:
+TBD (retired).
+
+'Color Image Printing Flag' (Id:nlx_149720) skipped. definition:
+TBD (retired).
+
+'Compression Code' (Id:nlx_149742) skipped. definition:
+TBD (retired).
+
+'Configuration Information Description' (Id:nlx_149748) skipped. definition:
+TBD.
+
+'Context Group Extension Creator UID' (Id:nlx_149759) skipped. definition:
+TBD.
+
+'Context Group Extension Flag' (Id:nlx_149760) skipped. definition:
+TBD.
+
+'Context Group Local Version' (Id:nlx_149761) skipped. definition:
+TBD.
+
+'Context Group Version' (Id:nlx_149762) skipped. definition:
+TBD.
+
+'Context Identifier' (Id:nlx_149763) skipped. definition:
+TBD.
+
+'Contour Uncertainty Radius' (Id:nlx_149772) skipped. definition:
+TBD.
+
+'Curve Data' (Id:nlx_149808) skipped. definition:
+TBD (retired).
+
+'Data Element Template' (Id:nlx_152147 ) skipped. definition:
+TBD
+
+'Data Representation' (Id:nlx_149815) skipped. definition:
+TBD.
+
+'Data Set Subtype' (Id:nlx_149816) skipped. definition:
+TBD (retired).
+
+'Data Set Type' (Id:nlx_149817) skipped. definition:
+TBD (retired).
+
+'Distance Source to Support' (Id:nlx_149898) skipped. definition:
+TBD (retired).
+
+'Do not exist. See PS 3.5 for explanation.' (Id:nlx_149901) skipped. definition:
+TBD
+
+'Dynamic Range' (Id:nlx_149934) skipped. definition:
+TBD (retired).
+
+'Energy Window Centerline' (Id:nlx_149948) skipped. definition:
+TBD (retired).
+
+'Energy Window Total Width' (Id:nlx_149954) skipped. definition:
+TBD (retired).
+
+'Failed SOP Sequence' (Id:nlx_149977) skipped. definition:
+TBD.
+
+'Failure Attributes' (Id:nlx_149978) skipped. definition:
+TBD.
+
+'Fiducial Set Sequence' (Id:nlx_149984) skipped. definition:
+TBD.
+
+'Film Session Label' (Id:nlx_149994) skipped. definition:
+TBD.
+
+'Frame of Reference Transformation Matrix Type' (Id:nlx_150043) skipped. definition:
+TBD.
+
+'Graphic Coordinates Data Sequence' (Id:nlx_150070) skipped. definition:
+TBD.
+
+'Gray Lookup Table Data' (Id:nlx_150082) skipped. definition:
+TBD (retired).
+
+'Gray Lookup Table Descriptor' (Id:nlx_150083) skipped. definition:
+TBD (retired).
+
+'Gray Scale' (Id:nlx_150084) skipped. definition:
+TBD (retired).
+
+'Image Box Content Sequence' (Id:nlx_150120) skipped. definition:
+TBD (retired).
+
+'Image Box Presentation LUT Flag' (Id:nlx_150121) skipped. definition:
+TBD (retired).
+
+'Image Dimensions' (Id:nlx_150124) skipped. definition:
+TBD (retired).
+
+'Image Format' (Id:nlx_150125) skipped. definition:
+TBD (retired).
+
+'Image Geometry Type' (Id:nlx_150127) skipped. definition:
+TBD (retired).
+
+'Image Location' (Id:nlx_150132) skipped. definition:
+TBD (retired).
+
+'Image Orientation' (Id:nlx_150133) skipped. definition:
+TBD (retired).
+
+'Image Overlay Box Content Sequence' (Id:nlx_150135) skipped. definition:
+TBD (retired).
+
+'Image Overlay Flag' (Id:nlx_150136) skipped. definition:
+TBD (retired).
+
+'Image Position' (Id:nlx_150141) skipped. definition:
+TBD (retired).
+
+'Imaging data attribute' (Id:nlx_153869 ) skipped. definition:
+TBD
+
+'Include Display Application' (Id:nlx_150158) skipped. definition:
+TBD.
+
+'Include Non-DICOM Objects' (Id:nlx_150159) skipped. definition:
+TBD.
+
+'Insurance Plan Identification' (Id:nlx_150171) skipped. definition:
+TBD (retired).
+
+'Interval Number' (Id:nlx_150191) skipped. definition:
+TBD (retired).
+
+'Isotope Number' (Id:nlx_150206) skipped. definition:
+TBD (retired).
+
+'Item' (Id:nlx_150213) skipped. definition:
+TBD.
+
+'Item Delimitation' (Id:nlx_150211) skipped. definition:
+TBD.
+
+'Item Number' (Id:nlx_150212) skipped. definition:
+TBD.
+
+'Label Using Information Extracted From Instances' (Id:nlx_150223) skipped. definition:
+TBD.
+
+'Largest Image Pixel Value in Plane' (Id:nlx_150225) skipped. definition:
+TBD (retired).
+
+'Largest Valid Pixel Value' (Id:nlx_150228) skipped. definition:
+TBD (retired).
+
+'Location' (Id:nlx_150239) skipped. definition:
+TBD (retired).
+
+'Manipulated Image' (Id:nlx_150250) skipped. definition:
+TBD (retired).
+
+'Mapping Resource' (Id:nlx_150253) skipped. definition:
+TBD.
+
+'Mask Pointers' (Id:nlx_150257) skipped. definition:
+TBD (retired).
+
+'Mask Sub-pixel Shift' (Id:nlx_150258) skipped. definition:
+TBD.
+
+'Masking Image' (Id:nlx_150260) skipped. definition:
+TBD (retired).
+
+'Matrix Registration Sequence' (Id:nlx_150262) skipped. definition:
+TBD.
+
+'Matrix Sequence' (Id:nlx_150263) skipped. definition:
+TBD.
+
+'Max Density' (Id:nlx_150264) skipped. definition:
+TBD.
+
+'Maximum Collated Films' (Id:nlx_150265) skipped. definition:
+TBD.
+
+'Media Disposition' (Id:nlx_150274) skipped. definition:
+TBD.
+
+'Media Installed Sequence' (Id:nlx_150275) skipped. definition:
+TBD.
+
+'Modified Image Date' (Id:nlx_150289) skipped. definition:
+TBD (retired).
+
+'Modified Image Description' (Id:nlx_150290) skipped. definition:
+TBD (retired).
+
+'Modified Image ID' (Id:nlx_150291) skipped. definition:
+TBD (retired).
+
+'Modified Image Time' (Id:nlx_150292) skipped. definition:
+TBD (retired).
+
+'Modifying Device ID' (Id:nlx_150294) skipped. definition:
+TBD (retired).
+
+'Modifying Device Manufacturer' (Id:nlx_150295) skipped. definition:
+TBD (retired).
+
+'Network ID' (Id:nlx_150329) skipped. definition:
+TBD (retired).
+
+'Nuclear Medicine Series Type' (Id:nlx_150340) skipped. definition:
+TBD (retired).
+
+'Observation DateTime' (Id:nlx_150388) skipped. definition:
+TBD
+
+'Original Image Identification' (Id:nlx_150405) skipped. definition:
+TBD (retired).
+
+'Original Image Identification Nomenclature' (Id:nlx_150406) skipped. definition:
+TBD (retired).
+
+'Original Image Sequence' (Id:nlx_150407) skipped. definition:
+TBD (retired).
+
+'Original Specialized SOP Class UID' (Id:nlx_150408) skipped. definition:
+TBD.
+
+'Other Study Numbers' (Id:nlx_150415) skipped. definition:
+TBD (retired).
+
+'Overlay Descriptor - Blue' (Id:nlx_150425) skipped. definition:
+TBD (retired).
+
+'Overlay Descriptor - Gray' (Id:nlx_150426) skipped. definition:
+TBD (retired).
+
+'Overlay Descriptor - Green' (Id:nlx_150427) skipped. definition:
+TBD (retired).
+
+'Overlay Descriptor - Red' (Id:nlx_150428) skipped. definition:
+TBD (retired).
+
+'Overlay Format' (Id:nlx_150429) skipped. definition:
+TBD (retired).
+
+'Overlay Location' (Id:nlx_150431) skipped. definition:
+TBD (retired).
+
+'Overlay Mode' (Id:nlx_150432) skipped. definition:
+TBD (retired).
+
+'Overlay Plane Origin' (Id:nlx_150435) skipped. definition:
+TBD (retired).
+
+'Overlays - Blue' (Id:nlx_150441) skipped. definition:
+TBD (retired).
+
+'Overlays - Gray' (Id:nlx_150442) skipped. definition:
+TBD (retired).
+
+'Overlays - Green' (Id:nlx_150443) skipped. definition:
+TBD (retired).
+
+'Overlays - Red' (Id:nlx_150444) skipped. definition:
+TBD (retired).
+
+'Patient attribute' (Id:nlx_153870 ) skipped. definition:
+TBD
+
+'Persons Address' (Id:nlx_150520) skipped. definition:
+TBD
+
+'Persons Telephone Numbers' (Id:nlx_150521) skipped. definition:
+TBD
+
+'Phase Number' (Id:nlx_150527) skipped. definition:
+TBD (retired).
+
+'Planes' (Id:nlx_150561) skipped. definition:
+TBD.
+
+'Polarity' (Id:sao349337269) skipped. definition:
+TBD.
+
+'Postprocessing Function' (Id:nlx_150570) skipped. definition:
+TBD (retired).
+
+'Presentation LUT Content Sequence' (Id:nlx_150578) skipped. definition:
+TBD (retired).
+
+'Presentation LUT Flag' (Id:nlx_150579) skipped. definition:
+TBD (retired).
+
+'Print Job Description Sequence' (Id:nlx_150591) skipped. definition:
+TBD (retired).
+
+'Print Job ID' (Id:nlx_150592) skipped. definition:
+TBD (retired).
+
+'Print Queue ID' (Id:nlx_150594) skipped. definition:
+TBD (retired).
+
+'Radionuclide' (Id:nlx_150628) skipped. definition:
+TBD (retired).
+
+'Reason for the Imaging Service Request' (Id:nlx_150651) skipped. definition:
+TBD (retired).
+
+'Recognition Code' (Id:nlx_150656) skipped. definition:
+TBD (retired).
+
+'Reference' (Id:birnlex_11043) skipped. definition:
+TBD (retired).
+
+'Referenced Overlay Plane Groups' (Id:nlx_150713) skipped. definition:
+TBD (retired).
+
+'Referenced Overlay Plane Sequence' (Id:nlx_150714) skipped. definition:
+TBD (retired).
+
+'Referenced Procedure Step Sequence' (Id:nlx_150722) skipped. definition:
+TBD (retired).
+
+'Referenced VOI LUT Box Sequence' (Id:nlx_150746) skipped. definition:
+TBD (retired).
+
+'Rotation Offset' (Id:nlx_150831) skipped. definition:
+TBD (retired).
+
+'Route of Admissions' (Id:nlx_150833) skipped. definition:
+TBD.
+
+'Scheduled Admission Date' (Id:nlx_150873) skipped. definition:
+TBD (retired).
+
+'Scheduled Admission Time' (Id:nlx_150874) skipped. definition:
+TBD (retired).
+
+'Scheduled Discharge Date' (Id:nlx_150875) skipped. definition:
+TBD (retired).
+
+'Scheduled Discharge Time' (Id:nlx_150876) skipped. definition:
+TBD (retired).
+
+'Scheduled Patient Institution Residence' (Id:nlx_150878) skipped. definition:
+TBD (retired).
+
+'Sequence Delimitation Item' (Id:nlx_150917) skipped. definition:
+TBD
+
+'Shape Type' (Id:nlx_150936) skipped. definition:
+TBD
+
+'Smallest Image Pixel Value in Plane' (Id:nlx_150956) skipped. definition:
+TBD (retired).
+
+'Smallest Valid Pixel Value' (Id:nlx_150958) skipped. definition:
+TBD (retired).
+
+'SOP Classes in Study' (Id:nlx_150968) skipped. definition:
+TBD.
+
+'Study Comments' (Id:nlx_151058) skipped. definition:
+TBD (retired).
+
+'Study ID Issuer' (Id:nlx_151065) skipped. definition:
+TBD (retired).
+
+'Study Priority ID' (Id:nlx_151068) skipped. definition:
+TBD (retired).
+
+'Study Status ID' (Id:nlx_151071) skipped. definition:
+TBD (retired).
+
+'Template Extension Creator UID' (Id:nlx_151117) skipped. definition:
+TBD (retired).
+
+'Template Extension Flag' (Id:nlx_151118) skipped. definition:
+TBD (retired).
+
+'Template Extension Organization UID' (Id:nlx_151119) skipped. definition:
+TBD (retired).
+
+'Template Local Version' (Id:nlx_151121) skipped. definition:
+TBD (retired).
+
+'Template Version' (Id:nlx_151125) skipped. definition:
+TBD (retired).
+
+'Therapy Type' (Id:nlx_151132) skipped. definition:
+TBD (retired).
+
+'Threshold Density' (Id:nlx_151133) skipped. definition:
+TBD (retired).
+
+'Time Slot Number' (Id:nlx_151143) skipped. definition:
+TBD (retired).
+
+'Topic Author' (Id:nlx_151161) skipped. definition:
+TBD (retired).
+
+'Topic Key Words' (Id:nlx_151162) skipped. definition:
+TBD (retired).
+
+'Topic Subject' (Id:nlx_151163) skipped. definition:
+TBD (retired).
+
+'Topic Title' (Id:nlx_151164) skipped. definition:
+TBD (retired).
+
+'Total Gain' (Id:nlx_151167) skipped. definition:
+TBD (retired).
+
+'Transducer Orientation' (Id:nlx_151175) skipped. definition:
+TBD (retired).
+
+'Transducer Position' (Id:nlx_151178) skipped. definition:
+TBD (retired).
+
+'Trim' (Id:nlx_151213) skipped. definition:
+TBD.
+

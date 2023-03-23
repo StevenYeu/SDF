@@ -1,0 +1,1 @@
+{"Destination AE":{"ValueRepresentation":"AE","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:2100_0140","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_149850","Has role":"Non-imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"AE","Definition":"Application Entity Title that performs the print job."}}

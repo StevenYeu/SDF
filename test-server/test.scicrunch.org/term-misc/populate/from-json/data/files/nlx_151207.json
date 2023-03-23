@@ -1,0 +1,1 @@
+{"Trigger Sample Position":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_106E","SuperCategory":"DICOM term","Id":"nlx_151207","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"Sample number whose time corresponds to a synchronization trigger."}}

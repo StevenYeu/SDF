@@ -1,0 +1,1 @@
+{"Doppler Sample Volume X Position":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_ 6039","SuperCategory":"DICOM term","Id":"nlx_149903","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"The x displacement, in pixels, from the Reference pixel to the center of the Doppler sample volume."}}

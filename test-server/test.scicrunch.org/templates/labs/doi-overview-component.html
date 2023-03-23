@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h3>Dataset Publication Title</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- TITLE -->
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" name="title" class="form-control" ng-model="title" value="{{ title }}">
+        </div>
+        <!-- DOI 
+        <div class="form-group">
+            <label>DOI</label>
+            <input type="text" name="doi" class="form-control" ng-model="doi" value="{{ doi }}">
+        </div> -->
+
+        <!-- Year
+        <div class="form-group">
+            <label>Year</label>
+            <input type="text" name="year" class="form-control" ng-model="year" value="{{ year }}">
+        </div> -->
+
+    </div>
+    <div class="modal-footer">
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="update()">Update</button>
+        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="add()">Save</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

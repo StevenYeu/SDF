@@ -1,0 +1,111 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Authors",
+            "esField": "item.authors.[].name",
+            "order": "2",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "DOI",
+            "esField": "item.curie",
+            "order": "3",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Group",
+            "esField": "item.groups.[].name",
+            "order": "4",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Summary",
+            "esField": "item.description",
+            "order": "5",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Associated Publications",
+            "esField": "item.associatedPublication.[].description",
+            "order": "6",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "RRIDs used",
+            "esField": "resources.rrid.[].curie",
+            "order": "7",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Affiliations",
+            "esField": "item.authors.[].affiliation.name",
+            "order": "8",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "External URL",
+            "esField": "item.link.uri",
+            "order": "9",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Version",
+            "esField": "item.version",
+            "order": "10",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Publication Date",
+            "esField": "item.publication.year",
+            "order": "11",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Proper Citation",
+            "esField": "item.properCitation",
+            "order": "12",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        }
+    ],
+    "snippet_body": [
+        "<strong>Authors:</strong> $1",
+        "<strong>Group:</strong> $2",
+        "<strong>Summary:</strong> $3"
+    ],
+    "snippet_params": {
+        "1": "item.authors.[].namee",
+        "2": "item.groups.[].name",
+        "3": "iitem.description"
+    },
+    "viewType": "discovery"
+}

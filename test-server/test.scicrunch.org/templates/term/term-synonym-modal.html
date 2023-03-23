@@ -1,0 +1,42 @@
+<script type="text/ng-template" id="synonym-type-modal">
+    <div class="modal-header">
+        <h4>Enter type for synonym: {{ lastSynonym.literal }}</h4>
+    </div>
+    <form ng-submit="submit()">
+        <div class="modal-body form-group inline">
+            <label class="control-label col-sm-9">Is {{lastSynonym.literal}} abbreviation?</label>
+                <div class="col-sm-3">
+                    <label>
+                        <input type="radio" ng-model="data.isAbbrev" value="yes"> Yes
+                    </label>&nbsp;&nbsp;&nbsp;
+                    <label>
+                        <input type="radio" ng-model="data.isAbbrev" value="no"> No
+                    </label>
+                </div>
+<!--                <label>-->
+<!--                    <input type="radio" ng-model="data.isAbbrev" value="abbrev">-->
+<!--                    abbrev-->
+<!--                </label><br/>-->
+<!--                <label>-->
+<!--                    <input type="radio" ng-model="data.synonymType" value="oboInOwl:hasRelatedSynonym">-->
+<!--                    oboInOwl:hasRelatedSynonym-->
+<!--                </label><br/>-->
+<!--                <label>-->
+<!--                    <input type="radio" ng-model="data.synonymType" value="oboInOwl:hasExactSynonym">-->
+<!--                    oboInOwl:hasExactSynonym-->
+<!--                </label><br/>-->
+<!--                <label>-->
+<!--                    <input type="radio" ng-model="data.synonymType" value="oboInOwl:hasBroadSynonym">-->
+<!--                    oboInOwl:hasBroadSynonym-->
+<!--                </label><br/>-->
+<!--                <label>-->
+<!--                    <input type="radio" ng-model="data.synonymType" value="oboInOwl:hasNarrowSynonym">-->
+<!--                    oboInOwl:hasNarrowSynonym-->
+<!--                </label>-->
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </form>
+</script>

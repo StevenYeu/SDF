@@ -1,0 +1,1 @@
+{"Requesting Physician":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0032_1032","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150792","Has role":"Scan-related personnel attribute","Is part of":"Resource:DICOM standard","Value_Representation":"PN","Definition":"Name of the physician who requested the study."}}

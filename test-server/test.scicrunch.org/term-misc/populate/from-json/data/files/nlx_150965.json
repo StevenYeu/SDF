@@ -1,0 +1,1 @@
+{"SOP Authorization Comment":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0100_0424","SuperCategory":"DICOM term","Id":"nlx_150965","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LT","Definition":"Any comments associated with the setting of the SOP Instance Status (0100,0410) to AO."}}

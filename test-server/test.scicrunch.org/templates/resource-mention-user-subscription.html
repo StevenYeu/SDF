@@ -1,0 +1,23 @@
+<button
+    uib-popover="Receive updates whenever new literature mentions are found for this resource"
+    popover-trigger="'mouseenter'"
+    class="btn btn-success"
+    type="button"
+    ng-show="!mentions.subscription_status && logged_in"
+    ng-click="mentions.subscribe('subscribe')"
+>Subscribe to new mentions</button>
+<button
+    uib-popover="Unsubscribe from receiving updates for new mentions"
+    popover-trigger="'mouseenter'"
+    class="btn btn-danger"
+    type="button"
+    ng-show="mentions.subscription_status && logged_in"
+    ng-click="mentions.subscribe('unsubscribe')"
+>Unsubscribe from new mentions</button>
+<button
+    style="white-space:normal;"
+    class="btn btn-warning"
+    type="button"
+    ng-show="!logged_in"
+    ng-click="showLogin()"
+>Login to edit this resource or subscribe to new mentions</button>

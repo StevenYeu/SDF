@@ -1,0 +1,221 @@
+$darkblue: #1C2D5C;
+$lightgreen: #76BD43;
+$lightgreen-selected: #53852F;
+$grey: #666766;
+$lightblue: #408DC9;
+$orange: #F57F29;
+$yellow: #FABD1B;
+$green: #427F3D;
+$white: #FFFFFF;
+
+@mixin title-font() {
+    font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+}
+
+@mixin normal-font() {
+    font-family: Helvetica, sans-serif;
+}
+
+.rin {
+    @include normal-font();
+
+    .report {
+
+        .rrid-name {
+            @include title-font();
+            color: $darkblue;
+            font-size: 24pt;
+            font-weight: bold;
+        }
+
+        .rrid {
+            @include normal-font();
+            color: $darkblue;
+            font-size: 20pt;
+        }
+
+        .wrapper {
+            padding: 5px 10px;
+            border: solid 1px $lightblue;
+            margin: 0px 0px 5px;
+            position: relative;
+            background: $white;
+            min-height: 150px;
+        }
+
+        .section {
+            border-top: solid 2px #305E8F;
+            padding: 5px;
+
+            .title {
+                @include title-font();
+                color: $darkblue;
+                font-size: 16pt;
+            }
+
+            .body {
+                margin-left: 50px;
+            }
+
+            .body-no-margin: {
+                margin-left: 0px;
+            }
+        }
+
+        .right-margin: {
+            margin-right: 5px;
+        }
+
+        .left-margin: {
+            margin-left: 5px;
+        }
+
+        .review-star {
+            color: gold;
+        }
+
+        .top-link {
+            border-top: 1px solid;
+            margin-right: 10px;
+            font-size: 14pt;
+            font-family: Helvetica, sans-serif;
+            text-transform: uppercase;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .citation {
+            position: absolute;
+            top: 100%;
+            right: 0%;
+            background: #EEE;
+            border: 1px solid black;
+            padding: 10px;
+            cursor: default;
+            color: black;
+            z-index: 1;
+        }
+
+        .citation-wrapper {
+            position: relative;
+        }
+
+        .header {
+            padding-top: 10px;
+            padding-bottom: 15px;
+            width: 100%;
+            background-color: $darkblue;
+            border-bottom-width: 0pt;
+            @include title-font();
+            z-index: 0;
+            color: $white;
+
+            h1 {
+                font-size: 36pt;
+                color: $white;
+                line-height: 1.2;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            li a.active {
+                cursor: text;
+                text-decoration: underline;
+            }
+
+            li a:hover {
+                color: $white;
+            }
+
+            .breadcrumb {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .header-background {
+            position: absolute;
+            height: 100px;
+            width: 100%;
+            background-color: $darkblue;
+        }
+
+        .mention-page-button {
+            background-color: $lightgreen;
+            color: $white;
+            @include normal-font();
+            margin: 5px 10px;
+            padding: 0px 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .mention-page-button.selected {
+            background-color: $lightgreen-selected;
+            color: $white;
+        }
+    }
+
+    .cant-find-rrid-bottom {
+        background-color: $grey;
+        color: $white;
+        z-index: 10000;
+        width: 200px;
+        position: fixed;
+        bottom: 0px;
+        left: 10px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 5px 5px 0 0;
+
+        .close-button {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+
+        .closed {
+            height: 5px;
+            display: none;
+        }
+    }
+
+    .copy-alert {
+        background-color: $green;
+        color: $white;
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    p,ul,ol {
+        @include normal-font();
+        font-size: 12pt;
+    }
+
+    a:not(.btn):not(.not-rin):not(.btn-u) {
+        color: $lightblue;
+    }
+
+    li.active.ng-scope > a.ng-scope.ng-binding {    // fix for angular-ui typeahead (autocomplete)
+        color: $white;
+    }
+
+    .color-darkblue { color: $darkblue !important; }
+    .color-lightgreen { color: $lightgreen !important; }
+    .color-grey { color: $grey !important; }
+    .color-lightblue { color: $lightblue !important; }
+    .color-orange { color: $orange !important; }
+    .color-yellow { color: $yellow !important; }
+    .color-green { color: $green !important; }
+    .color-white { color: $white !important; }
+
+    .background-darkblue { background-color: $darkblue !important; }
+    .background-lightgreen { background-color: $lightgreen !important; }
+    .background-grey { background-color: $grey !important; }
+    .background-lightblue { background-color: $lightblue !important; }
+    .background-orange { background-color: $orange !important; }
+    .background-yellow { background-color: $yellow !important; }
+    .background-green { background-color: $green !important; }
+    .background-white { background-color: $white !important; }
+}

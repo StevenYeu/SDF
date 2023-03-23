@@ -1,0 +1,2 @@
+Submission ID,Method Type,Number of Ligands,Kendalls Tau,Kendalls Tau Error,Spearman's Rho,Spearman's Rho Error,isAnonymous,Last Name,First Name,Organization,PI Name,Method Name,Software
+4ufnr,structure-based scoring,42,-0.04,0.11,-0.08,0.16,0,varela rial,alejandro,computational biophysics lab,computational biophysics,kdeep-vina,kdeep

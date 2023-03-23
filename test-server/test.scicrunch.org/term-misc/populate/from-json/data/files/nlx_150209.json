@@ -1,0 +1,1 @@
+{"Issuer of Admission ID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0038_0011","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150209","Has role":"Scan-related personnel attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Name of healthcare provider who issued the Admission ID."}}

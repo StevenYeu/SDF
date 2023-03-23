@@ -1,0 +1,1 @@
+{"Hardcopy Device Software Version":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_101A","SuperCategory":"DICOM term","Id":"nlx_150100","Has role":"Non-imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Manufacturer's designation of the software of the device that created this Hardcopy Image."}}

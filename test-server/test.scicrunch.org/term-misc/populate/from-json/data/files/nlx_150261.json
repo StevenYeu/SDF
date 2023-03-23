@@ -1,0 +1,1 @@
+{"Material ID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_00E1","SuperCategory":"DICOM term","Id":"nlx_150261","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"User-supplied identifier for material used to manufacture Block. Required if Block Sequence (300A,00F4) is sent."}}

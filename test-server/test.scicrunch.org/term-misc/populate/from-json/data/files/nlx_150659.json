@@ -1,0 +1,1 @@
+{"Recorded Block Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_00D0","SuperCategory":"DICOM term","Id":"nlx_150659","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Introduces sequence of blocks associated with current Beam. The sequence may contain one or more items."}}

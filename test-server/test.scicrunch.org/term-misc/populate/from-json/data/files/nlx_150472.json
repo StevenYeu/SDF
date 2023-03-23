@@ -1,0 +1,1 @@
+{"Patient State":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0038_0500","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150472","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Description of patient state (comatose, disoriented, vision impaired, etc.)."}}

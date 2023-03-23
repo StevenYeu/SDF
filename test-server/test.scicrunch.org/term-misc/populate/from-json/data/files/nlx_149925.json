@@ -1,0 +1,1 @@
+{"DVH Minimum Dose":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3004_0070","SuperCategory":"DICOM term","Id":"nlx_149925","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Minimum calculated dose to ROI(s) described by DVH Referenced ROI Sequence (3004,0060)."}}

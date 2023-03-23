@@ -1,0 +1,12 @@
+Submission ID,Method Type,Number of Ligands,Matthews Correlation Coefficient,isAnonymous,Last Name,First Name,Organization,PI Name,Method Name,Software
+47kuq,structure-based scoring,10,0.52,0,kim,minsup,korea university,cb2 / art e. cho,thermal mm-gbsa,desmond molecular dynamics simulation and prime molecular mechanics applications in schrodinger 2017-4 suites.
+zg8mv,structure-based scoring,10,0.05,0,cang,zixuan,michigan state university,guo-wei wei,tml&tdl-bp/ri-score/gold/autodock-vina,"schrodinger, gold, autodock vina, r-tda, javaplex, scikit-learn"
+c4xt7,structure-based scoring,10,0.52,0,nguyen,duc,"michigan state university, east lansing, mi",guo-wei wei,ri-score-k1-v/tdl-bp/autodock vina,ri-score/tdl-bp/autodock vina
+tn7sk,structure-based scoring,10,0.52,0,nguyen,duc,"michigan state university, east lansing, mi",guo-wei wei,ri-score-k1/tdl-bp/autodock vina,ri-score/tdl-bp/autodock vina
+rdn3k,structure-based scoring,10,0.52,0,cang,zixuan,michigan state university,guo-wei wei,tml&tdl-bp/ri-score/gold/autodock-vina,"schrodinger, gold, autodock vina, r-tda, javaplex, scikit-learn"
+8s04m,structure-based scoring,10,0.05,0,varela rial,alejandro,computational biophysics lab,computational biophysics,kdeep-vina,kdeep
+ktfzk,structure-based scoring,10,0.52,0,bohmann,jonathan,southwest research institute,medicinal and process chemistry,rhodium hts,rhodium 380e9-x9/ openbabel 2.3.90  / pymol 1.3
+yjtwz,structure-based scoring,10,0.52,0,cang,zixuan,michigan state university,guo-wei wei,tml&tdl-bp/ri-score/gold/autodock-vina,"schrodinger, gold, autodock vina, r-tda, javaplex, scikit-learn"
+iaqxr,structure-based scoring,10,-0.43,0,nguyen,duc,"michigan state university, east lansing, mi",guo-wei wei,ri-score-k1-v/tdl-bp/autodock vina,ri-score/tdl-bp/autodock vina
+3o8xi,structure-based scoring,10,1,0,bohmann,jonathan,southwest research institute,medicinal and process chemistry,rhodium hts,rhodium 380e9-x9/ openbabel 2.3.90  / pymol 1.3
+rscdp,structure-based scoring,10,0.05,0,nguyen,duc,"michigan state university, east lansing, mi",guo-wei wei,ri-score-k1/tdl-bp/autodock vina,ri-score/tdl-bp/autodock vina

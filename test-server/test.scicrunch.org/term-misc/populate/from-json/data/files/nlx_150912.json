@@ -1,0 +1,1 @@
+{"Secondary Counts Type":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_1220","SuperCategory":"DICOM term","Id":"nlx_150912","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Array defining the type of additional counts accumulated during acquisition."}}

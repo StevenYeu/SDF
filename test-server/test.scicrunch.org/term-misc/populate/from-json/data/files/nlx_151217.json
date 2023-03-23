@@ -1,0 +1,1 @@
+{"UID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_A124","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_151217","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UI","Definition":"This is the value of the Content Item. Required if Value Type (0040,A040) is UIDREF."}}

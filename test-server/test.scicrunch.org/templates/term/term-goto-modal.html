@@ -1,0 +1,19 @@
+     <script type="text/ng-template" id="goto-modal">
+         <div class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" ng-click="close('Cancel')" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">What do you want to do next?</h4>
+              </div>
+              <div class="modal-body">
+                <p>{{ gotoEntry.messageText }}</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" ng-click="close('view')" class="btn btn-primary" data-dismiss="modal">{{ gotoEntry.viewText }}</button>
+                <button type="button" ng-click="close('action')" class="btn btn-default" data-dismiss="modal">{{ gotoEntry.actionText }}</button>
+              </div>
+            </div>
+          </div>
+        </div>
+     </script>

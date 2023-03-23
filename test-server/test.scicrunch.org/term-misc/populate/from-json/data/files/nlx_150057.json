@@ -1,0 +1,1 @@
+{"Gantry Angle Tolerance":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0044","SuperCategory":"DICOM term","Id":"nlx_150057","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Maximum permitted difference (in degrees) between planned and delivered Gantry Angle."}}

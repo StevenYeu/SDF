@@ -1,0 +1,1 @@
+{"Hardcopy Creation Device":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1011","SuperCategory":"DICOM term","Id":"nlx_150097","Has role":"Non-imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"User defined identification of the device that created this Hardcopy Image."}}

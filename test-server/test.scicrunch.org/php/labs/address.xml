@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<users>
+  <user>
+    <firstname>Sheila</firstname>
+    <surname>Green</surname>
+    <address>2 Good St</address>
+    <city>Campbelltown</city>
+    <country>Australia</country>
+    <contact>
+      <phone>1234 1234</phone>
+      <url>http://example.com</url>
+      <email>pamela@example.com</email>
+    </contact>
+    </user>
+    <user>
+    <firstname>Bruce</firstname>
+    <surname>Smith</surname>
+    <address>1 Yakka St</address>
+    <city>Meekatharra</city>
+    <country>Australia</country>
+    <contact>
+      <phone>4444 4444</phone>
+      <url>http://yakka.example.com</url>
+      <email>bruce@yakka.example.com</email>
+    </contact>
+  </user>
+  <user>
+    <firstname>Davo</firstname>
+    <surname>White</surname>
+    <address>The Only Way</address>
+    <city>Whitefall</city>
+    <country>Australia</country>
+    <contact>
+      <phone>8888 8888</phone>
+      <url>http://white.example.com</url>
+      <email>davo@white.example.com</email>
+    </contact>
+  </user>
+  <user>
+    <firstname>Shazza</firstname>
+    <surname>Green</surname>
+    <address>222 Great Western Hwy</address>
+    <city>Bathurst</city>
+    <country>Australia</country>
+    <contact>
+      <phone>6666 6666</phone>
+      <url>http://shazza.green.example.com</url>
+      <email>shazza@green.example.com</email>
+    </contact>
+  </user>
+</users>

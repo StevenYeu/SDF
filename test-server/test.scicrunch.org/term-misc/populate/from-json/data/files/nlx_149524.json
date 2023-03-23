@@ -1,0 +1,1 @@
+{"Acquisition Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0032","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149524","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"The start time for the acquisition of data that resulted in this image. "}}

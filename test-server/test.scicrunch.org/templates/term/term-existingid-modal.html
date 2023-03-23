@@ -1,0 +1,22 @@
+<script type="text/ng-template" id="eid-type-modal">
+    <div class="modal-header">
+        <h4>Enter type for existing id: {{ lastEid.curie }}</h4>
+    </div>
+    <form ng-submit="submit()">
+        <div class="modal-body form-group inline">
+            <label class="control-label col-sm-9">Is {{lastEid.curie}} a preferred id?</label>
+            <div class="col-sm-3">
+                <label>
+                    <input type="radio" ng-model="data.preferred" value="yes"> Yes
+                </label>&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" ng-model="data.preferred" value="no"> No
+                </label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </form>
+</script>

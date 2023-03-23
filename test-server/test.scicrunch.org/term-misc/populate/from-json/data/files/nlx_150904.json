@@ -1,0 +1,1 @@
+{"Scheduled Study Stop Date":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0032_1010","SuperCategory":"DICOM term","Id":"nlx_150904","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DA","Definition":"Date on which the patient examination for the study is scheduled to end"}}

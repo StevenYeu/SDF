@@ -1,0 +1,1 @@
+{"Time Slot Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0073","SuperCategory":"DICOM term","Id":"nlx_151144","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"The total amount of time, in msec, that the acquisition accumulates gamma events into this frame."}}

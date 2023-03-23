@@ -1,0 +1,10 @@
+<?php
+
+function FUNCTIONNAME($user, $api_key, ...){
+    if(!\APIPermissionActions\checkAction("ACTIONNAME", $api_key, $user)) return APIReturnData::quick403();
+    $cuser = \APIPermissionActions\getUser($api_key, $user);
+
+    return APIReturnData::build($DATA, true);
+}
+
+?>

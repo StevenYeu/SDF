@@ -1,0 +1,1 @@
+{"R Wave Pointer":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_6040","SuperCategory":"DICOM term","Id":"nlx_150618","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Marks the location(s) of the R Wave in the cardiac cycles by referencing frame numbers; frame numbers begin with 1."}}

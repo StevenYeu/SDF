@@ -1,0 +1,1 @@
+{"High Bit":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0102","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150102","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Most significant bit for pixel sample data. Each sample shall have the same high bit. "}}

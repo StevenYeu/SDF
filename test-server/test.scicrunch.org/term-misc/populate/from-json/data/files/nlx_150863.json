@@ -1,0 +1,1 @@
+{"Samples per Pixel Used":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0002","SuperCategory":"DICOM term","Id":"nlx_150863","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Number of samples (color planes) in this image. The value shall be 1."}}

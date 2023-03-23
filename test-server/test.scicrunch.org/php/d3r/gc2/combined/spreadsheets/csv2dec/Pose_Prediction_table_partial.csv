@@ -1,0 +1,7 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands,Median RMSD (Å),Min RMSD (Å),Max RMSD (Å),Mean RMSD (Å),Standard Deviation of RMSD,Protocol Name from Protocol File,List of Software Packages Used
+00ulb,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,33,6.21,1.26,11.60,6.19,2.16,MC-SILCS  ,SILCS (Site Identification by Ligand Competitive Saturation)
+04hag,,,1,34,2.69,0.46,10.10,3.68,3.09,Pose prediction  ,"Glide-XP (No scoring, one pose outputted for each ligand)"
+41tia,,,1,33,5.90,1.00,10.20,5.68,2.40,Maestro/Gold/FRI-Score    ,"CCDC-Gold, In-house machine learning scoring method"
+m00nf,Nagamani Sukumar,Pinaki Saha,0,34,5.72,2.53,16.40,6.37,3.11,MOE method ,MOE
+piwli,,,1,34,1.76,0.36,8.78,3.31,2.78,Colony Entropy Ensemble DOCKing ,Glide
+touhi,,,1,18,0.68,0.42,2.35,0.81,0.44,Pose predictions of 18 benzimidazole complexes using MD  ,"Glide, CCDC Gold, Desmond (MD)"

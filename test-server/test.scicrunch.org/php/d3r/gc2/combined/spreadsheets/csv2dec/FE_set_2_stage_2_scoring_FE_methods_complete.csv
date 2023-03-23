@@ -1,0 +1,54 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands, Kendalls Tau, Kendalls Tau Error,RMSEc (kcal/mol),RMSEc Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Full FE Method?
+14qhp,Xiaoqin Zou,Xiaoqin Zou,0,18,0.24,0.17,1.56,0.21,MMPBSA,MMPBSA,Structure-based scoring method
+2etlu,,,1,18,0.11,0.15,7.72,1.03,Prime MMGBSA ranking for 102 set  ,MMGBSA,Structure-based scoring method
+2ytv8,Bogdan Iorga,Bogdan Iorga,0,18,-0.15,0.23,4.37,1.35,Alchemical Free Energy Calculation ,Gromacs,Free energy method
+4pnzi,Xiaoqin Zou,Xiaoqin Zou,0,18,0.18,0.18,1.49,0.22,MMGBSA,MMGBSA,Structure-based scoring method
+67a3e,,,1,18,0.53,0.15,73.5,8.07,Total Energy  ,Total Energy,Structure-based scoring method
+81n55,,,1,18,0.55,0.12,1.31,0.2,free energy perturbation with schrê_dinger fep/rest ,Schrodinger-FEP,Free energy method
+aau3q,,,1,18,-0.17,0.18,24.3,4.5,QMMM ranking for FEP set ,QMMM,Structure-based scoring method
+adxx8,"Ulf Ryde, Alfonso Garcia-Sosa",Martin  Olsson,0,18,0.48,0.13,1.46,0.2,amber pmemd free energy perturbation with charge correction,Amber,Free energy method
+bdcdh,Merck,Yuan Hu,0,18,0.24,0.22,3.27,0.76,MMGBSA ranking from 20 MD replicates,MMGBSA,Structure-based scoring method
+d8fcq,,,1,18,0.37,0.16,2.56,0.48,QMMM ranking for FEP set ,QMMM,Structure-based scoring method
+izhdb,Charles L. Brooks III,Xinqiang Ding,0,18,0.28,0.17,1.61,0.28,multi site lambda dynamics ,CHARMM,Free energy method
+jzrt5,Julien Michel,Julien Michel,0,18,0.37,0.14,1.45,0.23,alchemical free energy protocol with average network analysis and mixed scaling of partial charges ,"FESetup, NetworkX",Free energy method
+k32u2,Carlos Camacho,Bentley Wingert,0,18,0.18,0.18,1.47,0.17,quasi-exact ,Quasi-exact method,Structure-based scoring method
+qt771,Julien Michel,Julien Michel,0,18,-0.14,0.2,4.11,0.74,alchemical free energy protocol with average network analysis,"FESetup, NetworkX",Free energy method
+rvm67,Carlos Camacho,Bentley Wingert,0,18,0.26,0.18,1.39,0.17,quasi-exact ,Quasi-exact method,Structure-based scoring method
+szjdn,Merck,Yuan Hu,0,18,0.28,0.17,3.58,0.9,MMGBSA ranking from 20 MD replicates ,MMGBSA,Structure-based scoring method
+x2j7p,Zoe Cournia,Christina Athanasiou,0,18,0.5,0.1,1.49,0.19,Free energy perturbation calculations,Schrodinger-FEP,Free energy method
+x7ib3,,,1,18,0.34,0.17,27.7,4.65,IC50 conversion ,SeeSAR/HYDE,Structure-based scoring method
+xk67c,Steve Jones,Oleksandr Yakovenko,0,18,0.62,0.12,0.94,0.15,"Jarzinsky umbrella sampling, fset0 ",Jarzinsky umbrella sampling,Free energy method
+0aggj,Guowei Wei,Duc Nguyen,0,18,0.36,0.18,1.37,0.19,RI-Score ,RI-Score,Structure-based scoring method
+22juj,Emilio Gallicchio,Rajat Kumar Pal,0,18,0.25,0.14,2.32,0.4,HSA/BEDAM/OPLS2005/AGBNP2 # Binding Energy Distribution and Analysis Method # Analytical Generalized Born Non-Polar Model # Hydration Site Analysis ,BEDAM (Binding Energy Distribution Analysis Method),Structure-based scoring method
+327r0,Emilio Gallicchio,Rajat Kumar Pal,0,18,0.01,0.16,2.4,0.38,BEDAM/OPLS2005/AGBNP2 # Binding Energy Distribution and Analysis Method # Analytic Generalized Born Non-Polar Model ,BEDAM (Binding Energy Distribution Analysis Method),Structure-based scoring method
+4rbjk,Guowei Wei,Duc Nguyen,0,18,0.24,0.17,1.4,0.17,RI-Score,RI-Score,Structure-based scoring method
+66nbk,Enrico Purisima,Enrico Purisima,0,18,0.36,0.18,1.36,0.28,SIE + FiSH,SIE (solvated interaction energy) with FISH solvation model,Structure-based scoring method
+6mjkt,David Evans,Matthew Baumgartner,0,18,0.45,0.14,1.26,0.17,align_close_2,Smina,Structure-based scoring method
+6nrpf,David Koes,David Koes,0,18,0.16,0.21,1.59,0.22,stage2_vinardo_score,Vinardo Score,Structure-based scoring method
+7wx7v,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,18,0.42,0.16,1.34,0.19,SILCS-MC  ,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based scoring method
+86ozh,Guowei Wei,Duc Nguyen,0,18,0.35,0.16,1.3,0.17,RI-Score,RI-Score,Structure-based scoring method
+bw4pj,Guowei Wei,Duc Nguyen,0,18,0.09,0.16,1.46,0.2,RI-Score ,RI-Score,Structure-based scoring method
+erdfw,Xiaoqin Zou,Xiaoqin Zou,0,18,0.24,0.17,1.56,0.21,MMPBSA,MMPBSA,Structure-based scoring method
+fww4f,Garland R. Marshall,Flavio Ballante,0,18,0.43,0.18,1.23,0.2,FBRHGRM Method 2 ,"AutoDock Vina, Clusterizer & DockAccessor",Structure-based scoring method
+g4bd3,Andrey Voronkov,Andrey Voronkov,0,18,0.41,0.15,1.24,0.19,Vina-Smina method 1,"Smina, dkoes scoring function",Structure-based scoring method
+gia3u,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,18,-0.25,0.19,1.53,0.19,SILCS-MC,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based scoring method
+hj31e,David Evans,Matthew Baumgartner,0,18,-0.56,0.17,1.55,0.2,lly_ic50_svm,In-house QSAR script,Ligand-based scoring method
+jdr8n,Xiaoqin Zou,Xiaoqin Zou,0,18,0.18,0.18,1.49,0.22,MMGBSA  ,MMGBSA,Structure-based scoring method
+jtsy2,Guowei Wei,Duc Nguyen,0,18,0.13,0.18,1.49,0.2,RI-Score,RI-Score,Structure-based scoring method
+li83b,Max Totrov,Maxim Totrov,0,18,0.4,0.14,1.22,0.17, ICM/APF 3D QSAR + MMGBSA,Molsoft ICM,Structure-based scoring method
+ljdjm,,,1,18,0.53,0.12,1.1,0.16,glide_ensemble_docking ,Glide-XP,Structure-based scoring method
+mbbz2,Andrey Voronkov,Andrey Voronkov,0,18,0.28,0.14,1.67,0.22,Vina-Smina method 2  ,"Smina, Vinardo scoring function",Structure-based scoring method
+moii1,Guowei Wei,Duc Nguyen,0,18,0.09,0.16,1.48,0.19,RI-Score,RI-Score,Structure-based scoring method
+mtbxd,Guowei Wei,Duc Nguyen,0,18,0.4,0.16,1.34,0.19,RI-Score ,RI-Score,Structure-based scoring method
+n55eq,Guowei Wei,Duc Nguyen,0,18,0.28,0.18,1.37,0.17,RI-Score ,RI-Score,Structure-based scoring method
+p8rak,Max Totrov,Maxim Totrov,0,18,0.4,0.14,1.22,0.17,ICM/APF 3D QSAR + MMGBSA,MMGBSA_modified,Structure-based scoring method
+rtqum,Guowei Wei,Duc Nguyen,0,18,0.44,0.14,1.29,0.17,RI-Score,RI-Score,Structure-based scoring method
+rwmcz,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,18,0.14,0.17,1.48,0.19,SILCS-MC ,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based scoring method
+sge2j,Charles L. Brooks III,Xinqiang Ding,0,18,0.44,0.14,1.34,0.22,Autodock Vina scoring based on conformations from flexible CDOCKER.  ,AutoDock Vina,Structure-based scoring method
+ska85,,,1,18,0,0.19,14.04,2.34,Prime MMGBSA ranking for 102 set ,MMGBSA,Structure-based scoring method
+vbzci,Steve Jones,Oleksandr Yakovenko,0,18,0.32,0.17,1.18,0.15,LIE with bootstrapping,LIE (Linear Interaction Energy Model),Structure-based scoring method
+vovuk,David Evans,Matthew Baumgartner,0,18,0.45,0.14,13.45,1.72,align_close_mmgbsa ,MMGBSA,Structure-based scoring method
+vxvhq,Stefano Moro,Stefano Moro,0,18,0.3,0.16,2.5,0.37,MMS DockBench CrossDocking - MMGBSA Method   ,MMGBSA,Structure-based scoring method
+w8p2f,Guowei Wei,Duc Nguyen,0,18,0.29,0.16,1.39,0.18,RI-Score,RI-Score,Structure-based scoring method
+wfe3c,David Koes,David Koes,0,18,0.24,0.2,1.65,0.3,stage2_vina_score ,Vina,Structure-based scoring method
+xv7qs,Enrico Purisima,Enrico Purisima,0,18,0.17,0.18,1.44,0.23,SIE Method 1,SIE (solvated interaction energy) ,Structure-based scoring method

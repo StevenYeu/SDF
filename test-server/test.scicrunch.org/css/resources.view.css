@@ -1,0 +1,72 @@
+.category-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px !important;
+    margin: 5px;
+    display: inline-block;
+    padding-top: 10px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+    position: relative;
+}
+
+.category-box-selected {
+    background-color: #c8e2ff;
+}
+
+.category-box-out {
+    opacity: .15;
+}
+
+.category-box h4,h5 {
+    position: relative;
+    text-align: center;
+    text-color: black;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+/*
+    using tetradic color sceme: http://www.colorhexa.com/1e90ff
+*/
+
+.category-color-0   { border-color: #1c2d5c; }
+.category-color-1   { border-color: #76bd43; }
+.category-color-2   { border-color: #666766; }
+.category-color-3   { border-color: #408dc9; }
+.category-color-4   { border-color: #f57f29; }
+.category-color-all { border-color: #427f3d; }
+
+.category-star {
+    position: absolute;
+    left: -15%;
+    top: -20%;
+    font-size: 24pt;
+    color: gold;
+    z-index: 1;
+}
+
+.selected-category-badge {
+    border-color: #428bca;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.single-view:hover {
+    background: #ddd;
+}
+.views-table tbody tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-default.disabled.btn-disabled-light {
+    opacity: .35;
+}
+.btn-default.btn-strong {
+    font-weight: bold;
+}

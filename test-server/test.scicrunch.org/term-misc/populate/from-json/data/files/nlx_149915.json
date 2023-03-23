@@ -1,0 +1,1 @@
+{"Dose Reference Type":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0020","SuperCategory":"DICOM term","Id":"nlx_149915","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Type of Dose Reference. Required if Dose Reference Sequence (300A,0010) is sent."}}

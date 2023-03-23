@@ -1,0 +1,1 @@
+{"Number of Pulses":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_028A","SuperCategory":"DICOM term","Id":"nlx_150367","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Number of Pulses per fraction for current Channel. Required if Brachy Treatment Type (300A,0202) is PDR."}}

@@ -1,0 +1,5 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands, Kendalls Tau, Kendalls Tau Error,RMSEc (kcal/mol),RMSEc Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Full FE Method?
+4botu,Julien Michel,Julien Michel,0,14,0.16,0.15,2.38,0.45,alchemical free energy protocol with average network analysis using same charge compounds and partial charge scaling ,"FESetup, NetworkX",Free energy method
+nszkx,Bogdan Iorga,Bogdan Iorga,0,13,0.25,0.17,2.36,0.57,Alchemical Free Energy Calculation ,Gromacs,Free energy method
+olv52,Julien Michel,Julien Michel,0,14,0.11,0.18,1.81,0.46,alchemical free energy protocol with average network analysis using same charge compounds,"FESetup, NetworkX",Free energy method
+x8jt0,,,1,0,nan,nan,nan,nan,eTOX ALLIES,eTOX ALLIES,Structure-based scoring method

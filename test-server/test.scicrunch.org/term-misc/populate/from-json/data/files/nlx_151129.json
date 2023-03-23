@@ -1,0 +1,1 @@
+{"Temporal Resolution":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_0110","SuperCategory":"DICOM term","Id":"nlx_151129","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Time delta between Images in a dynamic of functional set of Images."}}

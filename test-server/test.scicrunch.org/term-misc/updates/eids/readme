@@ -1,0 +1,9 @@
+superclass not show:
+- add display_superclass to terms table with default 1
+
+
+1. import term_curie_catalog
+2. update term_existing_ids set preferred = '0' where 1
+3. update term_existing_ids set curie_catalog_id = 2 where 1
+4. run add-eids.php
+5. run update-elastic.php

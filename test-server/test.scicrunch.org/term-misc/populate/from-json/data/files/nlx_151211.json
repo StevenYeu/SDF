@@ -1,0 +1,1 @@
+{"Trigger Vector":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0210","SuperCategory":"DICOM term","Id":"nlx_151211","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"An array of trigger times when gating information is acquired simultaneously with the dynamic image data."}}

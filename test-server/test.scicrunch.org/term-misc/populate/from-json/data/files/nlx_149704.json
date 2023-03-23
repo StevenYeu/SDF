@@ -1,0 +1,1 @@
+{"Code Value":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0100","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_149704","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"Required if (4008,0117) Interpretation Diagnosis Code Sequence is present."}}

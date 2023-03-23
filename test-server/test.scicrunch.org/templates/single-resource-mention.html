@@ -1,0 +1,36 @@
+<div class="tag-box tag-box-v2 box-shadow shadow-effect-1">
+    <h4>
+        <i class="fa fa-warning" ng-show="mention.confidence_string === 'low'" uib-popover="This mention is considered to be low confidence" popover-trigger="'mouseenter'" style="color:orange"></i>
+        <a target="_blank" href="{{ mention.url }}">{{ mention.title }}</a>
+    </h4>
+        <div><a ng-href="https://www.ncbi.nlm.nih.gov/pubmed/{{ mention.id.replace('PMID:', '') }}" target="_blank"><img src="/images/US-NLM-PubMed-Logo.svg" class="pubmed-image" /> <i class="fa fa-external-link"></i></a></div>
+    <ul class="list-inline up-ul">
+        <li>{{mention.authors[0]}}</li>
+        <li>{{mention.journal}}</li>
+        <li>{{mention.year}}</li>
+    </ul>
+    <div class="truncate-mention-text">
+        <blockquote ng-show="mention.snippet_html"><p ng-bind-html="mention.snippet_html"></p></blockquote>
+        <p ng-hide="mention.snippet_html"><i>No snippet available for this mention</i></p>
+        <h3 ng-show="mention.show_more_text">Abstract</h3>
+        <p ng-show="mention.show_more_text">{{mention.abstract}}</p>
+    </div>
+    <button ng-click="mention.show_more_text = true" ng-hide="mention.show_more_text || !mention.abstract">Show abstract</button>
+    <ul class="list-inline up-ul" style="margin-top:7px"><li>{{mention.id}}</li></ul>
+    <div class="panel panel-default" ng-hide="hide_other_resources_mentions && !logged_in">
+        <div class="panel-body">
+            <ul class="list-inline up-ul">
+                <li ng-show="logged_in"><p>Does this publication mention this resource?</p></li>
+                <li><div class="btn-group" ng-show="is_owner">
+                    <button class="btn" ng-class="mentions.markUpClass(mention)" ng-click="mentions.mark(mention, 'good')">Yes</button>
+                    <button class="btn" ng-class="mentions.markDownClass(mention)" ng-click="mentions.mark(mention, 'bad')">No</button>
+                </div></li>
+                <li ng-show="logged_in"><div class="btn-group" ng-show="!is_owner">
+                    <i class="input-button fa" ng-class="mentions.thumbsUpClass(mention)" ng-click="mentions.vote(mention, 'good')"></i>
+                    <i class="input-button fa" ng-class="mentions.thumbsDownClass(mention)" ng-click="mentions.vote(mention, 'bad')"></i>
+                </div></li>
+                <li ng-hide="hide_other_resources_mentions === true"><button popover-template="dynamicPopover.templateUrl" ng-click="mentions.otherResources(mention)">See all resources this publication mentions</button></li>
+            </ul>
+        </div>
+    </div>
+</div>

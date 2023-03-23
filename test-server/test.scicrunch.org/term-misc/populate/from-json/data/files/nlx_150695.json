@@ -1,0 +1,1 @@
+{"Referenced Fraction Group Number":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300C_0022","SuperCategory":"DICOM term","Id":"nlx_150695","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Identifier of Fraction Group within RT Plan referenced in Referenced RT Plan Sequence (300C,0002)."}}

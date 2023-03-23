@@ -1,0 +1,1 @@
+{"3D T1 Weighted Scan":{"CurationStatus":"uncurated","Comment":"I don't understand why this is a type of protocol.  Does this refer to the image itself or to the process.  I recommend that we get rid of this class.","SuperCategory":"T1 weighted protocol","Id":"nlx_inv_20090243"}}

@@ -1,0 +1,13 @@
+<div ng-repeat="altid in ai.alt_ids">
+    {{ altid.issued_rrid }}
+    <span ng-show="altid.active">(Active) <i style="color:red" class="fa fa-minus-circle" ng-click="ai.setActive('false', altid.issued_rrid)"></i></span>
+    <span ng-show="!altid.active">(Inactive) <i style="color:green" class="fa fa-plus-circle" ng-click="ai.setActive('true', altid.issued_rrid)"></i></span>
+</div>
+Add an alternate ID
+<div>
+<input
+    ng-model="ai.new_altid"
+    placeholder="New alternate ID"
+/>
+<button class="btn btn-success" ng-click="ai.addNewAltID()">Add</button>
+</div>

@@ -1,0 +1,1 @@
+{"Pixel Padding Value":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0120","SuperCategory":"DICOM term","Id":"nlx_150551","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US or SS","Definition":"Value of pixels added to non-rectangular image to pad to rectangular format."}}

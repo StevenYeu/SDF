@@ -1,0 +1,1 @@
+{"Plane Orientation Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_9116","SuperCategory":"DICOM term","Id":"nlx_150559","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Identifies orientation of the plane of this frame. Only a single Item shall be permitted in this sequence."}}

@@ -1,0 +1,42 @@
+How term_raw is generated:
+% curl  https://raw.githubusercontent.com/tgbugs/nlxeol/master/neurolex_full.csv -o neurolex_full.csv
+% grep -v ^:Category:Resource: neurolex_full.csv >! neurolex_term.csv
+
+Get first row (header) for creating term_raw table:
+% head -n1 neurolex_full.csv
+Create table term_raw:
+% php create-table-raw.php
+Upload into term_raw:
+% php populate-term-raw.php
+
+
+Curie mapping file:
+% curl https://raw.githubusercontent.com/tgbugs/nlxeol/master/neurolex_mapping.csv -o neurolex_mapping.csv
+
+Neurolex to Term table columns matching from Tom:
+Your term  -> neurolex_full.csv header value
+Label -> Label
+Definition -> Definition
+Synonyms -> Synonym  # requires transformation, currently most are comma separated
+Curie::Iri -> Id   # requires transformation
+Superclasses -> SuperCategory  # requires transformation :Category:
+
+
+SQL query to get fields from term_raw for term tables:
+select coalesce(Label, Categories) as Label, Abbrev, Synonym, Definition, Id_, SuperCategory from term_raw
+
+To run populating term tables from term_raw:
+$HOST/forms/term-forms/populate-from-raw.php
+
+
+Manual Data Integrity Checks:
+1. check if synonyms are fine:
+create table tmp_term_syn_check  (select t.id, t.label as term_label, r.Label, r.Categories, r.SuperCategory, s.literal, s.type, r.Synonym, r.Abbrev
+from terms t, term_raw r, `term_synonyms` s
+where s.tid = t.id and (t.label = r.Label or (r.Categories =  concat( ':Category:', t.label ))))
+
+2. check if superclasses are fine:
+/Users/fariba/Sites/SciCrunch/misc/bad-entries.txt
+
+Baseline SciCrunch Term database:
+/Users/fariba/Sites/SciCrunch/misc/scicrunch-terms-baseline.sql

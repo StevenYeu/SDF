@@ -1,0 +1,1 @@
+{"Largest Pixel Value in Series":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0109","SuperCategory":"DICOM term","Id":"nlx_150227","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US or SS","Definition":"The maximum value of all images in this Series."}}

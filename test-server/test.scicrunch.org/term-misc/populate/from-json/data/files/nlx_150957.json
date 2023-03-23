@@ -1,0 +1,1 @@
+{"Smallest Pixel Value in Series":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0108","SuperCategory":"DICOM term","Id":"nlx_150957","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US or SS","Definition":"The minimum value of all images in this Series."}}

@@ -1,0 +1,1 @@
+{"Performed Procedure Step Status":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0252","SuperCategory":"DICOM term","Id":"nlx_150506","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Contains the state of the Performed Procedure Step."}}

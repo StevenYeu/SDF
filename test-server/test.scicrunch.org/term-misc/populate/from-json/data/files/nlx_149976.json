@@ -1,0 +1,1 @@
+{"Failed SOP Instance UID List":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0058","SuperCategory":"DICOM term","Id":"nlx_149976","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UI","Definition":"A unique identifier for the failed SOP instances."}}

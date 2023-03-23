@@ -1,0 +1,70 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true",
+            "url": "$$URL"
+        },
+        {
+            "name": "Coronavirus Info",
+            "esField": "organisms.virus.[].species.name",
+            "order": "2",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Assay-Information Type",
+            "esField": "assays.primary.[].name",
+            "order": "3",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Description",
+            "esField": "item.description",
+            "order": "4",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Keywords",
+            "esField": "item.keywords.[].keyword",
+            "order": "5",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "URL",
+            "esField": "distributions.current.[].uri",
+            "order": "5",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false",
+            "url": "$$URL"
+        }
+    ],
+    "snippet_name": "<STRONG>$1</STRONG>",
+    "snippet_body": [
+        "$3",
+        "$2",
+	      "<B>Coronavirus Info:</B> $5",
+        "<B>URL:</B> <A href=\"$4\">$4</A>"
+    ],
+    "snippet_url": "$4",
+    "snippet_params": {
+        "1": "item.name",
+        "2": "item.description",
+        "3": "item.creators.[].name",
+        "4": "distributions.current.[].uri",
+        "5": "organisms.virus.[].species.name"
+    },
+    "viewType": "discovery"
+}

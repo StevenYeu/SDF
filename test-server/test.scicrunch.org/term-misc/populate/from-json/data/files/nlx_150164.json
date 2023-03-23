@@ -1,0 +1,1 @@
+{"Instance Creation Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0013","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_150164","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"The time the SOP Instance was created."}}

@@ -1,0 +1,1 @@
+{"Source Applicator Type":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0292","SuperCategory":"DICOM term","Id":"nlx_150978","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Type of Source Applicator. Required if Source Applicator Number  (300A,0290) is sent."}}

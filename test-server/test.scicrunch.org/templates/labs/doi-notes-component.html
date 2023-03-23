@@ -1,0 +1,24 @@
+<div class="modal-header">
+    <h3>Notes</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- NOTES -->
+
+        <div class="form-group">
+            <!-- NOTES -->
+            <div class="form-group">
+                <label>Notes</label>
+                <textarea ng-model="notes" name="notes" rows="10" cols="80" ></textarea>
+            </div>
+
+        <input type="hidden" name="position"  class="form-control" ng-model="position" value="0" >
+        <input type="hidden" name="typee"  class="form-control" ng-model="typee" value="notes">
+    </div>
+
+    <div class="modal-footer">
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="update()">Update</button>
+        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="add()">Save</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

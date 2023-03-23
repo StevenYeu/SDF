@@ -1,0 +1,1 @@
+{"Signal Domain Rows":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_9235","SuperCategory":"DICOM term","Id":"nlx_150944","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Domain of represented signal in row direction. Required if Data Point Rows (0028,9001) has a value of more than 1."}}

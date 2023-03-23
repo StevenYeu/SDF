@@ -1,0 +1,1 @@
+{"Pre-Medication":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0012","SuperCategory":"DICOM term","Id":"nlx_150571","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Medication to be administered at the beginning of the Scheduled Procedure Step, e.g. Nuclear Medicine radiopharmaceutical."}}

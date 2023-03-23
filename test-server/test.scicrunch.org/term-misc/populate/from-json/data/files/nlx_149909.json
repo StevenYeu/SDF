@@ -1,0 +1,1 @@
+{"Dose Rate Set":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0115","SuperCategory":"DICOM term","Id":"nlx_149909","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Dose Rate to be set on treatment machine for segment beginning at current control point (e.g. MU\/min)."}}

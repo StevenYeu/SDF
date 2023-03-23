@@ -1,0 +1,1 @@
+{"Shielding Device Label":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_01A4","SuperCategory":"DICOM term","Id":"nlx_150939","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"User-defined label for Shielding Device. Required if Shielding Device Sequence (300A,01A0) is sent."}}

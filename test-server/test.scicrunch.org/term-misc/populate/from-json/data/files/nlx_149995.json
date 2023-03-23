@@ -1,0 +1,1 @@
+{"Filter High Frequency":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:003A_0221","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149995","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Nominal 3dB point of upper frequency of pass band in Hz."}}

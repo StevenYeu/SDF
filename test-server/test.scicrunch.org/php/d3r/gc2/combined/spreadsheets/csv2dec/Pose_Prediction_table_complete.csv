@@ -1,0 +1,47 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands,Median RMSD (Å),Min RMSD (Å),Max RMSD (Å),Mean RMSD (Å),Standard Deviation of RMSD,Protocol Name from Protocol File,List of Software Packages Used
+02sil,,,1,35,4.33,0.57,11.10,4.33,3.38,ProPKA/Obabel/VINA/AutoDock/SeeSAR Method 1 ,"AutoDock 4, SeeSAR (minimization), HYDE scoring function, Visual"
+0lxp5,Soderhjelm Research Group,P_r S_derhjelm,0,35,4.70,0.40,11.00,4.54,3.14,Multi-target Docking using Autodock Vina ,AutoDock Vina
+0xk7w,David Koes,David Koes,0,35,5.98,0.55,9.98,5.07,2.62,cnn_combined ,"Smina, gnina-cnn (rescoring, trained using CSAR and virtual screening data from DUDE)"
+3rfl5,Xiaoqin Zou,Xiaoqin Zou,0,35,3.74,0.34,11.20,4.30,3.45,"A hierarchical docking method, XDZ_5  ","OMEGA (LigConfSampling),SHAFTS (structral similarity score), AutoDock Vina (pose sampling), ITScore_v2_TF (knowledge-based scoring function)"
+3rj71,Mingyue Zheng,Zhaoping Xiong,0,35,5.90,3.46,9.45,6.34,1.64,Glide ,"OMEGA (LigConfSampling), AutoDock Vina "
+4i2mb,Xiaoqin Zou,Xiaoqin Zou,0,35,1.75,0.34,9.64,3.79,3.32,"A hierarchical docking method, XDZ_4  ","OMEGA (LigConfSampling),SHAFTS (structral similarity score), AutoDock Vina (pose sampling), ITScore_v2_TF (knowledge-based scoring function)"
+5cf33,Garland R. Marshall,Flavio Ballante,0,35,1.20,0.36,11.80,2.76,3.04,FBRHGRM Method 1,"Modeller, Gromacs (minimization), surflex-sim, Clusterizer and DockAccessor, Vina"
+5rqrx,Kam Y.J. Zhang,Ashutosh Kumar,0,35,1.19,0.43,9.16,2.92,2.94,CDVS,"ROCS, Omega, Glide-SP-XP"
+6tnqb,Carlos Camacho,Bentley Wingert,0,35,2.25,0.45,13.30,3.43,3.10,dock_close,"Smina, visual"
+7ltmc,Merck,Yuan Hu,0,35,1.02,0.49,9.85,2.19,2.48,MMGBSA Pose Prediction from 20 replicates of molecular dynamics simulations,"GLIDE-CCDC-GOLD, Amber14, MMGBSA"
+7rmfb,Ho Leung Ng,Ho Leung Ng ,0,35,5.78,0.73,10.40,5.13,2.68,ERF-DOCK ,"Smina, idock-RF-v3, Yasara (simulated annealing), visual"
+8mocv,Southwest Research Institute,Jonathan Bohmann,0,35,7.53,0.79,24.20,11.87,8.40,Rhodium HTS Mode ,Rhodium380E6-4 (propietary)
+am6an,Alfonso T. Garcia-Sosa,Alfonso T. Garcia-Sosa,0,35,3.28,1.10,9.59,4.17,2.93,qpld_XP_vina ,"Schrodinger QM-polarized ligand docking, Glide XP, AutoDock Vina"
+byf51,Soderhjelm Research Group,P_r S_derhjelm,0,35,4.57,0.37,8.59,4.25,2.80,MD refinement of docking poses ,"AutoDock Vina, Gromacs"
+cfn8u,,,1,35,1.16,0.27,9.13,2.37,2.43,glide_ensemble_docking,Glide-XP
+clzrj,,,1,35,6.96,1.03,10.80,6.75,1.88, Smina/RF-Score-VS v2  ,"Smina, RF-Score-VS v2 and v3"
+e0aar,,,1,35,6.94,0.90,10.40,6.03,2.49,Maestro/Gold/Tscore    ,"CCDC-Gold, In-house machine learning scoring method"
+elm2r,Grudinin,Sergei Grudinin,0,35,1.91,0.46,10.20,3.65,3.20,Convex-PL  ,"AutoDock Vina, Convex-PL scoring function"
+gdhv4,Xiaoqin Zou,Xiaoqin Zou,0,35,1.80,0.34,10.70,4.12,3.54,"A hierarchical docking method, XDZ_2 ","OMEGA (LigConfSampling),SHAFTS (structral similarity score), AutoDock Vina (pose sampling), ITScore_v1 (knowledge-based scoring function)"
+gfifa,Stefano Moro,Stefano Moro,0,35,1.75,0.42,18.80,3.92,3.89,MMS DockBench CrossDocking Method 1 ,"ROCS TanimotoComboShapeSimilarity, DockBench: autodock-ga,autodock-lga,autodock-ls,glide-sp,gold-asp,gold-chemscore,gold-goldscore,gold-plp,moe-affinitydg,moe-gbviwsa,moe-londondg,plants-chemplp,plants-plp,plants-plp95,rdock-solv,rdock-std"
+h67ea,Carlos Camacho,Bentley Wingert,0,35,2.25,0.45,13.30,3.43,3.10,dock_close,"Smina, visual"
+hciq4,Merck,Hongwu Wang,0,35,1.13,0.31,8.98,2.19,2.39,Visual inspection  ,"Glide, Gold, Induced-fit-docking"
+ixnzu,Max Totrov,Maxim Totrov,0,35,1.17,0.20,8.58,1.95,2.24,ICM Dock,Molsoft ICM
+jz0em,Enrico Purisima,Enrico Purisima,0,35,1.39,0.35,9.66,2.27,2.46,Wilma/SIE Method 1,"Wilma (flexible ligand docking algorithm), scoring function SIE (force field based scoring function)"
+knz3v,Stefano Moro,Stefano Moro,0,35,7.02,1.57,19.00,7.67,4.77,MMS CrossDocking - Protein APO (PAPO) Method 2  ,"Cross-Docking Benchmark, Gold-goldscore"
+l835g,Soderhjelm Research Group,P_r S_derhjelm,0,35,4.73,0.37,8.59,4.39,2.79,Reconnaissance metadynamics and MD refinement of docking poses ,"AutoDock Vina, Gromacs, Reconnaissance metadynamic method (enhanced sampling)"
+mgxbc,Xiaoqin Zou,Xiaoqin Zou,0,35,1.00,0.39,9.35,2.76,2.84,"A template-based method, XDZ_0","OMEGA, SHAFTS, NoDocking, Amber11"
+mmj0e,Xiaoqin Zou,Xiaoqin Zou,0,35,1.80,0.34,9.30,3.77,3.13,"A hierarchical docking method, XDZ_1 ","OMEGA (LigConfSampling),SHAFTS (structral similarity score), AutoDock Vina (pose sampling), ITScore_TF (knowledge-based scoring function)"
+mx1v2,David Koes,David Koes,0,35,6.09,0.40,16.10,5.28,3.22,cnn_csar_fxr ,"Smina, gnina-cnn (rescoring, trained using CSAR and FXR ligand poses from PDB)"
+oky3v,Zoe Cournia,Christina Athanasiou,0,35,0.99,0.31,8.42,2.34,2.62,Physics-based pose predictions guided by native ligands ,"WaterMap, SHAPE Screening, Structural Interaction Fingerprint, DFT/B3LYP/6-31G*, GLIDE-SP-XP, Induced-fit-docking, Emodel/GlideScore-SP, Binding Pose Metadynamics"
+piwlh,David Evans,Matthew Baumgartner,0,35,2.07,0.39,8.82,3.48,2.82,ifd_ens      ,Induced-fit-docking
+psiuj,David Evans,Matthew Baumgartner,0,35,1.20,0.33,10.10,3.16,3.10,manual,"Forge, Smina (minimization only), Visual inspection, Glide-SP"
+qbvvg,Xiaoqin Zou,Xiaoqin Zou,0,35,1.75,0.34,9.52,3.26,2.98,"A hierarchical docking method, XDZ_3  ","OMEGA (LigConfSampling),SHAFTS (structral similarity score), AutoDock Vina (pose sampling), ITScore_v1_TF (knowledge-based scoring function)"
+qfrw4,Charles L. Brooks III,Xinqiang Ding,0,35,1.59,0.32,16.30,3.44,3.73,Docking using CDOCKER from CHARMM plus Scoring using AutoDock Vina,"Simulated Annealing, CDOCKER, Vina (rescored)"
+qfu33,David Evans,Matthew Baumgartner,0,35,1.79,0.39,8.88,3.32,2.84,metad_ens        ,"Induced-fit-docking, Binding pose metadynamics (rescoring)"
+qt334,David Koes,David Koes,0,35,6.60,0.53,14.00,6.34,2.49,cnn_csar  ,"Smina, gnina-cnn (rescoring, trained using CSAR)"
+qxrku,Alexandre Bonvin,Alexandre Bonvin,0,35,6.39,1.25,8.37,6.15,1.71,HADDOCK2.2 protein-ligand protocol ,HADDOCK2.2
+tbuot,Didier Rognan,Didier ROGNAN,0,35,2.69,0.50,8.44,3.38,2.53,Surflex/GRIM Interaction Pattern Similarity/ HYDE (Protocol 2)  ,"Surflex, Ichem-GRIM (InteractionPatternSim), HYDE"
+to4tt,David Koes,David Koes,0,35,1.75,0.40,8.51,3.53,2.91,vina  ,Smina
+txyzj,Steve Jones,Oleksandr Yakovenko,0,35,1.27,0.49,7.76,2.12,1.93,AI_MD  ,"Autodock Vina, GROMACS, in-house LIE (Linear Interaction Energy Model)"
+utpcl,Didier Rognan,Didier ROGNAN,0,35,1.94,0.48,8.66,3.26,2.72,Surflex/GRIM Interaction Pattern Similarity/ HYDE (Protocol3)  ,"Surflex, Ichem-GRIM (InteractionPatternSim), HYDE"
+wax1j,David Evans,Matthew Baumgartner,0,35,1.20,0.33,9.14,3.08,3.13,align_close  ,"MOE (most-similar-mol), Confgen, Forge (alignment), Smina (minimization), Manual ranking"
+wzu5m,,,1,35,1.41,0.31,8.96,3.13,3.07,Glide/Gold/xScore ,"Glide, CCDC Gold, Xscore (rescored)"
+x7jp3,David Evans,Matthew Baumgartner,0,35,1.63,0.49,9.75,3.79,3.47,smina_ens ,Smina
+ypz46,,,1,35,7.28,0.79,17.40,6.24,3.60,Smina/RF-Score-VS v3  ,"Smina, RF-Score-VS v2 and v3"
+yyjmb,"Rognan, Didier",Didier ROGNAN,0,35,2.08,0.50,8.98,3.59,2.93,Surflex/GRIM Interaction Pattern Similarity/ HYDE(Protocol 1) ,"Surflex, Ichem-GRIM (InteractionPatternSim), HYDE"

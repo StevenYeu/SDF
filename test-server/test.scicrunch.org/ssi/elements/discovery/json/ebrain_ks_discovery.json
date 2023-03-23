@@ -1,0 +1,75 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "ID",
+            "esField": "item.curie",
+            "order": "2",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Type",
+            "esField": "item.types.[].name",
+            "order": "3",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Description",
+            "esField": "item.description",
+            "order": "4",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Mentions Count",
+            "esField": "mentions.[].totalMentions.count",
+            "facetField": "mentions.totalMentions.count",
+            "visibilities": {"table": "0"},
+            "order": "5",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "item-curie",
+            "esField": "item.curie",
+            "isFacet": "false",
+            "isSearchable": "false",
+            "isSortable": "false"
+        },
+        {
+            "name": "Organism",
+            "esField": "organisms.related.[].species.name",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        },
+        {
+            "name": "Mentions",
+            "esField": "mentions.[].availability",
+            "facetField": "mentions.availability.keyword",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        }
+    ],
+    "snippet_body": [
+        "$1"
+    ],
+    "snippet_params": {
+        "1": "item.description"
+    },
+    "viewType": "discovery"
+}

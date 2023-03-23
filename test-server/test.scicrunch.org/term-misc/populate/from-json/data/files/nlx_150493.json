@@ -1,0 +1,1 @@
+{"Pause Between Frames":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0038","SuperCategory":"DICOM term","Id":"nlx_150493","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Time paused between each frame of this phase (in msec). Required if a sequence Item is present."}}

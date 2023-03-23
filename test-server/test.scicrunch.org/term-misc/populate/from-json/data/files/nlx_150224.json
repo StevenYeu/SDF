@@ -1,0 +1,1 @@
+{"Largest Image Pixel Value":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0107","SuperCategory":"DICOM term","Id":"nlx_150224","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US or SS","Definition":"The maximum actual pixel value encountered in this image."}}

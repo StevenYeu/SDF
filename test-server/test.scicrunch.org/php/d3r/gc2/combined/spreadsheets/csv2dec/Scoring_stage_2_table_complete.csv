@@ -1,0 +1,83 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands,Kendalls Tau,Kendall's Tau Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Method type
+0aggj,Guowei Wei,Duc Nguyen,0,102,0.10,0.06,RI-Score ,RI-Score,Structure-based
+0f7u7,Alexandre Bonvin,Alexandre Bonvin,0,102,0.38,0.06,HADDOCK/PRODIGY scoring protocol,PRODIGY webserver,Structure-based
+0pgek,Carlos Camacho,Bentley Wingert,0,102,0.25,0.07,align_manual,Manual,Structure-based
+0qoih,,,1,102,0.22,0.06,Maestro/Omega/Posit/Xscore,Xscore,Structure-based
+0zno2,David Koes,David Koes,0,102,0.00,0.06,crystals_aff_bind,"Smina, CNN Model Scoring",Structure-based
+15tvu,Xiaoqin Zou,Xiaoqin Zou,0,102,0.04,0.07,ITScore_TF  ,ITScore_TF,Structure-based
+15ub2,Carlos Camacho,Bentley Wingert,0,102,0.35,0.05,align_close ,Smina,Structure-based
+20shi,Xiaoqin Zou,Xiaoqin Zou,0,102,0.23,0.06,ITScore_v2_TF  ,ITScore_v2_TF,Structure-based
+21jpg,Garland R. Marshall,Flavio Ballante,0,102,-0.02,0.07,FBRHGRM Method 2_RankbyRank ,3D QSAutogrid/R,Ligand-based
+22juj,Emilio Gallicchio,Rajat Kumar Pal,0,102,-0.03,0.07,HSA/BEDAM/OPLS2005/AGBNP2 # Binding Energy Distribution and Analysis Method # Analytical Generalized Born Non-Polar Model # Hydration Site Analysis ,BEDAM (Binding Energy Distribution Analysis Method),Structure-based
+327r0,Emilio Gallicchio,Rajat Kumar Pal,0,102,-0.01,0.07,BEDAM/OPLS2005/AGBNP2 # Binding Energy Distribution and Analysis Method # Analytic Generalized Born Non-Polar Model ,BEDAM (Binding Energy Distribution Analysis Method),Structure-based
+35sno,Pharmacueticals and Bioengineering Dept.,Jonathan Bohmann,0,102,0.10,0.06,Rhodium HTS,Rhodium HTS,Structure-based
+35yg0,Pharmacueticals and Bioengineering Dept.,Jonathan Bohmann,0,102,0.33,0.05,Rhodium HTS ,Rhodium HTS,Structure-based
+4m842,Garland R. Marshall,Flavio Ballante,0,102,-0.02,0.07,FBRHGRM Method 2_RankbyScore,3D QSAutogrid/R,Ligand-based
+4rbjk,Guowei Wei,Duc Nguyen,0,102,0.20,0.06,RI-Score,RI-Score,Structure-based
+5hri3,Xiaoqin Zou,Xiaoqin Zou,0,102,0.17,0.07,ITScore_v1 ,ITScore_v1,Structure-based
+5zcmb,Pharmacueticals and Bioengineering Dept.,Jonathan Bohmann,0,102,0.44,0.05,Rhodium HTS,Rhodium HTS,Structure-based
+66nbk,Enrico Purisima,Enrico Purisima,0,102,0.30,0.07,SIE + FiSH,SIE (solvated interaction energy) with FISH solvation model,Structure-based
+6fsmu,David Koes,David Koes,0,102,0.29,0.06,orig_bind_aff ,"Smina, CNN Model Scoring",Structure-based
+6mjkt,David Evans,Matthew Baumgartner,0,102,0.31,0.06,align_close_2,Smina,Structure-based
+6nrpf,David Koes,David Koes,0,102,0.36,0.06,stage2_vinardo_score,Vinardo Score,Structure-based
+7c2tp,Carlos Camacho,Bentley Wingert,0,102,0.44,0.05,dock_close,Smina,Structure-based
+7wx7v,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,102,-0.20,0.06,SILCS-MC  ,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based
+86ozh,Guowei Wei,Duc Nguyen,0,102,0.10,0.07,RI-Score,RI-Score,Structure-based
+a8r3i,Xiaoqin Zou,Xiaoqin Zou,0,102,0.12,0.06,ITScore_v1_TF  ,ITScore_v1_TF,Structure-based
+aewpt,Carlos Camacho,Bentley Wingert,0,102,0.36,0.05,align_close ,Smina,Structure-based
+awgis,Tom Kurtzman,Steven Ramsey,0,102,-0.01,0.06,Chunky Monkey GIST/GLIDE,"Glide-SP, GIST (solvent displacement score) scoring 1",Structure-based
+bckkg,Tom Kurtzman,Steven Ramsey,0,102,0.03,0.05,Vanilla Glide ,Glide-SP,Structure-based
+bw4pj,Guowei Wei,Duc Nguyen,0,102,0.11,0.07,RI-Score ,RI-Score,Structure-based
+bxfza,David Koes,David Koes,0,102,-0.03,0.06,crystals_bind_bind,"Smina, CNN Model Scoring",Structure-based
+bxn4v,Xiaoqin Zou,Xiaoqin Zou,0,102,0.11,0.07,ITScore_v2 ,ITScore_v2,Structure-based
+cvxs6,Andrey Voronkov,Andrey Voronkov,0,102,0.16,0.07,Vina-Smina method 3  ,"Smina, Random Forest Model",Structure-based
+dh2du,,,1,102,0.41,0.05,HYDE/MMGBSA,"SeeSAR, HYDE, MMGBSA",Structure-based
+erdfw,Xiaoqin Zou,Xiaoqin Zou,0,102,0.36,0.05,MMPBSA,MMPBSA,Structure-based
+f2wjs,Carlos Camacho,Bentley Wingert,0,102,0.46,0.05,dock_close ,Smina,Structure-based
+fo0p4,Carlos Camacho,Bentley Wingert,0,102,0.42,0.05,dock_cross_3OLF,Smina,Structure-based
+fww4f,Garland R. Marshall,Flavio Ballante,0,102,0.15,0.06,FBRHGRM Method 2 ,"AutoDock Vina, Clusterizer & DockAccessor",Structure-based
+g4bd3,Andrey Voronkov,Andrey Voronkov,0,102,0.08,0.07,Vina-Smina method 1,"Smina, dkoes scoring function",Structure-based
+gia3u,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,102,-0.18,0.06,SILCS-MC,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based
+gnu3p,Alexandre Bonvin,Alexandre Bonvin,0,102,0.27,0.06,FXR-specific ligand-similarity based prediction ,ChemmineR,Ligand-based
+hekzj,David Koes,David Koes,0,102,0.28,0.06,crystals_bind_aff ,"Smina, CNN Model Scoring",Structure-based
+hgqci,Carlos Camacho,Bentley Wingert,0,102,0.09,0.07,align_close,Smina,Structure-based
+hj31e,David Evans,Matthew Baumgartner,0,102,0.37,0.05,lly_ic50_svm,In-house QSAR script,Ligand-based
+hvjjb,David Koes,David Koes,0,102,0.31,0.06,orig_aff_aff ,"Smina, CNN Model Scoring",Structure-based
+hxm7v,Tom Kurtzman,Steven Ramsey,0,102,0.07,0.06,Rocky Road Gist/Glide Sampl5  # Glide with GIST Solvent Displacement   # High Density/High Energy functional  ,"Glide-SP, GIST scoring 2",Structure-based
+jajar, Xiaoqin Zou,Xiaoqin Zou,0,102,0.11,0.07,ITScore_v2_TF  ,ITScore_v2_TF,Structure-based
+jdr8n,Xiaoqin Zou,Xiaoqin Zou,0,102,0.15,0.06,MMGBSA  ,MMGBSA,Structure-based
+jtsy2,Guowei Wei,Duc Nguyen,0,102,0.12,0.07,RI-Score,RI-Score,Structure-based
+li83b,Max Totrov,Maxim Totrov,0,102,0.25,0.05, ICM/APF 3D QSAR + MMGBSA,Molsoft ICM,Structure-based
+ljdjm,,,1,102,0.28,0.06,glide_ensemble_docking ,Glide-XP,Structure-based
+mbbz2,Andrey Voronkov,Andrey Voronkov,0,102,0.32,0.06,Vina-Smina method 2  ,"Smina, Vinardo scoring function",Structure-based
+moii1,Guowei Wei,Duc Nguyen,0,102,0.06,0.06,RI-Score,RI-Score,Structure-based
+mtbxd,Guowei Wei,Duc Nguyen,0,102,0.05,0.07,RI-Score ,RI-Score,Structure-based
+n55eq,Guowei Wei,Duc Nguyen,0,102,0.19,0.06,RI-Score ,RI-Score,Structure-based
+naex2,David Evans,Matthew Baumgartner,0,102,0.38,0.06,lly_ec50_svm,In-house QSAR script,Ligand-based
+p2wkt,Jamal Shamsara,Jamal Shamsara,0,102,0.07,0.07,Maestro/ChemScore ,Chemscore,Structure-based
+p8rak,Max Totrov,Maxim Totrov,0,102,0.24,0.05,ICM/APF 3D QSAR + MMGBSA,MMGBSA_modified,Structure-based
+pny4b,Xiaoqin Zou,Xiaoqin Zou,0,102,0.14,0.07,ITScore_TF ,ITScore_TF,Structure-based
+pr2fp,Xiaoqin Zou,Xiaoqin Zou,0,102,0.22,0.06,ITScore_v2,ITScore_v2,Structure-based
+qcbm1,,,1,102,-0.07,0.06,Maestro/Omega/Posit/Xscore,Xscore,Structure-based
+qokw3,,,1,102,0.23,0.06,xScore,Xscore,Structure-based
+riyj0,David Koes,David Koes,0,102,0.32,0.05,crystals_aff_aff  ,"Smina, CNN Model Scoring",Structure-based
+rjyhz,Bogdan Iorga,Bogdan Iorga,0,102,0.17,0.06,D3RGC2-Score-1,"GoldScore, ChemScore, ChemPLP, ASP, lowestRMSDtoRefFragment",Structure-based
+rtqum,Guowei Wei,Duc Nguyen,0,102,0.12,0.06,RI-Score,RI-Score,Structure-based
+rwmcz,Alexander D MacKerell Jr.,Sirish Lakkaraju,0,102,-0.33,0.06,SILCS-MC ,SILCS (Site Identification by Ligand Competitive Saturation),Structure-based
+sb1dg,Xiaoqin Zou,Xiaoqin Zou,0,102,0.09,0.07,ITScore_v1 ,ITScore_v1,Structure-based
+sge2j,Charles L. Brooks III,Xinqiang Ding,0,102,0.21,0.06,Autodock Vina scoring based on conformations from flexible CDOCKER.  ,AutoDock Vina,Structure-based
+ska85,,,1,102,-0.30,0.06,Prime MMGBSA ranking for 102 set ,MMGBSA,Structure-based
+tbxzq,Kam Y.J. Zhang,Ashutosh Kumar,0,102,0.26,0.06,CDVS score,Glide,Structure-based
+tgmx1,David Koes,David Koes,0,102,-0.03,0.07,orig_aff_bind,"Smina, CNN Model Scoring",Structure-based
+uyp2k,Xiaoqin Zou,Xiaoqin Zou,0,102,0.01,0.07,ITScore_v1_TF ,ITScore_v1_TF,Structure-based
+v4uoy,Pharmacueticals and Bioengineering Dept.,Jonathan Bohmann,0,102,0.23,0.06,Rhodium HTS  ,Rhodium HTS,Structure-based
+vbzci,Steve Jones,Oleksandr Yakovenko,0,102,0.14,0.05,LIE with bootstrapping,LIE (Linear Interaction Energy Model),Structure-based
+vovuk,David Evans,Matthew Baumgartner,0,102,0.33,0.05,align_close_mmgbsa ,MMGBSA,Structure-based
+vxvhq,Stefano Moro,Stefano Moro,0,102,0.19,0.06,MMS DockBench CrossDocking - MMGBSA Method   ,MMGBSA,Structure-based
+w8p2f,Guowei Wei,Duc Nguyen,0,102,0.15,0.06,RI-Score,RI-Score,Structure-based
+wfe3c,David Koes,David Koes,0,102,0.39,0.05,stage2_vina_score ,Vina,Structure-based
+x8jt0,,,1,102,0.23,0.06,eTOX ALLIES,eTOX ALLIES,Structure-based
+xe4uo,Carlos Camacho,Bentley Wingert,0,102,-0.04,0.08,dock_cross_FXR34,Smina,Structure-based
+xkgbb,David Koes,David Koes,0,102,-0.07,0.07,orig_bind_bind,"Smina, CNN Model Scoring",Structure-based
+xv7qs,Enrico Purisima,Enrico Purisima,0,102,0.18,0.06,SIE Method 1,SIE (solvated interaction energy) ,Structure-based
+y5gbl,Tom Kurtzman,Steven Ramsey,0,102,0.05,0.06,Rainbow Swirl Gist/Glide Dock  # Glide with GIST Solvent Displacement   # High Density/High Energy functional ,"Glide-SP, GIST scoring 3",Structure-based

@@ -1,0 +1,1 @@
+{"DVH Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3004_0050","SuperCategory":"DICOM term","Id":"nlx_149931","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Introduces sequence of DVHs. One or more items may be included in this sequence."}}

@@ -1,0 +1,1 @@
+{"Number of Phase Encoding Steps":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0089","SuperCategory":"DICOM term","Id":"nlx_150365","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Total number of lines in k-space in the \"y\" direction collected during acquisition."}}

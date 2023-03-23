@@ -1,0 +1,1 @@
+{"Scheduled Station AE Title":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0001","SuperCategory":"DICOM term","Id":"nlx_150894","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"AE","Definition":"The AE title of the modality on which the Scheduled Procedure Step is scheduled to be performed."}}

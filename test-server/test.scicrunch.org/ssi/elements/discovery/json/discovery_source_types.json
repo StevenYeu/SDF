@@ -1,0 +1,68 @@
+{
+    "antibody":{
+        "source": "Antibody Registry",
+        "category": "data",
+        "sourceID": "nif-0000-07730-1",
+        "RRID": "SCR_006397"
+    },
+    "tool": {
+        "source": "SciCrunch Registry",
+        "category": "data",
+        "sourceID": "nlx_144509-1",
+        "RRID": "SCR_005400"
+    },
+    "resource": {
+        "source": "SciCrunch Registry",
+        "category": "data",
+        "sourceID": "nlx_144509-1",
+        "RRID": "SCR_005400"
+    },
+    "organization": {
+        "source": "SciCrunch Registry",
+        "category": "data",
+        "sourceID": "nlx_144509-1",
+        "RRID": "SCR_005400"
+    },
+    "cell line": {
+        "source": "Cellosaurus",
+        "category": "data",
+        "sourceID": "SCR_013869-1",
+        "RRID": "SCR_013869"
+    },
+    "organism": {
+        "source": "Integrated Animals",
+        "category": "data",
+        "sourceID": "nlx_154697-1",
+        "RRID": "SCR_001421"
+    },
+    "plasmid": {
+        "source": "Addgene",
+        "category": "data",
+        "sourceID": "nif-0000-11872-1",
+        "RRID": "SCR_002037"
+    },
+    "biosample": {
+        "source": "NCBI Biosample",
+        "category": "data",
+        "sourceID": "nlx_143929-1",
+        "RRID": "SCR_004854"
+    },
+    "protocol": {
+        "source": "Protocols.io",
+        "category": "data",
+        "sourceID": "protocol",
+        "RRID": "SCR_010490"
+    },
+    "dataset": {
+        "source": "EBrains",
+        "category": "discovery",
+        "sourceID": "ks-ebrain",
+        "RRID": "SCR_017612"
+    },
+    "ebrain": {
+        "source": "EBrains",
+        "category": "discovery",
+        "sourceID": "ks-ebrain",
+        "RRID": "SCR_017612"
+    }
+}

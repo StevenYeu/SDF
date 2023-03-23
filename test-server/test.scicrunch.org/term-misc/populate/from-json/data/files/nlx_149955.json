@@ -1,0 +1,1 @@
+{"Energy Window Upper Limit":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0015","SuperCategory":"DICOM term","Id":"nlx_149955","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The upper limit of the energy window in KeV."}}

@@ -1,0 +1,1 @@
+{"Image Transformation Matrix":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_5210","SuperCategory":"DICOM term","Id":"nlx_150144","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Comment ":" general term","Value_Representation":"DS","Definition":"The matrix used to transform one frame of reference to another."}}

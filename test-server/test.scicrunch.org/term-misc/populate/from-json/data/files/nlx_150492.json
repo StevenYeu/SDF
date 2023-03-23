@@ -1,0 +1,1 @@
+{"Patients Weight":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0010_1030","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150492","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Weight of the patient in kilograms."}}

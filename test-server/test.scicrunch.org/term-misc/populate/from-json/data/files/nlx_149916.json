@@ -1,0 +1,1 @@
+{"Dose Reference UID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0013","SuperCategory":"DICOM term","Id":"nlx_149916","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UI","Definition":"A unique identifier for a Dose Reference that can be used to link the same entity across multiple RT Plan objects."}}

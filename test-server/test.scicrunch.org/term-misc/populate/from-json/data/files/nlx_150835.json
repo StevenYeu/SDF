@@ -1,0 +1,1 @@
+{"RT Beam Limiting Device Type":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_00B8","SuperCategory":"DICOM term","Id":"nlx_150835","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Type of beam limiting device (collimator). Required if Beam Limiting Device Sequence (300A,00B6) is sent."}}

@@ -1,0 +1,1 @@
+{"Pulse Repetition Interval":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_028C","SuperCategory":"DICOM term","Id":"nlx_150609","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"Pulse repetition interval (sec) for current Channel. Required if Brachy Treatment Type (300A,0202) is PDR."}}

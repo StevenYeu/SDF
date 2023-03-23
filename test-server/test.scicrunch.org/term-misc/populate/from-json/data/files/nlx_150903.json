@@ -1,0 +1,1 @@
+{"Scheduled Study Start Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0032_1001","SuperCategory":"DICOM term","Id":"nlx_150903","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"Time at which the study is scheduled to start"}}

@@ -1,0 +1,60 @@
+T1 weighted protocol
+Protein    --- add from csv
+Count in organism    --- add from csv
+Mental Disorder    --- already in
+Government granting agency
+ABA mouse brain parce    --- fetch by hand
+Annelida/Echiura/Pogonophora group 
+Rotation  --- add from csv
+Private granting agency
+Parcellation scheme region   --- fetch by hand
+Physical quality   --- add from csv
+Ion channel   --- fetch by hand
+Institute
+Polarity
+Entity   --- fetch by hand
+Service
+Instrument
+Extra or missing physical and functional parts
+Speed/velocity
+Reagent role
+Structured interview
+Diffusion-weighted imaging protocol
+Magnetic resonance imaging assay
+Vesicle Other   --- add from csv
+Present in greater numbers in organism   --- add from csv
+EM imaging protocol
+Microscopy contrast enhancement protocol
+Ion Channel   --- add from csv
+AMPA Receptor   --- add from csv
+Heterotremata/Thoracotremata group   --- add from csv
+Magnocellular neurosecretory cell   --- add from csv
+Defined neuron class   --- fetch by hand
+Embryonic / larval olfactory receptor neuron   --- add from csv
+Hemisphere parts of cerebral cortex   --- fetch by hand
+Object boundary   --- add from csv
+Population quality (PATO 0002003)   --- add from csv
+Music
+Dance
+Drama
+Resource:neuroelectro
+University consortium
+Neuropeptide W/neuropeptide B receptor   --- add from csv
+Neuropeptide FF/neuropeptide AF receptor   --- add from csv
+Glial-like cell
+Ongur
+Price
+Vasopressin/oxytocin receptor   --- add from csv
+Dislocated   --- add from csv
+Part of nervous system   --- add from csv
+Reference
+License resource
+Retina ganglion cell B   --- fetch by hand
+Retina ganglion cell C   --- fetch by hand
+Monadic quality of continuant   --- add from csv
+Non Membrane Bound Organelle   --- fetch by hand
+Lobe parts of cerebral cortex   --- fetch by hand
+Superior colliculus stellate neuron   --- fetch by hand
+Superior colliculus wide field vertical cell   --- fetch by hand
+Waxholm 2011 parcellation scheme parcel
+C Chemokine   --- add from csv

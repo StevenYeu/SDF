@@ -1,0 +1,1 @@
+{"Effective Echo Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9082","SuperCategory":"DICOM term","Id":"nlx_149940","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FD","Definition":"The time in ms between the middle of the excitation pulse and the peak of the echo produced for kx"}}

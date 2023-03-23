@@ -1,0 +1,1 @@
+{"Number of Frames":{"ValueRepresentation":"IS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0008","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150355","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"The number of frames associated with the data volume."}}

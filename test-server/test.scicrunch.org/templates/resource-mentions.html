@@ -1,0 +1,80 @@
+<div class="row" ng-show="mentions.loading">
+    Loading mentions
+</div>
+<div class="panel panel-success" ng-hide="mentions.loading">
+    <div class="panel-heading clearfix">
+        <div class="col-md-8 panel-title">
+            <span ng-show="mentions.confidence === 'all'">{{mentions.count | number}} mentions found in the literature for this resource</span>
+            <span ng-hide="mentions.confidence === 'all'">{{mentions.count | number}} {{mentions.confidence}} confidence out of {{mentions.all_count | number}} potential mentions found in the literature for this resource</span>
+            <a target="_self" ng-href="/php/download-resource-mentions.php?rid={{rid}}"><button class="btn btn-success"><i class="fa fa-download"></i> Download all</button></a>
+        </div>
+        <div ng-show="logged_in" class="col-md-4">
+            <div class="input-group">
+                <input class="form-control" placeholder="PMID:12345" ng-model="new_mention" />
+                <div class="input-group-btn">
+                    <button class="btn btn-success" type="button" ng-click="rm.addNewMention()">Add a mention</button>
+                    <button ng-show="is_owner" class="btn btn-success dropdown-toggle" type="button" id="addMentionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="caret"></span></button>
+                    <ul ng-show="is_owner" class="dropdown-menu" aria-labelledby="filterConfidence">
+                        <li><a target="_self" ng-href="{{ mentions_upload_link }}"><i class="fa fa-upload"></i> CSV upload</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+    <p>Resource references are publications that may reference this resource.  These mentions are found by searching through Open Access journals or by human curation.  Registered users can contribute by adding literature mentions that they find on their own or by verifying existing literature mentions with a thumbs up or thumbs down.</p>
+    <div class="row">
+        <div class="col-md-5">
+            <pagination
+                ng-hide="mentions.count == 0"
+                total-items="mentions.count"
+                items-per-page="mentions.per_page"
+                ng-model="mentions.current_page"
+                ng-change="rm.changePage()"
+                max-size="7"
+                boundary-links="true"
+            >
+            </pagination>
+        </div>
+        <div class="col-md-7 text-right">
+            <div class="btn-group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="sortDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Sort By: {{ mentions.sort === "pmid" ? "PMID" : "Date" }} <span class="caret"></span></button>
+                <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                    <li><a href="#" ng-click="rm.sortMentions('pmid')">PMID <i class="fa fa-caret-left" ng-show="mentions.sort === 'pmid'"></i></a></li>
+                    <li><a href="#" ng-click="rm.sortMentions('added_date')">Date <i class="fa fa-caret-left" ng-show="mentions.sort === 'added_date'"></i></a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="filterConfidence" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Confidence: {{ mentions.confidence | capitalize }} <span class="caret"></span></button>
+                <ul class="dropdown-menu" aria-labelledby="filterConfidence">
+                    <li><a href="#" ng-click="rm.updateConfidence('all')">All <i class="fa fa-caret-left" ng-show="mentions.confidence === 'all'"></i></a></li>
+                    <li><a href="#" ng-click="rm.updateConfidence('low')">Low <i class="fa fa-caret-left" ng-show="mentions.confidence === 'low'"></i></a></li>
+                    <li><a href="#" ng-click="rm.updateConfidence('high')">High <i class="fa fa-caret-left" ng-show="mentions.confidence === 'high'"></i></a></li>
+                    <li><a href="#" ng-click="rm.updateConfidence('rrid')">RRID <i class="fa fa-caret-left" ng-show="mentions.confidence === 'rrid'"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row" ng-repeat="mention in mentions.mentions | orderBy:'time'">
+        <div single-resource-mention-dir></div>
+    </div>
+    <div ng-show="mentions.bad_mentions.length > 0">
+        <p>The following IDs have been recorded as mentions, but are not yet available through SciCrunch services:</p>
+        <ul>
+            <li ng-repeat="mention in mentions.bad_mentions">
+                <a ng-href="{{ mentions.idToUrl(mention.mention) }}" target="_blank">{{ mention.mention }}</a>
+            </li>
+        </ul>
+    </div>
+    <pagination
+        ng-hide="mentions.count == 0"
+        total-items="mentions.count"
+        items-per-page="mentions.per_page"
+        ng-model="mentions.current_page"
+        ng-change="rm.changePage()"
+        max-size="7"
+        boundary-links="true"
+    >
+    </pagination>
+    </div>
+</div>

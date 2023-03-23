@@ -1,0 +1,107 @@
+thead tr th {
+  text-align : center ;
+}
+
+tr td {
+  text-align : center ;
+}
+
+.dashboardHeader h5 {
+  font-size: 20px;
+}
+
+.popover {
+  width: content-box;
+  max-width: none;
+  white-space: nowrap;
+}
+
+select {
+  margin-right: 10px;
+}
+
+select, button {
+  vertical-align: top;
+  horiz-align: center;
+  height: 22px;
+}
+
+.redirectButton span {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.status {
+  height: 35px;
+}
+
+.actionButton {
+  width:20px;
+  height:20px;
+  margin-right:7px;
+  cursor: pointer;
+}
+
+.actionIcon {
+  width:20px;
+  height:20px;
+  margin-bottom:5px;
+  cursor: pointer;
+}
+
+.actionRow {
+  margin-bottom:10px;
+}
+
+.alignActionRow {
+  line-height:26px;
+}
+
+.confirmBox {
+  margin-right:5px !important;
+}
+
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #72c02c; /* Green */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.no-records-message {
+  margin-left:10px;
+}
+
+.resource-status-table {
+  margin-bottom:35px;
+}
+
+@keyframes spin {
+  0% { transfoactionIconrm: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.modal-content {
+  width:100%;
+}
+
+.modal-dialog-centered {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  min-height:calc(100% - (.5rem * 2));
+}
+
+@media (min-width: 576px) {
+  .modal-dialog-centered {
+    min-height:calc(100% - (1.75rem * 2));
+  }
+}

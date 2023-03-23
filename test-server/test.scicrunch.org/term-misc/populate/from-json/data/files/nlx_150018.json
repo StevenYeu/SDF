@@ -1,0 +1,1 @@
+{"Focus Depth":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_5012","SuperCategory":"DICOM term","Id":"nlx_150018","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The depth, from the transducer face, of the manufacturer defined beam focus used for the image, in cm."}}

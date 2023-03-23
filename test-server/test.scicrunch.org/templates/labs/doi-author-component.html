@@ -1,0 +1,27 @@
+<div class="modal-header">
+    <h3>Authors</h3>
+</div>
+<form name="form.authorsForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- NAME -->
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" ng-model="name" value="{{ name }}" required>
+            <p ng-show="form.authorsForm.name.$invalid && !form.authorsForm.name.$pristine" class="help-block">A name is required.</p>
+
+        </div>
+
+        <div class="form-group">
+              <label>Contact Author</label><br />
+            <input type="checkbox" name="contact" ng-model="contact" ng-change="stateChanged()" > Designate as contact author
+        </div>
+
+        <input type="hidden" name="position"  class="form-control" ng-model="position" value="{{ position }}" >
+    </div>
+    <div class="modal-footer">
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.contributorsForm.$invalid" ng-click="update()">Update</button>
+<!--        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.contributorsForm.$invalid" ng-click="add()">Add</button> -->
+        <button ng-if="isUpdate" type="submit" class="btn btn-danger" ng-click="delete()">Remove</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

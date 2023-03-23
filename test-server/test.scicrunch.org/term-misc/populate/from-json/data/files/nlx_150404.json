@@ -1,0 +1,1 @@
+{"Organ Exposed":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0318","SuperCategory":"DICOM term","Id":"nlx_150404","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Organ to which Organ Dose (0040,0316) applies."}}

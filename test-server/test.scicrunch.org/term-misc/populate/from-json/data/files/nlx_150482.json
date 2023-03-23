@@ -1,0 +1,1 @@
+{"Patients Institution Residence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0038_0400","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150482","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Primary location where patient resides (ward, floor, room, etc. or outpatient)."}}

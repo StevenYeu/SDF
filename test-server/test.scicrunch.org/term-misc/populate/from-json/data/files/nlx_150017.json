@@ -1,0 +1,1 @@
+{"Focal Distance":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1182","SuperCategory":"DICOM term","Id":"nlx_150017","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Focal distance, in mm. A value of 0 means infinite distance for parallel collimation."}}

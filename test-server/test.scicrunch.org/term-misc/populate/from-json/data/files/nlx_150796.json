@@ -1,0 +1,1 @@
+{"Rescale Slope":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_1053","SuperCategory":"DICOM term","Id":"nlx_150796","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"m in the equation specified by Rescale Intercept (0028,1052)."}}

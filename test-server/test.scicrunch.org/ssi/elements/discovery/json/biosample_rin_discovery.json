@@ -1,0 +1,117 @@
+{
+    "fields": [
+        {
+            "name": "Biosample Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Proper Citation",
+            "esField": "rrid.properCitation",
+            "facetField": "rrid.properCitation",
+            "order": "2",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "NCBI Biosample ID",
+            "esField": "item.identifier",
+            "order": "3",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Vendor",
+            "esField": "vendors.[].name",
+            "order": "4",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Sex of Cell",
+            "esField": "attributes.[].sex.value",
+            "facetField": "attributes.sex.value",
+            "order": "5",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Category",
+            "esField": "item.keywords.[].name",
+            "order": "6",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Disease",
+            "esField": "diseases.primary.[].name",
+            "order": "7",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Comments",
+            "esField": "item.notes.[].description",
+            "order": "8",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Species",
+            "esField": "organisms.primary.[].species.name",
+            "order": "9",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Cross References",
+            "esField": "graph.parent.[].id",
+            "order": "10",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Mentions Count",
+            "esField": "mentions.[].totalMentions.count",
+            "facetField": "mentions.totalMentions.count",
+            "visibilities": {"table": "0"},
+            "order": "11",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Mentions",
+            "esField": "mentions.[].availability",
+            "facetField": "mentions.availability.keyword",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        }
+    ],
+    "snippet_body": [
+        "<strong>Organism:</strong> $1",
+        "<strong>Disease:</strong> $2",
+        "<strong>Category:</strong> $3",
+        "<strong>Comment:</strong> $4"
+    ],
+    "snippet_params": {
+        "1": "organisms.primary.[].species.name",
+        "2": "diseases.primary.[].name",
+        "3": "item.keywords.[].name",
+        "4": "item.notes.[].description"
+    },
+    "viewType": "discovery"
+}

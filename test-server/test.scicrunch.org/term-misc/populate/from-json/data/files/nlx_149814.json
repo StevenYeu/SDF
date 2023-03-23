@@ -1,0 +1,1 @@
+{"Data Point Rows":{"ValueRepresentation":"UL","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_9001","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149814","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"Number of rows of data points in spectroscopic data."}}

@@ -1,0 +1,102 @@
+<style>
+
+    .lab-workflow-complete{
+        text-decoration: line-through;
+    }
+    .lab-workflow-incomplete{
+        font-weight: bold;
+    }
+    .lab-workflow-check{
+        width:20px;
+    }
+    .lab-workflow-wrapper {
+        background-color: #d3e4ec;
+        min-height: 400px;
+    }
+    .lab-workflow-header {
+        background-color: #9ec3d5;
+        min-height: 75px;
+        padding: 10px;
+    }
+    .lab-workflow-body {
+        margin: 20px;
+    }
+    .lab-overview{
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+    .lab-overview-past{
+        color: grey;
+    }
+    .lab-overview-future{
+        color:gray;
+    }
+    .lab-overview-current{
+        list-style-type: circle;
+        font-weight: bold;
+        color:black;
+
+    }
+    .lab-timeline-segment {
+        width:50%; 
+        border-right-style: solid;
+        height:20px;
+        border-width: 2px;
+    }
+</style>
+
+
+<div class="lab-workflow-wrapper">
+    <div class="lab-workflow-header">
+        <h2>{{ $ctrl.lab.name }}</h2>
+    </div>
+    <div class="lab-workflow-body">
+        <h3>{{$ctrl.workflow.title}}:</h3>
+        <!-- page steps -->
+        <div ng-repeat="steps in $ctrl.workflow.workflow">
+            <span ng-if="steps.complete" class="animate-if">
+                  <h4 class="lab-workflow-complete text-muted">
+                      <i class="fa fa-check lab-workflow-check" aria-hidden="true"></i>
+                      {{steps.step}}
+                  </h4>
+            </span>
+            <span ng-if="!steps.complete" class="animate-if">
+                <h4 class="lab-workflow-incomplete">
+                     {{steps.step}}
+                </h4>
+            </span>
+        </div>
+        <hr style="border-color: black; margin:5px 0;">
+        <!-- overview steps -->
+        <div ng-repeat="overviewStep in $ctrl.overview_workflow_array" >
+
+            <div class="lab-overview" ng-if="overviewStep.type == 'past'">
+                <a href="javascript:void(0)" class="lab-link"
+                   ng-class="{'lab-overview-past': overviewStep.type == 'past',
+                   'lab-overview-current': overviewStep.type == 'current',
+                   'lab-overview-future': overviewStep.type == 'future'}"
+                   ng-click="$ctrl.clickOverviewStep(overviewStep)">
+
+                    {{overviewStep.step}}
+                </a>
+                <div ng-if="!$last">
+                    <div class="lab-timeline-segment" ></div>
+                </div>
+            </div>
+            <div class="lab-overview" ng-if="overviewStep.type != 'past'">
+                <div ng-class="{'lab-overview-past': overviewStep.type == 'past',
+                   'lab-overview-current': overviewStep.type == 'current',
+                   'lab-overview-future': overviewStep.type == 'future'}">
+
+                    {{overviewStep.step}}
+                </div>
+                <div ng-if="!$last">
+                    <div class="lab-timeline-segment" ></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

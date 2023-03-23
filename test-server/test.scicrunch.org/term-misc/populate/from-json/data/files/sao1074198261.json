@@ -1,0 +1,1 @@
+{"Post-synaptic Site":{"Comment":["Before replacing the is_Location_Of property with RO's contained_in and the site_Contained_In property with RO's contained_in","we had the two restrictions: 1) is_Location_Of some Post-synaptic Density and 2) site_Contained_In some Post-synatpic Density.  Thus"],"SuperCategory":"Synaptic Site","Id":"sao1074198261"}}

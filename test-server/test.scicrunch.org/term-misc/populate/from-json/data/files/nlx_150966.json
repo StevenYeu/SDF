@@ -1,0 +1,1 @@
+{"SOP Authorization Date and Time":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0100_0420","SuperCategory":"DICOM term","Id":"nlx_150966","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DT","Definition":"The date and time when the SOP Instance Status (0100,0410) was set to AO."}}

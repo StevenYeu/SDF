@@ -1,0 +1,1 @@
+{"Instance Number":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_0013","SuperCategory":"DICOM term","Id":"nlx_150166","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"A number that identifies this image. Note: This Attribute was named Image Number in earlier versions of this Standard."}}

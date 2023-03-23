@@ -1,0 +1,1 @@
+{"Mask Subtraction Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_6100","SuperCategory":"DICOM term","Id":"nlx_150259","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Defines a sequence that describes mask subtraction operations for a Multiframe Image."}}

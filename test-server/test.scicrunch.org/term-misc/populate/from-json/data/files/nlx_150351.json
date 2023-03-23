@@ -1,0 +1,1 @@
+{"Number of Event Timers":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_2129","SuperCategory":"DICOM term","Id":"nlx_150351","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"The number of event timers used at the time of acquisition of a Multi-frame image."}}

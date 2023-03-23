@@ -1,0 +1,1 @@
+{"KVP":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0060","SuperCategory":"DICOM term","Id":"nlx_150220","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Peak kilo voltage output of the x-ray generator used. An average in the case of fluoroscopy (continuous radiation mode)."}}

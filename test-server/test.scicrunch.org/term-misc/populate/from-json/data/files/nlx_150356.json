@@ -1,0 +1,1 @@
+{"Number of Frames in Overlay":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:60xx_0015","SuperCategory":"DICOM term","Id":"nlx_150356","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Number of Frames in Overlay. Required if Overlay data contains multiple frames."}}

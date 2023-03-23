@@ -1,0 +1,1 @@
+{"Table Top Eccentric Angle Tolerance":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_004E","SuperCategory":"DICOM term","Id":"nlx_151091","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Maximum permitted difference (in degrees) between planned and delivered Table Top Eccentric Angle."}}

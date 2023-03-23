@@ -1,0 +1,1 @@
+{"Organ Dose":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0316","SuperCategory":"DICOM term","Id":"nlx_150403","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Average organ dose value measured in dGy during the acquisition of this image. Note: This may be an estimated value."}}

@@ -1,0 +1,265 @@
+  <option value="AFL-2.0">AFL-2.0</option>
+
+  <option value="AFL-2.1">AFL-2.1</option>
+
+  <option value="AGPL-3.0-only">AGPL-3.0-only</option>
+
+  <option value="AGPL-3.0-or-later">AGPL-3.0-or-later</option>
+
+  <option value="Apache-1.0">Apache-1.0</option>
+
+  <option value="Apache-1.1">Apache-1.1</option>
+
+  <option value="Apache-2.0">Apache-2.0</option>
+
+  <option value="Artistic-1.0-Perl">Artistic-1.0-Perl</option>
+
+  <option value="BSD-2-Clause">BSD-2-Clause</option>
+
+  <option value="BSD-2-Clause-Patent">BSD-2-Clause-Patent</option>
+
+  <option value="BSD-3-Clause">BSD-3-Clause</option>
+
+  <option value="BSD-4-Clause">BSD-4-Clause</option>
+
+  <option value="BSD-4-Clause-UC">BSD-4-Clause-UC</option>
+
+  <option value="BSL-1.0">BSL-1.0</option>
+
+  <option value="bzip2-1.0.5">bzip2-1.0.5</option>
+
+  <option value="bzip2-1.0.6">bzip2-1.0.6</option>
+
+  <option value="CC0-1.0">CC0-1.0</option>
+
+  <option value="CDDL-1.0">CDDL-1.0</option>
+
+  <option value="CPL-1.0">CPL-1.0</option>
+
+  <option value="curl">curl</option>
+
+  <option value="EFL-2.0">EFL-2.0</option>
+
+  <option value="EPL-1.0">EPL-1.0</option>
+
+  <option value="EPL-2.0">EPL-2.0</option>
+
+  <option value="EUPL-1.1">EUPL-1.1</option>
+
+  <option value="FTL">FTL</option>
+
+  <option value="GPL-2.0-only">GPL-2.0-only</option>
+
+  <option value="GPL-2.0-only WITH Classpath-exception-2.0">GPL-2.0-only WITH Classpath-exception-2.0</option>
+
+  <option value="GPL-2.0-or-later">GPL-2.0-or-later</option>
+
+  <option value="GPL-3.0-only">GPL-3.0-only</option>
+
+  <option value="GPL-3.0-or-later">GPL-3.0-or-later</option>
+
+  <option value="HPND">HPND</option>
+
+  <option value="IBM-pibs">IBM-pibs</option>
+
+  <option value="ICU">ICU</option>
+
+  <option value="IJG">IJG</option>
+
+  <option value="IPL-1.0">IPL-1.0</option>
+
+  <option value="ISC">ISC</option>
+
+  <option value="LGPL-2.1-only">LGPL-2.1-only</option>
+
+  <option value="LGPL-2.1-or-later">LGPL-2.1-or-later</option>
+
+  <option value="LGPL-3.0-only">LGPL-3.0-only</option>
+
+  <option value="LGPL-3.0-or-later">LGPL-3.0-or-later</option>
+
+  <option value="Libpng">Libpng</option>
+
+  <option value="libtiff">libtiff</option>
+
+  <option value="MirOS">MirOS</option>
+
+  <option value="MIT">MIT</option>
+
+  <option value="MIT-CMU">MIT-CMU</option>
+
+  <option value="MPL-1.1">MPL-1.1</option>
+
+  <option value="MPL-2.0">MPL-2.0</option>
+
+  <option value="MPL-2.0-no-copyleft-exception">MPL-2.0-no-copyleft-exception</option>
+
+  <option value="MS-PL">MS-PL</option>
+
+  <option value="MS-RL">MS-RL</option>
+
+  <option value="NBPL-1.0">NBPL-1.0</option>
+
+  <option value="NTP">NTP</option>
+
+  <option value="OpenSSL">OpenSSL</option>
+
+  <option value="OSL-3.0">OSL-3.0</option>
+
+  <option value="Python-2.0">Python-2.0</option>
+
+  <option value="Qhull">Qhull</option>
+
+  <option value="RPL-1.5">RPL-1.5</option>
+
+  <option value="SunPro">SunPro</option>
+
+  <option value="Unicode-DFS-2015">Unicode-DFS-2015</option>
+
+  <option value="Unicode-DFS-2016">Unicode-DFS-2016</option>
+
+  <option value="UPL-1.0">UPL-1.0</option>
+
+  <option value="WTFPL">WTFPL</option>
+
+  <option value="X11">X11</option>
+
+  <option value="XFree86-1.1">XFree86-1.1</option>
+
+  <option value="Zlib">Zlib</option>
+
+  <option value="zlib-acknowledgement">zlib-acknowledgement</option>
+
+</select></p>
+<p><label for="id_Lic_2">Select License 2:</label> <select name="Lic_2" id="id_Lic_2">
+  <option value="AFL-2.0">AFL-2.0</option>
+
+  <option value="AFL-2.1">AFL-2.1</option>
+
+  <option value="AGPL-3.0-only">AGPL-3.0-only</option>
+
+  <option value="AGPL-3.0-or-later">AGPL-3.0-or-later</option>
+
+  <option value="Apache-1.0">Apache-1.0</option>
+
+  <option value="Apache-1.1">Apache-1.1</option>
+
+  <option value="Apache-2.0">Apache-2.0</option>
+
+  <option value="Artistic-1.0-Perl">Artistic-1.0-Perl</option>
+
+  <option value="BSD-2-Clause">BSD-2-Clause</option>
+
+  <option value="BSD-2-Clause-Patent">BSD-2-Clause-Patent</option>
+
+  <option value="BSD-3-Clause">BSD-3-Clause</option>
+
+  <option value="BSD-4-Clause">BSD-4-Clause</option>
+
+  <option value="BSD-4-Clause-UC">BSD-4-Clause-UC</option>
+
+  <option value="BSL-1.0">BSL-1.0</option>
+
+  <option value="bzip2-1.0.5">bzip2-1.0.5</option>
+
+  <option value="bzip2-1.0.6">bzip2-1.0.6</option>
+
+  <option value="CC0-1.0">CC0-1.0</option>
+
+  <option value="CDDL-1.0">CDDL-1.0</option>
+
+  <option value="CPL-1.0">CPL-1.0</option>
+
+  <option value="curl">curl</option>
+
+  <option value="EFL-2.0">EFL-2.0</option>
+
+  <option value="EPL-1.0">EPL-1.0</option>
+
+  <option value="EPL-2.0">EPL-2.0</option>
+
+  <option value="EUPL-1.1">EUPL-1.1</option>
+
+  <option value="FTL">FTL</option>
+
+  <option value="GPL-2.0-only">GPL-2.0-only</option>
+
+  <option value="GPL-2.0-only WITH Classpath-exception-2.0">GPL-2.0-only WITH Classpath-exception-2.0</option>
+
+  <option value="GPL-2.0-or-later">GPL-2.0-or-later</option>
+
+  <option value="GPL-3.0-only">GPL-3.0-only</option>
+
+  <option value="GPL-3.0-or-later">GPL-3.0-or-later</option>
+
+  <option value="HPND">HPND</option>
+
+  <option value="IBM-pibs">IBM-pibs</option>
+
+  <option value="ICU">ICU</option>
+
+  <option value="IJG">IJG</option>
+
+  <option value="IPL-1.0">IPL-1.0</option>
+
+  <option value="ISC">ISC</option>
+
+  <option value="LGPL-2.1-only">LGPL-2.1-only</option>
+
+  <option value="LGPL-2.1-or-later">LGPL-2.1-or-later</option>
+
+  <option value="LGPL-3.0-only">LGPL-3.0-only</option>
+
+  <option value="LGPL-3.0-or-later">LGPL-3.0-or-later</option>
+
+  <option value="Libpng">Libpng</option>
+
+  <option value="libtiff">libtiff</option>
+
+  <option value="MirOS">MirOS</option>
+
+  <option value="MIT">MIT</option>
+
+  <option value="MIT-CMU">MIT-CMU</option>
+
+  <option value="MPL-1.1">MPL-1.1</option>
+
+  <option value="MPL-2.0">MPL-2.0</option>
+
+  <option value="MPL-2.0-no-copyleft-exception">MPL-2.0-no-copyleft-exception</option>
+
+  <option value="MS-PL">MS-PL</option>
+
+  <option value="MS-RL">MS-RL</option>
+
+  <option value="NBPL-1.0">NBPL-1.0</option>
+
+  <option value="NTP">NTP</option>
+
+  <option value="OpenSSL">OpenSSL</option>
+
+  <option value="OSL-3.0">OSL-3.0</option>
+
+  <option value="Python-2.0">Python-2.0</option>
+
+  <option value="Qhull">Qhull</option>
+
+  <option value="RPL-1.5">RPL-1.5</option>
+
+  <option value="SunPro">SunPro</option>
+
+  <option value="Unicode-DFS-2015">Unicode-DFS-2015</option>
+
+  <option value="Unicode-DFS-2016">Unicode-DFS-2016</option>
+
+  <option value="UPL-1.0">UPL-1.0</option>
+
+  <option value="WTFPL">WTFPL</option>
+
+  <option value="X11">X11</option>
+
+  <option value="XFree86-1.1">XFree86-1.1</option>
+
+  <option value="Zlib">Zlib</option>
+
+  <option value="zlib-acknowledgement">zlib-acknowledgement</option>

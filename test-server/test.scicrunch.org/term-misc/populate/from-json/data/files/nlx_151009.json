@@ -1,0 +1,1 @@
+{"Specific Character Set":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0005","SuperCategory":"DICOM term","Id":"nlx_151009","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Required if an extended or replacement character set is used in one of the keys"}}

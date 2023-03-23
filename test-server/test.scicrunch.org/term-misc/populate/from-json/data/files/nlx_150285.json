@@ -1,0 +1,1 @@
+{"Modality":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0060","SuperCategory":"DICOM term","Id":"nlx_150285","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Type of equipment that acquired the data used to create the images in this Study Component."}}

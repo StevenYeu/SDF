@@ -1,0 +1,1 @@
+{"Notch Filter Frequency":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:003A_0222","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150338","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Center frequency of notch filter(s) in Hz."}}

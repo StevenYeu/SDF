@@ -1,0 +1,1 @@
+{"X-Ray Tube Current in uA":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_8151","SuperCategory":"DICOM term","Id":"nlx_151273","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"X-ray Tube Current in uA. An average in the case of fluoroscopy (continuous radiation mode)."}}

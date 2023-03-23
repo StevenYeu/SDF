@@ -1,0 +1,1 @@
+{"Cardiac Number of Images":{"ValueRepresentation":"IS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1090","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149669","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Number of images per cardiac cycle."}}

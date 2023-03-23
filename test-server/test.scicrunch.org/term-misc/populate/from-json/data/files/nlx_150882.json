@@ -1,0 +1,1 @@
+{"Scheduled Procedure Step End Date":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0004","SuperCategory":"DICOM term","Id":"nlx_150882","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DA","Definition":"Date on which the Scheduled Procedure Step is scheduled to end."}}

@@ -1,0 +1,1 @@
+{"Modalities in Study":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0061","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150284","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"This Attribute may take one or more of the values defined for Modality (0008,0060)."}}

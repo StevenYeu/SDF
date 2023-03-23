@@ -1,0 +1,45 @@
+Submission ID,Last Name,First Name,PI Name,Number of Ligands,Median RMSD,Mean RMSD,STD RMSD,Method Name,Software
+yq6gg,kumar,ashutosh,kam zhang,24,2.05,2.39,0.95,omega/rocs/glide-refine,omega 2.5.1   rocs 3.2.0   glide 6.1  system preparation
+djcq4,kumar,ashutosh,kam zhang,24,2.6,2.6,0.95,popss,omega 2.5.1   rocs 3.2.0   rosetta suite 2015.25  system preparation
+stjv8,warren,gregory,none,24,1.99,2.64,1.99,pcet,posit v3.2.0.2  system preparation
+e7e0p,warren,gregory,none,24,2.41,2.73,1.8,fpri,posit v3.2.0.2; szybki v1.9.0.3; smzap 1.2.1.4  system preparation
+tr4ys,warren,gregory,none,24,2.15,2.76,2.14,pdef,posit v3.2.0.2  system preparation
+jodhp,wingert,bentley,carlos camacho,24,1.96,2.78,2.24,dock_close,"smina feb 28 2016, based on autodock vina 1.1.2    openbabel 2.3.2    pymol 1.8.4.2    omega2 2.5.1.4    python 2.7.11    matplotlib 1.5.1    scipy 0.17.0    click 6.6   system preparation"
+b6t0o,lam,polo,max totrov,24,1.7,2.82,2.76,icm dock,molsoft icm 3.8-5  system preparation
+4ery5,kozakov,dima,dima kozakov,24,2.23,2.97,2.31,mc-refine,in house monte-carlo/ligsift/rdkit   system preparation
+sf5dj,bonvin,alexandre,alexandre bonvin,24,2.23,3.04,2.03,haddock2.2 protein-ligand protocol,haddock webserver 2.2   openeye omega 2017.6.1   openeye shape 2017.6.1   openeye rocs 3.2.2.2   chemminer 2.26   fmcsr 1.16   system preparation
+ts6jd,wingert,bentley,carlos camacho,24,2.53,3.14,2.25,dock_close,"smina feb 28 2016, based on autodock vina 1.1.2    openbabel 2.3.2    pymol 1.8.4.2    omega2 2.5.1.4    python 2.7.11    matplotlib 1.5.1    scipy 0.17.0    click 6.6   system preparation"
+e33k6,wingert,bentley,carlos camacho,24,2.53,3.14,2.25,dock_close,"smina feb 28 2016, based on autodock vina 1.1.2    openbabel 2.3.2    pymol 1.8.4.2    omega2 2.5.1.4    python 2.7.11    matplotlib 1.5.1    scipy 0.17.0    click 6.6   system preparation"
+rg5ed,kumar,ashutosh,kam zhang,24,2.31,3.14,1.94,cdvs,omega 2.5.1   rocs 3.2.0   ligprep 2.8   glide 6.1  system preparation
+rm4m2,anonymous,anonymous,anonymous,24,2.84,3.7,2.33,"sybyl simularity suite, glide","sybyl x-1.3, glide in schrodinger 2017-2 release  system preparation"
+5addj,anonymous,anonymous,anonymous,24,3.21,3.78,2.87,gold/autodock vina/schrodinger/manual,gold/autodock vina/schrodinger   system preparation
+csz33,stroganov,oleg,"molecular technologies, llc",24,3.26,3.95,2.92,leadfinder template docking,leadfinder/buildmodel   system preparation
+rk8tj,zou,xiaoqin,xiaoqin zou,24,3.51,4.34,2.3,"a template-based method, xdz_1",omega 2.5/shafts/amber11/itscore2   system preparation
+5pmnj,iorga,bogdan,bogdan iorga,24,3.82,4.34,2.65,d3r-gc3-pose-best-score-constraints,cactvs chemoinformatics toolkit v3.433/schrodinger suite 2016-1/corina v3.60/ucsf chimera v1.10.2/gold v5.2   system preparation
+tjwks,iorga,bogdan,bogdan iorga,24,4.26,4.36,2.63,d3r-gc3-pose-best-rmsd,cactvs chemoinformatics toolkit v3.433/schrodinger suite 2016-1/corina v3.60/ucsf chimera v1.10.2/gold v5.2   system preparation
+fcneq,kumar,vikash,molecular simulations and design group,24,4.81,4.86,2.26,structure-guided docking using glide,open babel 2.3.2/ucsf chimera 1.11.2/maestro version 11.1.011  system preparation
+gior3,iorga,bogdan,bogdan iorga,24,4.85,5.19,3.28,d3r-gc3-pose-best-score,cactvs chemoinformatics toolkit v3.433/schrodinger suite 2016-1/corina v3.60/ucsf chimera v1.10.2/gold v5.2   system preparation
+fsi33,anonymous,anonymous,anonymous,24,4.94,5.56,3.34,pl/mct-tess descriptors and libsvm based pose prediction method,discovery studio 2017/omega 2.5/oedocking 3.0/entess/libsvm/matlab    system preparation
+ftbwp,grudinin,sergei,grudinin,24,5.24,6.07,3.54,convex-pl,"openbabel 2.3.2, rdkit 2017.03.3 for 3d coordinates generation; autodock vina and convex-pl for pose prediction, knodle for parametrization of small molecules  system preparation"
+45h2u,bedart/dafniet/dreano/serillon,corentin/bryan/loic/dylan,m2 isdd students - paris-diderot university,24,7.71,7.86,2.23,m2isdd_protocol,"mgltools 1.5.6 / autodocktools 1.5.6 / open babel 2.3.2 / open-source pymol 1.7.x / knime 3.4.0 + vsprep (gally, j. m., bourg, s., do, q.-t., aci-seche, s., bonnet, p.,  mol. inf., 36, 1700023 (2017))   system preparation"
+358c4,anonymous,anonymous,anonymous,24,9.46,8.76,3.08,gold/autodock vina,gold/autodock vina/schrodinger  system preparation
+8hvr2,anonymous,anonymous,anonymous,24,10.21,9.46,2.85,gold/autodock vina/schrodinger,gold/autodock vina/schrodinger   system preparation
+3cio8,jia,zhe,"emil alexov, feng ding",24,10.59,9.58,3.33,medusa-dock,medusa-dock 1.1   system preparation
+ttb25,zou,xiaoqin,xiaoqin zou,24,10.63,9.89,2.82,a hierarchical docking method xdz_3,omega 2.5/shafts/mgltools/autodock vina 1.0   system preparation
+fmgze,zou,xiaoqin,xiaoqin zou,24,8.26,9.92,5.02,a hierarchical docking method xdz_2,omega 2.5/shafts/mgltools/autodock vina 1.0/itscore2   system preparation
+trfpf,jia,zhe,"emil alexov, feng ding",24,11.16,10.08,3.42,medusa-dock,medusa-dock 1.1   system preparation
+shqkb,kim,minsup,cb2 / art e. cho,24,11.28,10.27,3.29,"survival of the fittest algorithm (as implemented in qm-polarized ligand docking of schrodinger, ref cho, a. e.; guallar, v.; berne, b.; friesner, r. a., j. comput. chem., 2005, 26, 915-931)","qm-polarized ligand docking (glide 6.6, qsite 6.6 and maestro 10.1 - schrodinger suites)   system preparation"
+bgb8u,sunseri,jocelyn,david koes,24,10.21,10.69,3.31,cnn docking with scoring model ranking,"docking performed with gnina commit b3fa6ae13fc6b42924f49b2d751d68f1bc14bc08 available from https//github.com/gnina/gnina , conformer generation performed with rdkit via https//github.com/dkoes/rdkit-scripts/rdconf.py, ensemble of receptors chosen via pocketome.    system preparation"
+fibez,anonymous,anonymous,anonymous,24,10.6,10.76,4.37,maestro/mgltools/autodock vina,maestro/mgltools/autodock vina method 1  system preparation
+ugy74,anonymous,anonymous,anonymous,24,11.02,10.8,3.63,openbabel/amber16/mgltools/autodock vina,openbabel/amber16/mgltools/autodock vina method 1  system preparation
+p2har,anonymous,anonymous,anonymous,24,10.85,10.92,3.53,openbabel/amber16/mgltools/autodock vina method 1,openbabel/amber16/mgltools/autodock vina method 1  system preparation
+dpxzb,sunseri,jocelyn,david koes,24,9.64,11.22,3.76,autodock vina docking with cnn scoring model rescoring,"docking performed with smina static binary available at https//sourceforge.net/projects/smina/files/ with default scoring function, then rescoring performed using gnina commit b3fa6ae13fc6b42924f49b2d751d68f1bc14bc08 available from https//github.com/gnina/gnina and the default cnn scoring model, conformer generation performed with rdkit via https//github.com/dkoes/rdkit-scripts/rdconf.py, ensemble of receptors chosen via pocketome.    system preparation"
+ac4vz,sunseri,jocelyn,david koes,24,11.11,11.55,2.97,autodock vina baseline,"docking performed with smina static binary available at https//sourceforge.net/projects/smina/files/ with default scoring function, conformer generation performed with rdkit via https//github.com/dkoes/rdkit-scripts/rdconf.py, ensemble of receptors chosen via pocketome.    system preparation"
+nnxyz,sunseri,jocelyn,david koes,24,11.69,12.25,2.64,cnn docking with affinity model ranking,"docking performed with gnina commit b3fa6ae13fc6b42924f49b2d751d68f1bc14bc08 available from https//github.com/gnina/gnina , conformer generation performed with rdkit via https//github.com/dkoes/rdkit-scripts/rdconf.py, ensemble of receptors chosen via pocketome.    system preparation"
+zji7u,bohmann,jonathan,medicinal and process chemistry,24,12.64,12.42,3.01,rhodium hts / center of mass guided,rhodium 380e9-x9/openbabel 2.3.90  / pymol 1.3   system preparation
+sy6su,warren,gregory,none,24,12.76,12.54,3.7,fhrs,fred v3.2.0.2  system preparation
+jgwcj,warren,gregory,none,24,12.85,12.62,3.46,fdef,fred v3.2.0.2  system preparation
+0xj63,sunseri,jocelyn,david koes,24,11.84,12.65,3.08,autodock vina docking with cnn affinity model rescoring,"docking performed with smina static binary available at https//sourceforge.net/projects/smina/files/ with default scoring function, then rescoring performed using gnina commit b3fa6ae13fc6b42924f49b2d751d68f1bc14bc08 available from https//github.com/gnina/gnina and the default cnn affinity model, conformer generation performed with rdkit via https//github.com/dkoes/rdkit-scripts/rdconf.py, ensemble of receptors chosen via pocketome.    system preparation"
+ppw0m,warren,gregory,none,24,12.76,13.11,3.55,ccfs,fred v3.2.0.2; smzap 1.2.1.4  system preparation
+un24c,warren,gregory,none,24,13.32,13.25,3.53,pcfs,fred v3.2.0.2; smzap 1.2.1.4  system preparation
+hdnka,varela rial,alejandro,computational biophysics,24,14.59,14.02,2.44,deep learning pharmacophore based docking,htmd1.7.43/openbabel2.4.1/rdkit2015.09.1/cryptoscout/mgltools-1.5.6/acemd3/   system preparation

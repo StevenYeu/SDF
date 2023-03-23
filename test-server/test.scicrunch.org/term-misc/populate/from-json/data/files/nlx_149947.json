@@ -1,0 +1,1 @@
+{"End Meterset":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_007A","SuperCategory":"DICOM term","Id":"nlx_149947","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Cumulative Meterset Weight within Beam referenced by Referenced Beam Number at which image acquisition ends."}}

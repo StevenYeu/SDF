@@ -1,0 +1,1 @@
+{"Memory Bit Depth":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:2000_00A0","CurationStatus":"uncurated","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150278","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"The amount of memory used to encode each element in a data matrix."}}

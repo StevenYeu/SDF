@@ -1,0 +1,10 @@
+30 9 * * 1 curl https://scicrunch.org/forms/updateSources.php
+0 10 * * 1 cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php check-saved-searches.php
+0 11 * * 3 cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php email-notifications.php
+0 * * * * cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php update_uuids.php
+0 21 1 * 4 cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php update-submitted-by-relationships.php
+* * * * * cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php update-data-status.php
+30 10 * * 1 cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php viewstatuses.php
+25 10 * * 1 cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php scigraph-resource-types-refresh.php
+00 15 * * 1 cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php term-elastic-upsert.php
+* * * * * cd /var/www/www.scicrunch.org/cron; /opt/remi/php56/root/bin/php dataset-upload-queue.php

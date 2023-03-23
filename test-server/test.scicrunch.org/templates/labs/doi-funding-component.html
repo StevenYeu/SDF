@@ -1,0 +1,30 @@
+<div class="modal-header">
+    <h3>Funding and Acknowledgements</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- FUNDING AGENCY -->
+        <div class="form-group">
+            <label>Funding Agency</label>
+            <input type="text" name="agency" class="form-control" ng-model="agency" value="{{ agency }}" >
+        </div>
+
+        <!-- FUNDING CITATION -->
+        <div class="form-group">
+            <label>Funding Identifier and PI Initials</label>
+            <input type="text" name="initials" class="form-control" ng-model="initials" value="{{ initials }}">
+            <br />
+            Examples: 23456 (ABC and XYZ); 94944 (EGH); (ATH)
+        </div>
+
+
+        <input type="hidden" name="position"  class="form-control" ng-model="position" value="{{ position }}" >
+        <input type="hidden" name="typee"  class="form-control" ng-model="typee" value="funding">
+    </div>
+    <div class="modal-footer">
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="update()">Update</button>
+        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="add()">Add</button>
+        <button ng-if="isUpdate" type="submit" class="btn btn-danger" ng-click="delete()">Remove</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

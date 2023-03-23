@@ -1,0 +1,1 @@
+{"Target Minimum Dose":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0025","SuperCategory":"DICOM term","Id":"nlx_151114","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Minimum permitted dose (in Gy) to Dose Reference if Dose Reference Type (300A,0020) is TARGET."}}

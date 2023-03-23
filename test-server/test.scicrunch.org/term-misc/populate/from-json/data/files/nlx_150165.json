@@ -1,0 +1,1 @@
+{"Instance Creator UID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0014","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_150165","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UI","Definition":"Uniquely identifies the device which created the SOP Instance."}}

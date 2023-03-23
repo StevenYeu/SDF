@@ -1,0 +1,1 @@
+{"Modality LUT Type":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_3004","SuperCategory":"DICOM term","Id":"nlx_150287","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Specifies the output values of this Modality LUT. Required if the Modality LUT Sequence (0028,3000) is sent."}}

@@ -1,0 +1,25 @@
+<div class="modal-body">
+    <div ng-show="!!new_field_type_ilx">
+        {{ selected_term = terms[new_field_type_ilx]; "" }}
+        <p>
+            <a target="_blank" href="/{{ portalName }}/interlex/view/{{ selected_term.ilx }}">
+                {{ selected_term.label }} ({{ selected_term.ilx }})
+            </a>
+            <br/>
+            {{ selected_term.definition }}
+        </p>
+    </div>
+    <input type="text" class="form-control" placeholder="Search CDEs"
+        ng-model="new_field_type_filter"
+        ng-model-options="{debounce : 700}"
+        ng-change="filterFieldTypes(new_field_type_filter)"/>
+    <select class="form-control" ng-model="new_field_type_ilx" size="10">
+        <option ng-repeat="(ilx, term) in terms" value="{{ term.ilx }}">
+            {{ term.label }}
+            ({{ term.ilx }})
+        </option>
+    </select>
+    <div style="height:5px"></div>
+    <button class="btn btn-success" ng-click="submit()">Submit</button>
+    <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+</div>

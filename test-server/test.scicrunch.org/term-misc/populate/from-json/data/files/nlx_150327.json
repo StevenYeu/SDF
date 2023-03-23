@@ -1,0 +1,1 @@
+{"Name of Physicians Reading Study":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_1060","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150327","Has role":"Scan-related personnel attribute","Is part of":"Resource:DICOM standard","Value_Representation":"PN","Definition":"Name of the physician(s) reading the study."}}

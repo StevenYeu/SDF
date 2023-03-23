@@ -1,0 +1,1 @@
+{"Convex 3-D shape":{"Comment":"Use this term or an is_a child of this term when the entire shape of the object is known","SuperCategory":"Shape","Id":"PATO_0002007","Definition":"A complete three dimensional shape in which for every line connecting a pair of points on the object is within the object. Or: a shape lacking cavities.  Contrast: concave."}}

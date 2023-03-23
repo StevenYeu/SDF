@@ -1,0 +1,1 @@
+{"Imaging Frequency":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0084","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150150","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Precession frequency in MHz of the nucleus being imaged."}}

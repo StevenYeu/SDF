@@ -1,0 +1,1 @@
+{"RT Plan Geometry":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_000C","SuperCategory":"DICOM term","Id":"nlx_150846","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Describes whether RT Plan is based on patient or treatment device geometry."}}

@@ -1,0 +1,57 @@
+###############################################################################
+#                       Generated for Scicrunch.org                           #
+###############################################################################
+version: "3.1"
+services:
+
+  mariadb:
+    image: scicrunch/scicrunch-ui:scicrunch-mariadbv1.03.14.2019
+    container_name: app-mariadb
+    working_dir: /var/www
+    volumes:
+      - ./test-server:/var/www
+      - ./test-db:/var/lib/mysql
+    environment:
+      - MYSQL_USER=FILL_IN
+      - MYSQL_ROOT_PASSWORD=FILL_IN
+      - MYSQL_DATABASE=nif_eelg
+    ports:
+      - "8083:3306"
+
+  webserver:
+    image: scicrunch/scicrunch-ui:scicrunch-nginxv1.03.14.2019
+    container_name: app-webserver
+    working_dir: /var/www
+    volumes:
+      - /home/ubuntu/certs:/etc/nginx/certs # Change to you own path to SSL Certs
+      - ./test-server:/var/www
+      - ./phpdocker/nginx/logs:/var/log/nginx
+      - ./phpdocker/nginx/client_body_temp:/var/nginx/client_body_temp
+
+      - ./phpdocker/nginx/conf.d:/etc/nginx/conf.d
+      - ./phpdocker/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./phpdocker/nginx/sites-available:/etc/nginx/sites-available
+      - ./phpdocker/nginx/sites-enabled:/etc/nginx/sites-enabled
+    ports:
+      - "443:443"
+    links:
+      - php-fpm
+
+  php-fpm:
+    build: phpdocker/php-fpm
+    container_name: app-php-fpm
+    working_dir: /var/www
+    volumes:
+      - ./test-server:/var/www
+      - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php5/fpm/conf.d/99-overrides.ini
+    links:
+      - mariadb
+    environment:
+      - CI_LOGON_SECRET=YOUR_SECRET # Obtained by registering app with CILogon
+      - CI_LOGON_CLIENT_ID=YOUR_CLIENT_ID # Obtained by registering app with CILogon
+      - MYSQL_USER=FILL_IN
+      - MYSQL_PASSWORD=FILL_IN
+      - MYSQL_DATABASE=FILL_IN
+      - MYSQL_HOST=FILL_IN
+      - CAPTCHA_KEY=FILL_IN
+      - CAPTCHA_SECRET=FILL_IN

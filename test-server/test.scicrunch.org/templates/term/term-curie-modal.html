@@ -1,0 +1,21 @@
+<script type="text/ng-template" id="curie-prefix-modal">
+    <div class="modal-header">
+        <h4>Enter curie for iri: {{ lastEid.iri }}</h4>
+    </div>
+    <form ng-submit="submit()">
+        <div class="modal-body form-group">
+            <label class="control-label col-sm-3">Curie</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control input-sm" ng-model="lastEid.curie" enter-directive />
+            </div>
+        </div>
+        <div class="modal-footer">
+<!--            <button class="btn btn-warning" ng-click="cancel()">Cancel</button> -->
+<!--            <input type="submit" class="btn primary-btn" ng-click="ok()" value="Submit" /> -->
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </form>
+
+{{ curie }}
+</script>

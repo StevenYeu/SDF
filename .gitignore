@@ -1,0 +1,4 @@
+docker-compose.yml
+phpdocker/nginx/logs 
+phpdocker/nginx/fastcgi_params
+phpdocker/nginx/mime.types

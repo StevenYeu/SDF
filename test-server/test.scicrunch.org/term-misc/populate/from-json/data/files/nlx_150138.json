@@ -1,0 +1,1 @@
+{"Image Path Filter Pass-Through Wavelength":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0022_0003","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150138","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Nominal pass-through wavelength of image path filter in nm."}}

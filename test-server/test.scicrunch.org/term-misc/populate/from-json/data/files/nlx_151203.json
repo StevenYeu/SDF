@@ -1,0 +1,1 @@
+{"Treatment Termination Code":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_002B","SuperCategory":"DICOM term","Id":"nlx_151203","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"Treatment machine termination code. This code is dependent upon the particular application and equipment."}}

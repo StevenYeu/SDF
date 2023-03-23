@@ -1,0 +1,1 @@
+{"Sequence of Ultrasound Regions":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_6011","SuperCategory":"DICOM term","Id":"nlx_150919","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Defines a sequence of Ultrasound Regions. One or more Items may be included in this Sequence."}}

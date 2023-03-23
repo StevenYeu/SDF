@@ -1,0 +1,41 @@
+<style>
+    recommendations-chip {
+        position: fixed;
+        width: 215px;
+        right: 200px;
+        bottom: 0px;
+        z-index: 16000002;
+    }
+    
+    recommendations-chip .panel {
+        margin-bottom: 0;
+    }
+    
+    #collapseRecommendations .panel-body {
+        max-height: 300px;
+        overflow: scroll;
+    }
+    
+    #recommendations-panel .badge {
+        background-color: red;
+    }
+</style>
+
+<div class="panel panel-default" style="display: none;">
+    <div class="panel-heading" role="tab" id="recommendations-panel">
+        <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseRecommendations" aria-expanded="false" aria-controls="collapseRecommendations" onclick="ga('send', 'event', 'recommendations-chip', 'click')">
+                <strong>Recommendations</strong>
+                <span class="badge pull-right"></span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapseRecommendations" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+            <h6>You might want to look into:</h6>
+            <ul>
+                <!--Recommendations go in here-->
+            </ul>
+        </div>
+    </div>
+</div>

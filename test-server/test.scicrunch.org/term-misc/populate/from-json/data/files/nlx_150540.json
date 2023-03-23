@@ -1,0 +1,1 @@
+{"Pixel Bandwidth":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0095","SuperCategory":"DICOM term","Id":"nlx_150540","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Reciprocal of the total sampling period, in hertz per pixel."}}

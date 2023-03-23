@@ -1,0 +1,1 @@
+{"Delivered Meterset":{"ValueRepresentation":"DS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_0044","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149839","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Machine setting actually delivered at current control point."}}

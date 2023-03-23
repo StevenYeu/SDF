@@ -1,0 +1,1 @@
+{"Steering Angle":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_6036","SuperCategory":"DICOM term","Id":"nlx_151040","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FD","Definition":"The steering angle, as defined by the manufacturer, used for a steered 2D image. The units are degrees."}}

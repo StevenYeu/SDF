@@ -1,0 +1,1 @@
+{"Recorded Channel Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_0130","SuperCategory":"DICOM term","Id":"nlx_150661","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Introduces sequence of Channels for current Application Setup. The sequence may contain one or more items."}}

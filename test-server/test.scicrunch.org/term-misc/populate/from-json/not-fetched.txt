@@ -1,0 +1,181 @@
+"129P3/J"  id:"birnlex_397" NOT FETCHED!
+":Category:DBA/1LacJ"  id:"birnlex_403" NOT FETCHED!
+":Category:DBA/2"  id:"birnlex_262" NOT FETCHED!
+":Category:DBA/2BiJ"  id:"birnlex_412" NOT FETCHED!
+":Category:DBA/2DeJ"  id:"birnlex_288" NOT FETCHED!
+":Category:DBA/2HaSmnJ"  id:"birnlex_195" NOT FETCHED!
+"6"  id:"birnlex_398" NOT FETCHED!
+"6J"  id:"birnlex_393" NOT FETCHED!
+":Category:C57BL/6JEiJ"  id:"birnlex_472" NOT FETCHED!
+":Category:C57BL/6NJ"  id:"birnlex_475" NOT FETCHED!
+":Category:DBA/8BiDsmJ"  id:"birnlex_207" NOT FETCHED!
+"ReJ"  id:"birnlex_152" NOT FETCHED!
+"JEmsJ"  id:"birnlex_104" NOT FETCHED!
+"RrRkJ"  id:"birnlex_109" NOT FETCHED!
+"SvImJ"  id:"birnlex_106" NOT FETCHED!
+"SvEvTac"  id:"birnlex_174" NOT FETCHED!
+"SvEms"  id:"birnlex_544" NOT FETCHED!
+"SvEmsJ"  id:"birnlex_548" NOT FETCHED!
+"SvJ"  id:"birnlex_557" NOT FETCHED!
+":Category:5-HT1A receptor (nifext 5891)"  id:"nifext_5891" NOT FETCHED!
+"HeJ"  id:"birnlex_581" NOT FETCHED!
+":Category:A/J"  id:"birnlex_577" NOT FETCHED!
+"WySnJ"  id:"birnlex_592" NOT FETCHED!
+":Category:AMPA Receptor"  id:"sao265434492" NOT FETCHED!
+"Pogonophora group"  id:"birnlex_342" NOT FETCHED!
+"CJ"  id:"birnlex_597" NOT FETCHED!
+"FeJ"  id:"birnlex_134" NOT FETCHED!
+":Category:CBA/J"  id:"birnlex_599" NOT FETCHED!
+":Category:Choride current"  id:"nifext_8058" NOT FETCHED!
+":Category:Cytoplasmic Vesicle"  id:"sao180601769" NOT FETCHED!
+":Category:DBA/1J"  id:"birnlex_389" NOT FETCHED!
+"NJ"  id:"birnlex_499" NOT FETCHED!
+":Category:Glial Subcompartment"  id:"sao1253297813" NOT FETCHED!
+"Thoracotremata group"  id:"birnlex_414" NOT FETCHED!
+"Neuropeptide AF receptor"  id:"nifext_5776" NOT FETCHED!
+"Neuropeptide B receptor"  id:"nifext_5296" NOT FETCHED!
+":Category:Neurotransmitter Associated Protein"  id:"sao1440704204" NOT FETCHED!
+":Category:NMDA Receptor"  id:"sao794753833" NOT FETCHED!
+":Category:Number b=0 volumes"  id:"birnlex_3052" NOT FETCHED!
+":Category:Protein complex"  id:"birnlex_24" NOT FETCHED!
+":Category:Regional Part Of Epithelial Cell"  id:"sao1974433376" NOT FETCHED!
+":Category:Regional Part Of Glial Cell"  id:"sao895885284" NOT FETCHED!
+":Category:Regional Part Of Schwann Cell"  id:"sao195217619" NOT FETCHED!
+":Category:Regional Part Of Tanycyte"  id:"sao877341397" NOT FETCHED!
+":Category:Reporter role"  id:"birnlex_11020" NOT FETCHED!
+"J"  id:"birnlex_507" NOT FETCHED!
+"LPC receptor"  id:"nifext_6202" NOT FETCHED!
+"LPC receptor - unspecified 1"  id:"nifext_6203" NOT FETCHED!
+"LPC receptor - unspecified 2"  id:"nifext_6470" NOT FETCHED!
+"LPC receptor - unspecified 3"  id:"nifext_6684" NOT FETCHED!
+"LPC receptor - unspecified 4"  id:"nifext_8029" NOT FETCHED!
+"Velocity"  id:"PATO_0000008" NOT FETCHED!
+":Category:TA5 receptor (nifext 7380)"  id:"nifext_7380" NOT FETCHED!
+":Category:TA5 receptor (nifext 7383)"  id:"nifext_7383" NOT FETCHED!
+":Category:Type I/II Oligodendrocyte"  id:"sao-32901633" NOT FETCHED!
+":Category:Type III/IV Oligodendrocyte"  id:"nifext_167" NOT FETCHED!
+"Oxytocin receptor"  id:"nifext_5796" NOT FETCHED!
+":Category:Vesicle Other"  id:"sao577473346" NOT FETCHED!
+"Accession Number"  id:"nlx_151694" NOT FETCHED!
+"Agranular insular area dorsal part layer 2/3 of ABA 2009"  id:"nlx_153159" NOT FETCHED!
+"Agranular insular area posterior part layer 2/3 of ABA 2009"  id:"nlx_153165" NOT FETCHED!
+"Agranular insular area ventral part layer 2/3 of ABA 2009"  id:"nlx_153788" NOT FETCHED!
+"Amygdala of PHT00"  id:"nlx_br_927" NOT FETCHED!
+"Anterior cingulate area dorsal part layer 2/3 of ABA 2009"  id:"nlx_153711" NOT FETCHED!
+"Anterior cingulate area layer 2/3 of ABA 2009"  id:"nlx_153376" NOT FETCHED!
+"Anterior cingulate area ventral part layer 2/3 of ABA 2009"  id:"nlx_153678" NOT FETCHED!
+"Anterior commisure"  id:"nlx_144088,birnlex_1557" NOT FETCHED!
+"Anterolateral visual area layer 2/3 of ABA 2009"  id:"nlx_152927" NOT FETCHED!
+"Anteromedial visual area layer 2/3 of ABA 2009"  id:"nlx_153145" NOT FETCHED!
+"B6.129-Smn1tm1Jme/J"  id:"nlx_73783" NOT FETCHED!
+"B6;C3-Tg(Prnp-MAPT*P301S)PS19Vle/J mouse"  id:"nlx_organ_20090203" NOT FETCHED!
+"B6;C3-Tg(Prnp-SNCA*A53T)83Vle/J mouse"  id:"nlx_organ_20090204" NOT FETCHED!
+"B6;D2-Tg(Thy-1-SNCA*A30P)44Ema mouse"  id:"birnlex_910" NOT FETCHED!
+"B6CBA-Tg(HDexon1)62Gpb/1J mouse"  id:"nlx_organ_20090205" NOT FETCHED!
+"B6CBA-Tg(HDexon1)62Gpb/3J"  id:"nlx_21239" NOT FETCHED!
+"B6CBACa Aw-J/A-Kcnj6wv/J mouse"  id:"birnlex_125" NOT FETCHED!
+"B6CBAF1/J"  id:"JAX: Stock number 100011" NOT FETCHED!
+"B6SJL-Tg(APPSwFILon,PSEN1*M146L*L286V)6799Vas mouse"  id:"nlx_organ_20090202" NOT FETCHED!
+"B6SJL-Tg(SOD1*G93A)1Gur/J mouse"  id:"nlx_organ_20090201" NOT FETCHED!
+"BALB/c"  id:"nlx_73985,birnlex_206" NOT FETCHED!
+"Brodmann area 17"  id:"nlx_38899,birnlex_1748" NOT FETCHED!
+"Brodmann partion scheme region"  id:"nlx_40280,birnlex_1731" NOT FETCHED!
+"C"  id:"birnlex_206" NOT FETCHED!
+"C57BL/6"  id:"nlx_143666,birnlex_398" NOT FETCHED!
+"C57BL/6J"  id:"nlx_45695,birnlex_393" NOT FETCHED!
+"Contrast/Bolus Agent Number"  id:"nlx_149776" NOT FETCHED!
+"Contrast/Bolus Ingredient Code Sequence"  id:"nlx_149777" NOT FETCHED!
+"DB/dt"  id:"nlx_149823" NOT FETCHED!
+"Dch3 / 1 neuron"  id:"nlx_146731" NOT FETCHED!
+"Decimate/Crop Result"  id:"nlx_149833" NOT FETCHED!
+"Dentate gyrus polymorphic layer"  id:"nlx_42439,birnlex_4128" NOT FETCHED!
+"Dorsal auditory area layer 2/3 of ABA 2009"  id:"nlx_153761" NOT FETCHED!
+"Dorsal nucleus raphé of ABA 2009"  id:"nlx_152976" NOT FETCHED!
+"Dorsal peduncular area layer 2/3 of ABA 2009"  id:"nlx_153355" NOT FETCHED!
+"Dorsal spinocerebellar tract cell"  id:"nlx_143534,nifext_102" NOT FETCHED!
+"Ectorhinal area/Layer 1 of ABA 2009"  id:"nlx_153797" NOT FETCHED!
+"Ectorhinal area/Layer 2/3 of ABA 2009"  id:"nlx_153310" NOT FETCHED!
+"Ectorhinal area/Layer 5 of ABA 2009"  id:"nlx_153579" NOT FETCHED!
+"Ectorhinal area/Layer 6a of ABA 2009"  id:"nlx_153365" NOT FETCHED!
+"Ectorhinal area/Layer 6b of ABA 2009"  id:"nlx_153564" NOT FETCHED!
+"Embryonic / larval central nervous system"  id:"nlx_146646" NOT FETCHED!
+"Embryonic / larval olfactory receptor neuron"  id:"nlx_148093" NOT FETCHED!
+"Entorhinal area lateral part layer 2/3 of ABA 2009"  id:"nlx_153390" NOT FETCHED!
+"Entorhinal area lateral part layer 4/5 of ABA 2009"  id:"nlx_153743" NOT FETCHED!
+"Entorhinal area lateral part layer 5/6 of ABA 2009"  id:"nlx_153482" NOT FETCHED!
+"Entorhinal area medial part dorsal zone layer 5/6 of ABA 2009"  id:"nlx_153100" NOT FETCHED!
+"Entorhinal area medial part ventral zone layer 5/6 of ABA 2009"  id:"nlx_153481" NOT FETCHED!
+"Filler Order Number / Imaging Service Request"  id:"nlx_149991" NOT FETCHED!
+"Filler Order Number / Procedure"  id:"nlx_149992" NOT FETCHED!
+"Frontal pole layer 2/3 of ABA 2009"  id:"nlx_153200" NOT FETCHED!
+"FVB-Tg(YAC128)53Hay/J"  id:"nlx_34651" NOT FETCHED!
+"FVB.Cg-Tg(SMN2)89Ahmb Smn1tm1Msd/J"  id:"nlx_39036" NOT FETCHED!
+"FVB.Cg-Tg(SMN2)89Ahmb Smn1tm1Msd/J mouse"  id:"nlx_29840" NOT FETCHED!
+"FVB.Cg-Tg(SMN2*delta7)4299Ahmb Tg(SMN2)89Ahmb Smn1tm1Msd/J"  id:"nlx_13117" NOT FETCHED!
+"FVB.Cg-Tg(SMN2*delta7)4299Ahmb Tg(SMN2)89Ahmb Smn1tm1Msd/J mouse"  id:"nlx_10066" NOT FETCHED!
+"Gantry/Detector Slew"  id:"nlx_150059" NOT FETCHED!
+"Gustatory areas layer 2/3 of ABA 2009"  id:"nlx_153373" NOT FETCHED!
+"Infralimbic area layer 2/3 of ABA 2009"  id:"nlx_153068" NOT FETCHED!
+"Ion Channel"  id:"oen_0001181" NOT FETCHED!
+"Label"  id:"Id" NOT FETCHED!
+"Larval olfactory receptor neuron Or33b / Or47a"  id:"nlx_148731" NOT FETCHED!
+"Lateral visual area layer 2/3 of ABA 2009"  id:"nlx_153748" NOT FETCHED!
+"Leaf/Jaw Positions"  id:"nlx_150232" NOT FETCHED!
+"MR FOV/Geometry Sequence"  id:"nlx_150304" NOT FETCHED!
+"MR Spectroscopy FOV/Geometry Sequence"  id:"nlx_150312" NOT FETCHED!
+"Mushroom body alpha / beta neuron"  id:"nlx_148596" NOT FETCHED!
+"Mushroom body alpha' / beta' neuron"  id:"nlx_148597" NOT FETCHED!
+"Neocortex primary visual layer 5 corticopontine/tectal pyramidal cell"  id:"nlx_143938" NOT FETCHED!
+"Neostriatum gaba/parvalbumin interneuron"  id:"nifext_143" NOT FETCHED!
+"Neostriatum SOM/NOS cell"  id:"nifext_144" NOT FETCHED!
+"Node Of Ranvier"  id:"birnlex_1152_2" NOT FETCHED!
+"Number of Leaf/Jaw Pairs"  id:"nlx_150361" NOT FETCHED!
+"Object boundary"  id:"ObjectBoundary" NOT FETCHED!
+"Orbital area layer 2/3 of ABA 2009"  id:"nlx_153692" NOT FETCHED!
+"Orbital area medial part layer 2/3 of ABA 2009"  id:"nlx_153675" NOT FETCHED!
+"Orbital area ventrolateral part layer 2/3 of ABA 2009"  id:"nlx_153318" NOT FETCHED!
+"Perirhinal area layer 2/3 of ABA 2009"  id:"nlx_153674" NOT FETCHED!
+"Placer Order Number / Imaging Service Request"  id:"nlx_150556" NOT FETCHED!
+"Placer Order Number / Procedure"  id:"nlx_150557" NOT FETCHED!
+"Plantar Test/Tail Flick Meter"  id:"nlx_152770" NOT FETCHED!
+"Population Quality"  id:"sao336034368" NOT FETCHED!
+"Posterior auditory area layer 2/3 of ABA 2009"  id:"nlx_153022" NOT FETCHED!
+"Posterior parietal association areas layer 2/3 of ABA 2009"  id:"nlx_153556" NOT FETCHED!
+"Posterolateral visual area layer 2/3 of ABA 2009"  id:"nlx_153294" NOT FETCHED!
+"Posteromedial visual area layer 2/3 of ABA 2009"  id:"nlx_153607" NOT FETCHED!
+"Prelimbic area layer 2/3 of ABA 2009"  id:"nlx_153066" NOT FETCHED!
+"Primary auditory area layer 2/3 of ABA 2009"  id:"nlx_153498" NOT FETCHED!
+"Primary motor area Layer 2/3 of ABA 2009"  id:"nlx_153146" NOT FETCHED!
+"Primary somatosensory area barrel field layer 2/3"  id:"nlx_157673" NOT FETCHED!
+"Primary somatosensory area barrel field layer 2/3 of ABA 2009"  id:"nlx_153341" NOT FETCHED!
+"Primary somatosensory area layer 2/3 of ABA 2009"  id:"nlx_153028" NOT FETCHED!
+"Primary somatosensory area lower limb layer 2/3 of ABA 2009"  id:"nlx_153075" NOT FETCHED!
+"Primary somatosensory area mouth layer 2/3 of ABA 2009"  id:"nlx_152997" NOT FETCHED!
+"Primary somatosensory area nose layer 2/3 of ABA 2009"  id:"nlx_153161" NOT FETCHED!
+"Primary somatosensory area trunk layer 2/3 of ABA 2009"  id:"nlx_152983" NOT FETCHED!
+"Primary somatosensory area upper limb layer 2/3 of ABA 2009"  id:"nlx_153448" NOT FETCHED!
+"Primary visual area layer 2/3 of ABA 2009"  id:"nlx_153537" NOT FETCHED!
+"Protein"  id:"PRO:000000001" NOT FETCHED!
+"Query / Retrieve Level"  id:"nlx_152154" NOT FETCHED!
+"Query/Retrieve Level"  id:"nlx_150616" NOT FETCHED!
+"Requested Decimate/Crop Behavior"  id:"nlx_150782" NOT FETCHED!
+"Retina On/Off-Parasol Ganglion Cell"  id:"nlx_144276" NOT FETCHED!
+"Retrosplenial area dorsal part layer 2/3 of ABA 2009"  id:"nlx_153483" NOT FETCHED!
+"Retrosplenial area lateral agranular part layer 2/3 of ABA 2009"  id:"nlx_153479" NOT FETCHED!
+"Retrosplenial area ventral part layer 2/3 of ABA 2009"  id:"nlx_153566" NOT FETCHED!
+"Secondary motor area layer 2/3 of ABA 2009"  id:"nlx_153461" NOT FETCHED!
+"SmnF7/Smn7, NSE-Cre+ mouse"  id:"nlx_143964" NOT FETCHED!
+"Somatomotor areas Layer 2/3 of ABA 2009"  id:"nlx_153745" NOT FETCHED!
+"Superior central nucleus raphé of ABA 2009"  id:"nlx_153034" NOT FETCHED!
+"Supplemental somatosensory area layer 2/3 of ABA 2009"  id:"nlx_153337" NOT FETCHED!
+"SWR/J"  id:"JAX: Stock number 000689" NOT FETCHED!
+"T2* relaxation time"  id:"birnlex_2145" NOT FETCHED!
+"T2*-weighted MRI 2D image"  id:"nlx_156818" NOT FETCHED!
+"T2*-weighted MRI 3D image"  id:"nlx_156810" NOT FETCHED!
+"Temporal association areas layer 2/3 of ABA 2009"  id:"nlx_153489" NOT FETCHED!
+"The community can contribute to this resource"  id:"nlx_152500" NOT FETCHED!
+"Upper/Lower Pixel Values"  id:"nlx_151221" NOT FETCHED!
+"Ventral auditory area layer 2/3 of ABA 2009"  id:"nlx_153059" NOT FETCHED!
+"Visceral area layer 2/3 of ABA 2009"  id:"nlx_153503" NOT FETCHED!
+"Visual areas layer 2/3 of ABA 2009"  id:"nlx_153646" NOT FETCHED!
+"What projects to the nucleus basalis"  id:"nlx_152121" NOT FETCHED!

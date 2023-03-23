@@ -1,0 +1,80 @@
+<div>
+    <p>A CSV file (comma-separated values) is a file where each field is separated by commas.</p>
+    <hr/>
+    <h5><strong>To create a CSV from Excel:</strong></h5>
+    <p>
+        <strong>File</strong> -> <strong>Export</strong> -> <strong>Change File Type</strong> -> <strong>CSV (Comma-delimited)</strong>
+        <img class="img-responsive" src="/images/excel-csv-export.png" />
+    </p>
+    <hr/>
+    <h5><strong>The CSV format:</strong></h5>
+    <p>The first line is the header of the dataset and each following lines are data records.</p>
+    <p>
+        For example this table:
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Experiment</th>
+                    <th>Measurement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>EtOH</td>
+                    <td>0.13</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>EtOH</td>
+                    <td>0.15</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>EtOH</td>
+                    <td>1.01</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>EtOH</td>
+                    <td>0.90</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>ZTDO, 1mM</td>
+                    <td>4.02</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>ZTDO, 1mM</td>
+                    <td>4.94</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>ZTDO, 1mM</td>
+                    <td>4.66</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>ZTDO, 1mM</td>
+                    <td>4.79</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+    <p>
+        Would look like this in CSV format:
+    </p>
+    <pre>
+Subject,Experiment,Measurement
+A,EtOH,0.13
+A,EtOH,0.15
+B,EtOH,1.01
+B,EtOH,0.90
+C,"ZTDO, 1mM",4.02
+C,"ZTDO, 1mM",4.94
+D,"ZTDO, 1mM",4.66
+D,"ZTDO, 1mM",4.79
+    </pre>
+</div>

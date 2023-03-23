@@ -1,0 +1,1 @@
+{"X-Ray Output":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_0312","SuperCategory":"DICOM term","Id":"nlx_151272","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The X-Ray output at the patient entrance surface and kVp used to acquire the image, measured in mGy\/mAs."}}

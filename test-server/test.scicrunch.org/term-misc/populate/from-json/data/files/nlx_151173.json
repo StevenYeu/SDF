@@ -1,0 +1,1 @@
+{"Transaction UID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_1195","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_151173","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UI","Definition":"The universal ID of the referenced transaction."}}

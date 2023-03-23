@@ -1,0 +1,1 @@
+{"DVH Normalization Point":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3004_0040","SuperCategory":"DICOM term","Id":"nlx_149927","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Coordinates (x, y, z) of common DVH normalization point in the patient based coordinate system."}}

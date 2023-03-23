@@ -1,0 +1,1 @@
+{"General Purpose Performed Procedure Step Status":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_4002","SuperCategory":"DICOM term","Id":"nlx_150061","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Contains the state of the Performed Procedure Step."}}

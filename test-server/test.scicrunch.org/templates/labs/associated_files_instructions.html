@@ -1,0 +1,32 @@
+                    <h2>ODC Data Dictionary Quick Guidelines</h2>
+                    <p><a target="_blank" href="/upload/community-components/ODC_Data_Dictionary_Template.csv">Download the Data Dictionary template here <img src="/images/csv-file-format-extension.png" height="24px"></a>.</p>
+
+                    <p>The data dictionary provides critical information for the interpretability and reusability of the dataset. When you submit a data dictionary, we will verify that:</p>
+                        <ul>
+                            <li>The Data Dictionary includes the columns: VariableName, Title, Unit_of_Measure, Description, and Comments.</li>
+                            <li>Every Variable (i.e. column) in the dataset is listed under the VariableName column of the data dictionary. </li>
+                            <li>The Data dictionary is a “.csv” formatted file.</li>
+                        </ul>
+
+                    <p>When a dataset is submitted for DOI and publication, we will require that a data dictionary is included with the submission. The submitted dictionary must have all 9 required columns filled appropriately and will be validated as part of the submission and publication process.</p>
+
+                        <ol>
+                            <li>
+                            <ol>If you are not submitting the dataset for publication yet, you only need to provide:
+                                <li>VariableName:  Column containing the Variable (i.e. Column) names of the dataset</li>
+                                <li>Title: Column containing full names of the Variable. E.g. defining acronyms, etc. </li>
+                                <li>Unit_of_Measure: Column containing units for the Variable if applicable </li>
+                                <li>Description: Column containing additional definitions and descriptions of the variable. The description should explain what the variables represent in enough detail such that a reader can understand the content of the variable. </li>
+                                <li>Comments: Column for additional notes such as reasons for subject exclusion, special values, etc.</li>
+                            </ol>
+                            </li>
+        
+                            <li>
+                            <ol>If the dataset is being submitted for DOI and publication, you must also provide:
+                                <li>PermittedValues: A list of all possible values or a range of values for quantitative variables.</li>
+                                <li>DataType: Whether the Variable (i.e. column) contains Numeric, Categorical, Ordinal, etc data types.</li>
+                                <li>MaximumValue: Maximum possible value (if applicable)</li>
+                                <li>MinimumValue: Minimum possible value (if applicable)</li>
+                            </ol>
+                            </li>
+                        </ol>                    

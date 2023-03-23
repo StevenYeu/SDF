@@ -1,0 +1,1 @@
+{"Measured Dose Value":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_0016","SuperCategory":"DICOM term","Id":"nlx_150271","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Measured Dose in units specified by Dose Units (3004, 0002)."}}

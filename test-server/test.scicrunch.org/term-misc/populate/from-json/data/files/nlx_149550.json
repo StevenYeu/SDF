@@ -1,0 +1,1 @@
+{"Angio Flag":{"ValueRepresentation":"CS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0025","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_149550","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Angio Image Indicator. Primary image for Angio processing."}}

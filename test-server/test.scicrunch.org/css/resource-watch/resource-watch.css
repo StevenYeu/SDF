@@ -1,0 +1,231 @@
+
+/*************** Start of Loaders ***************/
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #00b359;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*************** End of Loaders ***************/
+
+
+/*************** Start of Overwriting default CSS ***************/
+
+#confirmButton:hover {
+  background-color:#f3f3f3;
+}
+
+#statementBlock {
+  min-width:500px;
+}
+
+#searchBlock {
+  min-width:400px;
+}
+
+#vendorBlock {
+  min-width:400px;
+}
+
+#detailBlock {
+  min-width:700px;
+}
+
+#instructionsBlock {
+  border-style:solid;
+  border-width: thin;
+}
+
+#instructions {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#docInput {
+  float:left;
+  color:red;
+}
+
+#otherRecordType, #descriptionField {
+  color:red;
+}
+
+#description {
+  color:black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+.removeEntry {
+  color:red;
+  margin-left:50px;
+  float:right;
+  height:20px;
+  width:50px;
+  cursor: pointer;
+}
+
+.form-control-plaintext {
+  border:0;
+}
+
+a, a:hover, li a {
+  color: #00b359;
+}
+
+.btn, .btn-u {
+  background: #00b359;
+}
+
+.btn:hover, .btn-u:hover {
+  background: #00994d !important;
+}
+
+.btn:focus, .btn-u:focus {
+  background-color: #00994d !important;
+}
+
+.redirectBttn {
+  display: inline-block;
+  white-space: initial;
+  overflow: hidden;
+}
+
+.invalid:required {
+  border: 2px solid red;
+}
+
+.modal-content {
+  width:100%;
+}
+
+.modal-dialog-centered {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  min-height:calc(100% - (.5rem * 2));
+}
+
+@media (min-width: 576px) {
+  .modal-dialog-centered {
+    min-height:calc(100% - (1.75rem * 2));
+  }
+}
+
+/*************** End of Overwriting default CSS ***************/
+
+/*************** Start of PAGE HEADER ***************/
+.header-v1 .navbar-default .navbar-nav > li > a:hover, .header-v1 .navbar-default .navbar-nav > .active > a, .header-v1 .navbar-default .navbar-nav > li:hover > a {
+	color: #fff;
+	background: #00b359 !important;
+}
+
+.header-v1 .navbar-default .navbar-nav > li > a:focus, .header-v1 .navbar-default .navbar-nav > .active > a, .header-v1 .navbar-default .navbar-nav > li:focus > a {
+	color: #00cc66 !important;
+	background: #00b359 !important;
+}
+
+.header .navbar-default .navbar-nav > .open > a {
+	color: #00b359 !important;
+	background: #00b359 !important;
+}
+
+.header .dropdown-menu {
+	border-top: solid 2px #00b359 !important;
+}
+
+.topbar-link:hover {
+	color: #00b359 !important;
+}
+
+.header .navbar-default .navbar-nav > li > a:hover, .header .navbar-default .navbar-nav > .active > a {
+	border-bottom: solid 2px #00b359 !important;
+}
+
+.header-v1 .navbar .nav > li > .search:hover {
+	background: #00b359 !important;
+}
+
+.header .navbar .nav > li > .search:hover {
+	color: #00b359;
+	border-bottom-color: #00b359 !important;
+}
+
+.top-v1-data .btn-group.open .dropdown-menu {
+	display: block;
+	text-align: left;
+}
+
+.top-v1-data .btn-group.open .dropdown-menu li {
+	display: block;
+	padding: 0px;
+}
+
+.header-v1 .navbar-default .navbar-nav > li > a {
+	padding: 12px 30px 9px 20px;
+}
+
+.header-v1 .navbar .nav > li > .search {
+	padding: 12px 10px;
+}
+
+.header .navbar-brand {
+	top: 10px;
+}
+
+.header-v1 .dropdown > a:after {
+	top: 13px;
+}
+
+.breadcrumb li.active {
+	color: #fff; /** Original #72c02c**/
+  font-weight: bold;
+}
+
+.breadcrumb li a:hover  {
+	color: #00b359; /** Original #72c02c**/
+  font-weight: bold;
+}
+
+/*************** End of PAGE HEADER ***************/
+
+/*************** Start of PAGE FOOTER ***************/
+
+.footer .headline h2, .footer .headline h3, .footer .headline h4 {
+    border-bottom: 2px solid #00b359 !important;
+}
+
+.copyright a, .footer a:hover, .copyright a:hover {
+    color: #00b359 !important;
+}
+
+.footer-default .footer .dl-horizontal p a:hover {
+    color: #00b359 !important;
+}
+
+.posts .dl-horizontal:hover dt img,.posts .dl-horizontal:hover dd a {
+    color: #00b359 !important;
+	border-color: #00b359 !important;
+}
+
+
+/*************** Start of PAGE FOOTER ***************/

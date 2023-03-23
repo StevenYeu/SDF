@@ -1,0 +1,1 @@
+{"First Treatment Date":{"ValueRepresentation":"DA","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_0054","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150005","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DA","Definition":"The date of the first treatment."}}

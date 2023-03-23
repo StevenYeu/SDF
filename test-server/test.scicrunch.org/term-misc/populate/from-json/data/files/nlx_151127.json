@@ -1,0 +1,1 @@
+{"Temporal Position Index":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_9128","SuperCategory":"DICOM term","Id":"nlx_151127","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"Ordinal number (starting from 1) of the frame in the set of frames with different temporal positions."}}

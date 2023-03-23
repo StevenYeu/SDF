@@ -1,0 +1,1 @@
+{"Oversampling Phase":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9029","SuperCategory":"DICOM term","Id":"nlx_150448","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Oversampling Phase. Required if Image Type (0008,0008) Value 1 is ORIGINAL or MIXED. May be present otherwise."}}

@@ -1,0 +1,1 @@
+{"Skip Beats":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1086","SuperCategory":"DICOM term","Id":"nlx_150945","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Number of beats skipped after a detected arrhythmia."}}

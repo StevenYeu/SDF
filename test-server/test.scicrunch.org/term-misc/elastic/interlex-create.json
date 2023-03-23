@@ -1,0 +1,84 @@
+{
+  "settings": {
+
+    "analysis": {
+      "analyzer": {
+        "term_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["standard","lowercase","term_filter"]
+        }
+      },
+      "filter": {
+        "term_filter": {
+          "type": "word_delimiter",
+          "generate_word_parts": true,
+          "preserve_original": true,
+          "generate_number_parts": true
+        }
+      }
+    }
+  },
+  "mappings": {
+    "term": {
+      "properties": {
+        "ilx": {
+          "type": "string",
+          "analyzer": "term_analyzer"
+        },
+        "superclasses": {
+          "properties": { 
+            "ilx": {
+             "type": "string",
+             "analyzer": "term_analyzer"            
+            }
+          }
+        },
+        "ancestors": {
+          "properties": { 
+            "ilx": {
+             "type": "string",
+             "analyzer": "term_analyzer"            
+            }
+          }
+        },
+        "existing_ids": {
+          "properties": { 
+            "curie": {
+              "type": "string",
+              "analyzer": "term_analyzer"
+            }
+          }
+        },
+        "relationships": {
+          "properties": {
+            "term1_ilx": {
+              "type": "string",
+              "analyzer": "term_analyzer"
+            },
+            "term2_ilx": {
+              "type": "string",
+              "analyzer": "term_analyzer"
+            },
+            "relationship_term_ilx": {
+              "type": "string",
+              "analyzer": "term_analyzer"              
+            }
+          }
+        },
+        "annotations": {
+          "properties": {
+            "term_ilx": {
+              "type": "string",
+              "analyzer": "term_analyzer"
+            },
+            "annotation_term_ilx": {
+              "type": "string",
+              "analyzer": "term_analyzer"              
+            }            
+          }
+        }
+      }
+    }
+  }
+}

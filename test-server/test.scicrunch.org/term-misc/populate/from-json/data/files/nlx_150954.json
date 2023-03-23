@@ -1,0 +1,1 @@
+{"Slide Identifier":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_06FA","SuperCategory":"DICOM term","Id":"nlx_150954","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"Identifier of the Slide. Required if a sequence item is present and the Specimen is a Slide."}}

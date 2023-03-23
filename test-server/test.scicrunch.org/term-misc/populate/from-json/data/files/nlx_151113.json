@@ -1,0 +1,1 @@
+{"Target Maximum Dose":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0027","SuperCategory":"DICOM term","Id":"nlx_151113","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Maximum permitted dose (in Gy) to Dose Reference if Dose Reference Type (300A,0020) is TARGET."}}

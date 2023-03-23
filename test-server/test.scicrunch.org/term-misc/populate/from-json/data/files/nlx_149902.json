@@ -1,0 +1,1 @@
+{"Doppler Correction Angle":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_6034","SuperCategory":"DICOM term","Id":"nlx_149902","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FD","Definition":"The Doppler correction angle. The units are degrees."}}

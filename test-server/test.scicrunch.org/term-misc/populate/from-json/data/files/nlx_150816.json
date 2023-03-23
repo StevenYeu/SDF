@@ -1,0 +1,1 @@
+{"ROI Generation Algorithm":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3006_0036","SuperCategory":"DICOM term","Id":"nlx_150816","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Type of algorithm used to generate ROI. Required if Structure Set ROI Sequence (3006,0020) is sent."}}

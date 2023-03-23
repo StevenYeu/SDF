@@ -1,0 +1,167 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Proper Citation",
+            "esField": "rrid.properCitation",
+            "facetField": "rrid.properCitation",
+            "order": "2",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Resource ID",
+            "esField": "item.identifier",
+            "order": "3",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Organism",
+            "esField": "organisms.origin.[].species.name",
+            "order": "4",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Disease",
+            "esField": "diseases.host.[].name",
+            "order": "5",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Comments",
+            "esField": "item.comment",
+            "order": "6",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "References",
+            "esField": "references.[].curie",
+            "order": "7",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Category",
+            "esField": "item.keywords.[].keyword",
+            "facetField": "item.keywords.keyword",
+            "order": "8",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Sex",
+            "esField": "attributes.[].sex.value",
+            "facetField": "attributes.sex.value",
+            "order": "9",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Synonyms",
+            "esField": "item.synonyms.[].name",
+            "order": "10",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Vendor",
+            "esField": "vendors.[].name",
+            "visibilities": {"snippet-filter": "1"},
+            "order": "11",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Catalog Number",
+            "esField": "vendors.[].catalogNumber",
+            "order": "12",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Cross References",
+            "esField": "tem.alternateIdentifiers.[].curie",
+            "order": "13",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Hierarchy",
+            "esField": "graph.parent.[].curie",
+            "order": "14",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Originate from Same Individual",
+            "esField": "graph.sibling.[].curie",
+            "order": "15",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Mentions Count",
+            "esField": "mentions.[].totalMentions.count",
+            "facetField": "mentions.totalMentions.count",
+            "visibilities": {"table": "0"},
+            "order": "16",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Issues",
+            "esField": "issues.status",
+            "facetField": "issues.status",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        },
+        {
+            "name": "Mentions",
+            "esField": "mentions.[].availability",
+            "facetField": "mentions.availability.keyword",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        }
+    ],
+    "snippet_body": [
+        "<strong>Organism:</strong> $1",
+        "<strong>Disease:</strong> $2",
+        "<strong>Category:</strong> $3",
+        "<strong>Comment:</strong> $4"
+    ],
+    "snippet_params": {
+        "1": "organisms.origin.[].species.name",
+        "2": "diseases.host.[].name",
+        "3": "item.keywords.[].keyword",
+        "4": "item.comment"
+    },
+    "viewType": "discovery"
+}

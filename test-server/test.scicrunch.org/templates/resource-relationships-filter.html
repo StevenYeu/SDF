@@ -1,0 +1,9 @@
+<div class="row">
+    <button type="button" class="btn btn-primary" for="filter-collapse" href="#filter-collapse" data-toggle="collapse">Filters</button>
+    <div id="filter-collapse" class="collapse">
+        <input placeholder="search" type="text" ng-model="rr.filter_search"/>
+        <div ng-repeat="rel_type in rr.found_types">
+            <input type="checkbox" ng-model="rel_type.checked"/> {{ rel_type.type }} ({{ rel_type.count }})
+        </div>
+    </div>
+</div>

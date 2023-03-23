@@ -1,0 +1,1 @@
+{"Patient Eye Movement Commanded":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0022_0005","SuperCategory":"DICOM term","Id":"nlx_150463","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"A code string representing whether or not patient eye movement was commanded."}}

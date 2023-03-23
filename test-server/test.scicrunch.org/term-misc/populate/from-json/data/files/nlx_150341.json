@@ -1,0 +1,1 @@
+{"Number of Averages":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0083","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150341","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Number of times a given pulse sequence is repeated before any parameter is changed."}}

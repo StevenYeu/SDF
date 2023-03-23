@@ -1,0 +1,64 @@
+<div class="modal-header">
+    <h3>Contributors</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <div class="form-group">
+            <label>{{ name }}</label>
+        </div>
+
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" name="firstname" class="form-control" ng-model="firstname" value="{{ firstname }}" required>
+            <p ng-show="form.modalForm.firstname.$invalid && !form.modalForm.firstname.$pristine" class="help-block">A first name is required.</p>
+
+        </div>
+
+        <div class="form-group">
+            <label>Middle Initial</label>
+            <input type="text" name="middleinitial" class="form-control" ng-model="middleinitial" value="{{ middleinitial }}">
+        </div>
+
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" name="lastname" class="form-control" ng-model="lastname" value="{{ lastname }}" required>
+            <p ng-show="form.modalForm.lastname.$invalid && !form.modalForm.lastname.$pristine" class="help-block">A lastname is required.</p>
+
+        </div>
+
+        <!-- ORCID -->
+        <div class="form-group">
+            <label>ORCID</label>
+            <input type="text" name="orcid" class="form-control" ng-model="orcid" value="{{ orcid }}" >
+        </div>
+
+        <!-- AFFILIATION -->
+        <div class="form-group">
+            <label>Affiliation</label>
+            <input type="text" name="affiliation" class="form-control" ng-model="affiliation" value="{{ affiliation }}" required>
+            <p ng-show="form.modalForm.affiliation.$invalid && !form.modalForm.affiliation.$pristine" class="help-block">An affiliation is required.</p>
+        </div>
+
+        <div class="form-group">
+            <label>Author</label><br />
+            <input type="checkbox" name="author" ng-model="author" ng-true-value="true" ng-false-value="false" ng-checked="{{author}}" ng-change="checkAuthor(author)"> Include in author list<br />
+            <input type="checkbox" name="contact" ng-model="contact" ng-true-value="true"
+            ng-false-value="false" ng-checked="{{contact}}" ng-change="checkContact(contact)"> Designate as contact author
+        </div>
+
+        <!-- Contact Email -->
+        <div class="form-group" ng-show="contact">
+            <label>Contact Email</label>
+            <input type="text" name="email" class="form-control" ng-model="email" value="{{ email }}">
+        </div>
+
+        <input type="hidden" name="position"  class="form-control" ng-model="position" value="{{ position }}" >
+        <input type="hidden" name="typee"  class="form-control" ng-model="typee" value="contributor">
+    </div>
+    <div class="modal-footer">
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="update()">Update</button>
+        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="add()">Add</button>
+        <button ng-if="isUpdate" type="submit" class="btn btn-danger" ng-click="delete()">Remove</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

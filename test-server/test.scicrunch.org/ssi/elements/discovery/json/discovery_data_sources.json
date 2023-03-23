@@ -1,0 +1,142 @@
+{
+    "rin-tool": {
+        "name": "Tool",
+        "plural_name": "Tools",
+        "config": "tool_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_Tool_pr",
+        "index": "scr_005400-registry-rin",
+        "icon": "/images/rin-tool.png",
+        "description": "A curated repository of scientific resources, managed by SciCrunch, with a focus on biomedical resources, including tools, databases, materials, and more."
+    },
+    "rin-cellline": {
+        "name": "Cell Line",
+        "plural_name": "Cell Lines",
+        "config": "cellline_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_CellLine_pr",
+        "index": "scr_013869-cellosaurus-rin",
+        "icon": "/images/rin-cell.png",
+        "description": "Cell line data collected by <a target='_blank' href='https://web.expasy.org/cellosaurus/'>Cellosaurus</a> from various sources."
+    },
+    "rin-antibody": {
+        "name": "Antibody",
+        "plural_name": "Antibodies",
+        "config": "antibody_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_Antibody_pr",
+        "index": "scr_006397-abr-rin",
+        "icon": "",
+        "description": ""
+    },
+    "rin-organism": {
+        "name": "Organism",
+        "plural_name": "Organisms",
+        "config": "organism_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_Organism_pr",
+        "index": "scr_003115-organisms-rin",
+        "icon": "",
+        "description": ""
+    },
+    "rin-plasmid": {
+        "name": "Plasmid",
+        "plural_name": "Plasmids",
+        "config": "plasmid_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_Addgene_pr",
+        "index": "scr_002037-addgene-rin",
+        "icon": "",
+        "description": ""
+    },
+    "rin-biosample": {
+        "name": "Biosample",
+        "plural_name": "Biosamples",
+        "config": "biosample_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_BioSample_pr",
+        "index": "scr_004854-ncbi_biosample-rin",
+        "icon": "",
+        "description": ""
+    },
+    "rin-protocol": {
+        "name": "Protocol",
+        "plural_name": "Protocols",
+        "config": "protocol_rin_discovery.json",
+        "es_type": "rin",
+        "es_index": "RIN_Protocols_pr",
+        "index": "scr_010490-protocols_protocols.io-lit",
+        "icon": "",
+        "description": ""
+    },
+    "ks-ebrain": {
+        "name": "EBrain",
+        "plural_name": "EBrains",
+        "config": "ebrain_ks_discovery.json",
+        "es_type": "ks",
+        "es_index": "KS_EBrains_pr",
+        "index": "scr_017612-ebrains_kg-ks",
+        "icon": "",
+        "description": ""
+    },
+    "lit-pubmed": {
+        "name": "Pubmed Literature",
+        "plural_name": "Pubmed Literature",
+        "config": "pubmed_lit_discovery.json",
+        "es_type": "literature",
+        "es_index": "LIT_pubmed_pr",
+        "index": "pubmed",
+        "icon": "",
+        "description": ""
+    },
+    "lit-biorxiv": {
+        "name": "BioRxiv Literature",
+        "plural_name": "BioRxiv Literature",
+        "config": "biorxiv_lit_discovery.json",
+        "es_type": "literature",
+        "es_index": "LIT_biorxiv_pr",
+        "index": "scr_003933-biorxiv",
+        "icon": "",
+        "description": ""
+    },
+    "lit-medrxiv": {
+        "name": "MedRxiv Literature",
+        "plural_name": "MedRxiv Literature",
+        "config": "medrxiv_lit_discovery.json",
+        "es_type": "literature",
+        "es_index": "LIT_medrxiv_pr",
+        "index": "scr_003933-medrxiv",
+        "icon": "",
+        "description": ""
+    },
+    "ks-pdb": {
+        "name": "Protein Data Bank",
+        "plural_name": "Protein Data Bank",
+        "config": "pdb_ks_discovery.json",
+        "es_type": "ks",
+        "es_index": "scr_006555-pdb-ks_2020jul09",
+        "index": "scr_006555-pdb-ks",
+        "icon": "",
+        "description": ""
+    },
+    "ks-viraldb-data": {
+        "name": "Co-VIRRUS-DB Datasets",
+        "plural_name": "Co-VIRRUS-DB Datasets",
+        "config": "viraldb-data_ks_discovery.json",
+        "es_type": "ks",
+        "es_index": "ViralDB_Data_pr",
+        "index": "scr_018687-viraldb_data-ks",
+        "icon": "",
+        "description": ""
+    },
+    "ks-viraldb-projects": {
+        "name": "Co-VIRRUS-DB Projects",
+        "plural_name": "Co-VIRRUS-DB Projects",
+        "config": "viraldb-projects_ks_discovery.json",
+        "es_type": "literature",
+        "es_index": "ViralDB_Projects_pr",
+        "index": "scr_018687-viraldb_projects-ks",
+        "icon": "",
+        "description": ""
+    }
+}

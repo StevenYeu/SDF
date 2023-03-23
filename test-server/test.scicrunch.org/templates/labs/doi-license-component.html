@@ -1,0 +1,20 @@
+<div class="modal-header">
+    <h3>License</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- LICENSE -->
+        <div class="form-group">
+            <label>License</label>
+            <input type="text" name="license" class="form-control" ng-model="license" value="{{ license }}" required>
+            <p ng-show="form.modalForm.license.$invalid && !form.modalForm.license.$pristine" class="help-block">A license is required.</p>
+        </div>
+
+        <input type="hidden" name="typee"  class="form-control" ng-model="typee" value="funding">
+    </div>
+    <div class="modal-footer">
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="update()">Update</button>
+        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="add()">Save</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

@@ -1,0 +1,49 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "ID",
+            "esField": "item.identifier",
+            "order": "2",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true",
+            "url": "https://www.rcsb.org/structure/$$ID"
+        },
+        {
+            "name": "Type",
+            "esField": "item.types.[].name",
+            "order": "3",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Description",
+            "esField": "item.description",
+            "order": "4",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        }
+    ],
+    "snippet_name": "<strong>$1:</strong> $2",
+    "snippet_body": [
+        "<strong>Abstract:</strong> $3"
+    ],
+    "snippet_url": "https://www.rcsb.org/structure/$4",
+    "snippet_params": {
+        "1": "item.identifier",
+        "2": "item.name",
+        "3": "item.description",
+        "4": "item.identifier"
+    },
+    "viewType": "discovery"
+}

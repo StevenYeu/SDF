@@ -1,0 +1,1 @@
+{"Nominal Prior Dose":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_001A","SuperCategory":"DICOM term","Id":"nlx_150333","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Dose (in Gy) from prior treatment to this Dose Reference (e.g. from a previous course of treatment)."}}

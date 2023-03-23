@@ -1,0 +1,1 @@
+{"Digitizing Device Transport Direction":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_2020","SuperCategory":"DICOM term","Id":"nlx_149883","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"A code sequence identifying the direction of transport of the device used to digitize the data."}}

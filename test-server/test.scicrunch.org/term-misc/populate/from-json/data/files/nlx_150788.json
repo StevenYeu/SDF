@@ -1,0 +1,1 @@
+{"Requested Procedure ID":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_1001","SuperCategory":"DICOM term","Id":"nlx_150788","Has role":"Imaging procedure attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"Identifier that identifies the Requested Procedure in the Imaging Service Request."}}

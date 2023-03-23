@@ -1,0 +1,1 @@
+{"Flip Angle":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1314","SuperCategory":"DICOM term","Id":"nlx_150011","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Steady state angle in degrees to which the magnetic vector is flipped from the magnetic vector of the primary field."}}

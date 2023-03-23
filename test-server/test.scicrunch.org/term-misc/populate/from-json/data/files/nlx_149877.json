@@ -1,0 +1,1 @@
+{"Diffusion Anisotropy Type":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9147","SuperCategory":"DICOM term","Id":"nlx_149877","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Class of diffusion anisotropy calculation. Required if Frame Type (0008,9007) value 4 equals DIFFUSION_ANISO."}}

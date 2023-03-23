@@ -1,0 +1,6 @@
+/* Add here all your css styles (customizations) */
+.grey-boxed {
+    background: #fefefe;
+    border:1px solid #eee;
+    padding: 5px;
+}

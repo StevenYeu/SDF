@@ -1,0 +1,1 @@
+{"Intra Ocular Pressure":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0022_000B","SuperCategory":"DICOM term","Id":"nlx_150201","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FL","Definition":"Value of pressure. Value in mmHg. Zero length means the pressure was not measured."}}

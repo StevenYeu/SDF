@@ -1,0 +1,1 @@
+{"Mid Slab Position":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9106","SuperCategory":"DICOM term","Id":"nlx_150282","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FD","Definition":"The x, y, and z coordinates of the midpoint of the slab plane in mm with respect to the patient."}}

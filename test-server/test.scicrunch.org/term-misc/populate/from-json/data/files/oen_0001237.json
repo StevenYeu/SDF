@@ -1,0 +1,1 @@
+{"3 dB Frequency":{"Synonym":["-3 dB Frequency\tCutoff frequency"],"CurationStatus":"uncurated","SuperCategory":"Device parameter","Id":"oen_0001237","Has role":"Electrophysiology concept","Definition":"The frequency at which the signal voltage at the output of the filter falls to SQRT(1\/2) of the amplitude of the input signal"}}

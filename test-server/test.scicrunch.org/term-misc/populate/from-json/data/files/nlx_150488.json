@@ -1,0 +1,1 @@
+{"Patients Religious Preference":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0010_21F0","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150488","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"The religious preference of the patient."}}

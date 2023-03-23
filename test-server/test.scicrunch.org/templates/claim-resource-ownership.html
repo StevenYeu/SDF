@@ -1,0 +1,13 @@
+<span ng-controller="claimResourceOwnership as cro">
+    <button
+        ng-show="logged_in && !is_pending_owner && !is_owner"
+        class="btn btn-success"
+        type="button"
+        uib-popover="Are you the owner of this resource? Click here to claim ownership"
+        popover-trigger="'mouseenter'"
+        ng-click="cro.ownerPanel()"
+    >Claim ownership</button>
+    <p ng-show="logged_in && is_pending_owner && !is_owner">
+        Your ownership request has been sent to our curators.
+    </p>
+</span>

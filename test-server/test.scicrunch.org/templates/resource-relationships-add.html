@@ -1,0 +1,24 @@
+<div class="row">
+    This resource
+    <input
+        class="relationship1"
+        type="text"
+        ng-model="new_rel"
+        placeholder="is related to"
+        uib-typeahead="type for type in relationships.types | filter:$viewValue"
+        typeahead-on-select="selectType($item, $model, $label)"
+        typeahead-select-on-blur="true"
+    />
+    <input
+        class="relationship2"
+        type="text"
+        ng-model="new_resource"
+        placeholder="other resource"
+        uib-typeahead="result.name for result in fields.searchResource($viewValue)"
+        typeahead-min-length="2"
+        typeahead-on-select="selectResource($item, $model, $label)"
+        typeahead-wait-ms="250"
+        typeahead-select-on-blur="true"
+    />
+    <button class="btn btn-success" ng-click="addRelationship()">Add</button>
+</div>

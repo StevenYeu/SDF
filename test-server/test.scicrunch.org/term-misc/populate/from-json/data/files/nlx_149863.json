@@ -1,0 +1,1 @@
+{"Detector ID":{"ValueRepresentation":"SH","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_700A","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149863","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"The ID or serial number of the detector used to acquire this image."}}

@@ -1,0 +1,3 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands,Kendalls Tau,Kendall's Tau Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Method type
+6xixa,Merck,Yuan Hu,0,36,0.43,0.09,MMGBSA ranking Prediction from 20 replicates of molecular dynamics simulations ,"Glide, Gold, Amber-MMGBSA",structure-based
+too1u,Southwest Research Institute,Jonathan Bohmann,0,26,0.31,0.14,Rhodium HTS ,Rhodium HTS,structure-based

@@ -1,0 +1,1 @@
+{"Percent Sampling":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0093","SuperCategory":"DICOM term","Id":"nlx_150496","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Fraction of acquisition matrix lines acquired, expressed as a percent."}}

@@ -1,0 +1,2071 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "SciCrunch API Docs",
+        "description": "API endpoints for <a href=\"https://scicrunch.org\">scicrunch.org</a>, <a href=\"https://dknet.org\">dknet.org</a> and <a href=\"https://neuinfo.org\">neuinfo.org</a>.<br/>All API calls require the 'key' field to be set with an API key",
+        "version": 1
+    },
+    "host": "scicrunch.org",
+    "basePath": "/api/1",
+    "schemes": ["https"],
+    "paths": {
+        "/community/{portalname}/snippet/{nifid}": {
+            "get": {
+                "tags": [
+                    "Community"
+                ],
+                "summary": "Get snippets for a view from a community",
+                "parameters": [
+                    {
+                        "name": "portalname",
+                        "in": "path",
+                        "description": "portalname of the community",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "nifid",
+                        "in": "path",
+                        "description": "the view id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/apiReturn_comm"
+                    }
+                }
+            }
+        },
+        "/community/{community_portal_name}/dataservices/{category}": {
+            "get": {
+                "tags": [
+                    "Community"
+                ],
+                "summary": "get a community category resource",
+                "parameters": [
+                    {
+                        "name": "community_portal_name",
+                        "in": "path",
+                        "description": "community portal name",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "category",
+                        "in": "path",
+                        "description": "category name",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/gen_apiReturn_comm"
+                    }
+                }
+            }
+        },
+        "/community/{community_portal_name}/dataservices/{category}/{subcategory}": {
+            "get": {
+                "tags": [
+                    "Community"
+                ],
+                "summary": "get a community category resource",
+                "parameters": [
+                    {
+                        "name": "community_portal_name",
+                        "in": "path",
+                        "description": "community portal name",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "category",
+                        "in": "path",
+                        "description": "category name",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "subcategory",
+                        "in": "path",
+                        "description": "subcategory name",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/gen_apiReturn_comm"
+                    }
+                }
+            }
+        },
+        "/elastic/_indices": {
+            "get": {
+                "tags": [
+                    "Elastic"
+                ],
+                "summary": "Get a list of all ElasticSearch indices",
+                "parameters": [
+                    {
+                          "name": "api_key",
+                          "in": "query",
+                          "description": "SciCrunch API key",
+                          "required": true,
+                          "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/elasticIndices"
+                    }
+                }
+            }
+        },
+        "/elastic/{index}/_search": {
+            "get": {
+                "tags": [
+                    "Elastic"
+                ],
+                "summary": "Simple URL search against an index in the ElasticSearch cluster",
+                "description": "To search Resource Information Network (RIN) indices you can use the following index aliases: RIN_Tool_pr, RIN_CellLine_pr, RIN_BioSample_pr, RIN_Addgene_pr, RIN_Antibody_pr, and RIN_Organism_pr",
+                "parameters": [
+                    {
+                        "name": "index",
+                        "in": "path",
+                        "description": "The index name to be searched",
+                        "required": true,
+                        "type": "string",
+                        "default": "RIN_Tool_pr"
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query string",
+                        "required": false,
+                        "type": "string",
+                        "default": "SPM"
+                    },
+                    {
+                          "name": "api_key",
+                          "in": "query",
+                          "description": "SciCrunch API key",
+                          "required": true,
+                          "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/elasticSearch"
+                    }
+                }
+            }
+        },
+        "/elastic-ilx/interlex/_search": {
+            "get": {
+                "tags": [
+                    "Elastic","InterLex"
+                ],
+                "summary": "Simple ElasticSearch URL search against InterLex terminology",
+                "parameters": [
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query string",
+                        "required": false,
+                        "type": "string",
+                        "default": "cerebellum"
+                    },
+                    {
+                          "name": "api_key",
+                          "in": "query",
+                          "description": "SciCrunch API key",
+                          "required": true,
+                          "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/elasticSearch"
+                    }
+                }
+            }
+        },
+        "/entitymapping/bysource/{source}/{value}": {
+            "get": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Get an entity mapping by source and value",
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "path",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "value",
+                        "in": "path",
+                        "description": "value being mapped to",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "query",
+                        "description": "user",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_array_entityMapping"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/errorObject"
+                    }
+                }
+            }
+        },
+        "/entitymapping/bycolumn/{source}/{table}/{column}/{value}": {
+            "get": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Get an entity mapping by source",
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "path",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "table",
+                        "in": "path",
+                        "description": "The table in the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "column",
+                        "in": "path",
+                        "description": "The column in the table",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "value",
+                        "in": "path",
+                        "description": "value being mapped to",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_array_entityMapping"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/errorObject"
+                    }
+                }
+            }
+        },
+        "/entitymapping/add/{source}/{table}/{column}/{value}": {
+            "post": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Add an entity mapping",
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "path",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "table",
+                        "in": "path",
+                        "description": "The table in the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "column",
+                        "in": "path",
+                        "description": "The column in the table",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "value",
+                        "in": "path",
+                        "description": "value being mapped to",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "identifier",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "external_id",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "relation",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "match_substring",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "status",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "user",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "$ref": "#/definitions/apiReturn_entityMapping"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/errorObject"
+                    }
+                }
+            }
+        },
+        "/entitymapping/update/{source}/{table}/{column}/{value}/{identifier}": {
+            "post": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Update an entity mapping",
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "path",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "table",
+                        "in": "path",
+                        "description": "The table in the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "column",
+                        "in": "path",
+                        "description": "The column in the table",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "value",
+                        "in": "path",
+                        "description": "value being mapped to",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "identifier",
+                        "in": "path",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "identifier",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "relation",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "match_substring",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "status",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "external_id",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "user",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_entityMapping"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/entitymapping/byvaluelist": {
+            "get": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Get a list of entities by value separated by a delimiter",
+                "parameters": [
+                    {
+                        "name": "list",
+                        "in": "query",
+                        "description": "list of values separated by a delimiter",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "delimiter",
+                        "in": "query",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_array_entityMapping"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/errorObject"
+                    }
+                }
+            }
+        },
+        "/entitymapping/add": {
+            "post": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Add an entity mapping",
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "formData",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "table",
+                        "in": "formData",
+                        "description": "The table in the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "column",
+                        "in": "formData",
+                        "description": "The column in the table",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "value",
+                        "in": "formData",
+                        "description": "The value being mapped to",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "identifier",
+                        "in": "formData",
+                        "description": "",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "external_id",
+                        "in": "formData",
+                        "description": "The table in the source",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "relation",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "match_substring",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "status",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "$ref": "#/definitions/apiReturn_entityMapping"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/errorObject"
+                    }
+                }
+            }
+        },
+        "/entitymapping/list": {
+            "get": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "summary": "Get a list of entity mapping sources",
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_array_string"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/entitymapping/list/{source}": {
+            "get": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "path",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_array_string"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/entitymapping/list/{source}/{table}": {
+            "get": {
+                "tags": [
+                    "Entity Mapping"
+                ],
+                "parameters": [
+                    {
+                        "name": "source",
+                        "in": "path",
+                        "description": "The ID of the source",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "table",
+                        "in": "path",
+                        "description": "The table in the source",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/definitions/apiReturn_array_string"
+                    },
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/ilx/search/identifier/{identifier}": {
+            "get": {
+                "tags": [
+                    "ILX and term"
+                ],
+                "summary": "Search on an identifier",
+                "parameters": [
+                    {
+                        "name": "identifier",
+                        "in": "path",
+                        "description": "Identifier being searched",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/apiReturn_ilx"
+                    }
+                }
+            }
+        },
+        "/ilx/search/term/{term}": {
+            "get": {
+                "tags": [
+                    "ILX and term"
+                ],
+                "summary": "Search on a term",
+                "parameters": [
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": "Term being searched",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/apiReturn_ilx"
+                    }
+                }
+            }
+        },
+        "/ilx/search/curie/{curie}": {
+            "get": {
+                "tags": [
+                    "ILX and term"
+                ],
+                "summary": "Search on a curie",
+                "parameters": [
+                    {
+                        "name": "curie",
+                        "in": "path",
+                        "description": "Curie being searched",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/apiReturn_ilx"
+                    }
+                }
+            }
+        },
+        "/dataservices/federation/data/{viewid}": {
+            "get": {
+                "tags": [
+                    "Data services"
+                ],
+                "summary": "search a single data view",
+                "parameters": [
+                    {
+                        "name": "viewid",
+                        "in": "path",
+                        "description": "the view ID (example nlx_144509-1 is the scicrunch registry view ID)",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "facet",
+                        "in": "query",
+                        "description": "Facets specified like facetName:facetValue",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "Facets specified like filterName:filterValue",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/dataservices/federation/search": {
+            "get": {
+                "tags": [
+                    "Data services"
+                ],
+                "summary": "search all data views",
+                "parameters": [
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/dataservices/federation/facets/{viewid}": {
+            "get": {
+                "tags": [
+                    "Data services"
+                ],
+                "summary": "get facets for a data view",
+                "parameters": [
+                    {
+                        "name": "viewid",
+                        "in": "path",
+                        "description": "the view ID (example nlx_144509-1 is the scicrunch registry view ID)",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "facet",
+                        "in": "query",
+                        "description": "Facets specified like facetName:facetValue",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "Facets specified like filterName:filterValue",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "minCount",
+                        "in": "query",
+                        "description": "The minimum threshold for facets to return",
+                        "required": false,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/dataservices/literature/search": {
+            "get": {
+                "tags": [
+                    "Data services"
+                ],
+                "summary": "search the Pubmed literature",
+                "parameters": [
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "authorFilter",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "yearFilter",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "journalFilter",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/dataservices/literature/pmid": {
+            "get": {
+                "tags": [
+                    "Data services"
+                ],
+                "summary": "retrieve by PMID",
+                "parameters": [
+                    {
+                        "name": "pmid",
+                        "in": "query",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/object"
+                    }
+                }
+            }
+        },
+        "/resource/fields/autocomplete": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "parameters": [
+                    {
+                        "name": "field",
+                        "in": "query",
+                        "description": "Field of the resource",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "value",
+                        "in": "query",
+                        "description": "Value of the Resource",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_str_array"
+                    }
+                }
+            }
+        },
+        "/resource/rel/types": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get all relationship types",
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_str_array"
+                    }
+                }
+            }
+        },
+        "/resource/rel/view/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get all relationships for a resource",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "ID of the resource",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "relationship count",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "the offset",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "canon_only",
+                        "in": "query",
+                        "description": "canon_only",
+                        "required": false,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_str_array"
+                    }
+                }
+            }
+        },
+        "/resource/rel/count/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get the count of all relationships for a resource",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "ID of the resource",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "canon_only",
+                        "in": "query",
+                        "description": "canon_only",
+                        "required": false,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_int"
+                    }
+                }
+            }
+        },
+        "/resource/fields/view/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get single resource",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "ID of the resource",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "version",
+                        "in": "query",
+                        "description": "resource version",
+                        "required": false,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_obj_array"
+                    }
+                }
+            }
+        },
+        "/resource/fields/edit/{rid}": {
+            "post": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Update resource fields",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "ID of the resource",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "fields",
+                        "in": "formData",
+                        "description": "json object where each key is the field and each value is the field being changed.",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_edit"
+                    }
+                }
+            }
+        },
+        "/resource/rel/add/{rid}": {
+            "post": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Add new relationship",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "scicrunch id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "id1",
+                        "in": "formData",
+                        "description": "left side of relationship string",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "id2",
+                        "in": "formData",
+                        "description": "right side of relationship string",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "in": "formData",
+                        "description": "type of id that is not rid (rel)",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "relationship",
+                        "in": "formData",
+                        "description": "name of relationship",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "user",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_add_or_del"
+                    }
+                }
+            }
+        },
+        "/resource/rel/del/{rid}": {
+            "post": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "delete relationship",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "resource ID",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "id1",
+                        "in": "formData",
+                        "description": "left side of relationship string",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "id2",
+                        "in": "formData",
+                        "description": "right side of relationship string",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "in": "formData",
+                        "description": "type of id that is not rid (rel)",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "relationship",
+                        "in": "formData",
+                        "description": "name of relationship",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "user",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_add_or_del"
+                    }
+                }
+            }
+        },
+        "/resource/mention/view/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Gets all mentions for a resource",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "resource ID",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Counts the number of mentions",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "offset",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orderby",
+                        "in": "query",
+                        "description": "orderby fields",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_obj_array"
+                    }
+                }
+            }
+        },
+        "/resource/mention/count/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get count of all resource mentions",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "resource ID",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_int"
+                    }
+                }
+            }
+        },
+        "/resource/mention/bymention/{mentionid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get all resources that have this mention",
+                "parameters": [
+                    {
+                        "name": "mentionid",
+                        "in": "path",
+                        "description": "mention ID",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "rating",
+                        "in": "query",
+                        "description": "mention rating",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "not_rating",
+                        "in": "query",
+                        "description": "mention not_rating",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_str_array"
+                    }
+                }
+            }
+        },
+        "/resource/versions/all/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get all versions of resources",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "ID of resource",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_obj_array"
+                    }
+                }
+            }
+        },
+        "/resource/versions/diff/{rid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get difference between two resource versions",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "ID of resource",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "1",
+                        "in": "query",
+                        "description": "version of the first resource",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "2",
+                        "in": "query",
+                        "description": "version of the second resource",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_obj_array"
+                    }
+                }
+            }
+        },
+        "/resource/mention/vote/{rid}/{mentionid}": {
+            "post": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Vote a mention as good or bad",
+                "parameters": [
+                    {
+                        "name": "vote",
+                        "in": "formData",
+                        "description": "Vote for the mention.  Can either be good or bad.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "Scicrunch ID",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "mentionid",
+                        "in": "path",
+                        "description": "The pmid or doi",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "curator",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_vote"
+                    }
+                }
+            }
+        },
+        "/resource/mention/add/{rid}": {
+            "post": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Add a new mention",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "Resource ID of mention",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "mentionid",
+                        "in": "formData",
+                        "description": "ID of mention",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "user, curator, resource-mentions",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_mention_add"
+                    }
+                }
+            }
+        },
+        "/resource/mention/view/{rid}/{mentionid}": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Single mention for a resource",
+                "parameters": [
+                    {
+                        "name": "rid",
+                        "in": "path",
+                        "description": "Resource ID of mention",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "mentionid",
+                        "in": "path",
+                        "description": "ID of mention",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_str_array"
+                    }
+                }
+            }
+        },
+        "/resource/fields/add": {
+            "post": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Add a resource",
+                "parameters": [
+                    {
+                        "name": "columns",
+                        "in": "formData",
+                        "description": "The resource fields, in JSON format",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "resource_type",
+                        "in": "formData",
+                        "description": "The type ID of the resource",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "cid",
+                        "in": "formData",
+                        "description": "The community ID that is submitting the resource",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "key",
+                        "in": "formData",
+                        "description": "user",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_field_add"
+                    }
+                }
+            }
+        },
+        "/resource/fields/types": {
+            "get": {
+                "tags": [
+                    "Resources"
+                ],
+                "summary": "Get all the resource types",
+                "responses": {
+                    "default": {
+                        "$ref": "#/definitions/ret_obj_array"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "object": {
+            "properties": {
+                "data": {
+                    "type": "string"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "errorObject": {
+            "properties": {
+                "errormsg": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "communityMapping": {
+            "properties": {
+                "snippet": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "apiReturn_comm": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/communityMapping"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "genCommunityMapping": {
+            "properties": {
+                "response": {
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "gen_apiReturn_comm": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/genCommunityMapping"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "elasticIndices": {
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "health": {
+                                "type": "string"
+                            },
+                            "status": {
+                                "type": "string"
+                            },
+                            "index": {
+                                "type": "string"
+                            },
+                            "docs.count": {
+                                "type": "string"
+                            },
+                            "pri.store.size": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "elasticSearch": {
+            "properties": {
+                "took": {
+                  "type": "string"
+                },
+                "timed_out": {
+                  "type": "boolean"
+                },
+                "hits": {
+                    "properties": {
+                      "total": {
+                        "type": "string"
+                      }
+                    }
+              }
+            },
+            "type": "object"
+        },
+        "entityMapping": {
+            "properties": {
+                "source": {
+                    "type": "string"
+                },
+                "table_name": {
+                    "type": "string"
+                },
+                "col": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "string"
+                },
+                "identifier": {
+                    "type": "string"
+                },
+                "external_id": {
+                    "type": "string"
+                },
+                "relation": {
+                    "type": "string"
+                },
+                "match_substring": {
+                    "type": "integer"
+                },
+                "curation_status": {
+                    "type": "string"
+                },
+                "timestamp": {
+                    "type": "integer"
+                },
+                "status": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "apiReturn_array_entityMapping": {
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/entityMapping"
+                    }
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "apiReturn_entityMapping": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/entityMapping"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ilxSearchMapping": {
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "orig_id": {
+                    "type": "string"
+                },
+                "uid": {
+                    "type": "string"
+                },
+                "orig_cid": {
+                    "type": "string"
+                },
+                "cid": {
+                    "type": "string"
+                },
+                "ilx": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "definition": {
+                    "type": "string"
+                },
+                "comment": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "display_superclass": {
+                    "type": "string"
+                },
+                "orig_time": {
+                    "type": "string"
+                },
+                "time": {
+                    "type": "string"
+                },
+                "synonyms": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "superclasses": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "existing_ids": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "relationships": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "mappings": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "annotations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "annotation_type": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "ontologies": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "apiReturn_ilx": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/ilxSearchMapping"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "resourceMapping1": {
+            "properties": {
+                "results": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "resourceMapping2": {
+            "properties": {
+                "results": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "rsc_edit": {
+            "properties": {
+                "rid": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "rsc_add_del": {
+            "properties": {
+                "rid": {
+                    "type": "string"
+                },
+                "id1": {
+                    "type": "string"
+                },
+                "id2": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "relationship": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "vote": {
+            "properties": {
+                "vote": {
+                    "type": "string"
+                },
+                "rid": {
+                    "type": "string"
+                },
+                "mentionid": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "mention_add": {
+            "properties": {
+                "rid": {
+                    "type": "string"
+                },
+                "mentionid": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "field_add": {
+            "properties": {
+                "columns": {
+                    "type": "string"
+                },
+                "resource_type": {
+                    "type": "integer"
+                },
+                "cid": {
+                    "type": "integer"
+                },
+                "key": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "ret_str_array": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/resourceMapping1"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_int": {
+            "properties": {
+                "data": {
+                    "type": "integer"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_obj_array": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/resourceMapping2"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_edit": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/rsc_edit"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_vote": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/vote"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_add_or_del": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/rsc_add_del"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_mention_add": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/mention_add"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "ret_field_add": {
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/field_add"
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "apiReturn_array_string": {
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "apiKeyPermission": {
+            "properties": {
+                "permission_type": {
+                    "type": "string"
+                },
+                "permission_data": {
+                    "type": "string"
+                },
+                "active": {
+                    "type": "integer"
+                },
+                "created_time": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "apiReturn_apiKeyPermission": {
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/apiKeyPermission"
+                    }
+                },
+                "success": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

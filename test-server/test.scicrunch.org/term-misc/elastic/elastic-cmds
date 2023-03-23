@@ -1,0 +1,10 @@
+% curl -XPOST -H 'Content-Type:application/json' -H 'Accept: application/json' --data-binary @/Users/fariba/Sites/SciCrunch/term-misc/elastic/interlex-create.json https://search-interlex-jnsyal3bwjqhaledmfvvwytzy4.us-west-2.es.amazonaws.com/scicrunch_stage -v -s
+
+
+% curl -XDELETE https://search-interlex-jnsyal3bwjqhaledmfvvwytzy4.us-west-2.es.amazonaws.com/scicrunch_stage
+
+% curl -XGET 'http://interlex.scicrunch.io/scicrunch/_count?pretty' -d ' { "query": { "match_all": {} } } '
+
+% curl --head --dump-header - http://interlex.scicrunch.io/scicrunch/term/ilx_0100871
+
+% curl -XGET 'search-interlex-jnsyal3bwjqhaledmfvvwytzy4.us-west-2.es.amazonaws.com:80'

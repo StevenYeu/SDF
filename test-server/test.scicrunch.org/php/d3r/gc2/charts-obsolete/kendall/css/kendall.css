@@ -1,0 +1,84 @@
+    svg circle {
+        cursor: pointer;
+        stroke: #59a;
+        stroke-width: 1px;
+        fill: transparent;
+    }
+
+    svg circle.anon_less {
+        cursor: pointer;
+        fill: #59a;
+        stroke: #59a;
+    }
+
+    svg circle:active {
+        stroke: #45d3c7;
+    }
+
+    svg circle.mine {
+        fill: transparent;
+        stroke: green;
+        stroke-width: 1.5px;
+    }
+
+    svg circle.mine_less {
+        fill: green;
+        stroke: #green;
+        stroke-width: 1px;
+    }
+
+    svg text{
+      text-anchor: end;
+    }
+
+    body {
+        font: 12px sans-serif;
+    }
+
+    .axis path, .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .x.axis path {
+        display: none;
+    }
+
+    .grid .tick {
+        stroke: #ccc;
+        opacity: 0.6 !important;
+    }
+    .grid path {
+          stroke-width: 0;
+    }
+
+    .d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: #777;
+        color: #fff;
+        border-radius: 2px;
+        font-size: 1.2em;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 10px;
+        width: 100%;
+        line-height: 1;
+        color: rgba(0, 0, 0, 0.8);
+        content: "\25BC";
+        position: absolute;
+        text-align: center;
+    }
+
+    /* Style northward tooltips differently */
+    .d3-tip.n:after {
+        margin: -1px 0 0 0;
+        top: 100%;
+        left: 0;
+    }

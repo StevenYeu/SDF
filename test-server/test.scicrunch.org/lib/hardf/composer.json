@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pietercolpaert/hardf": "0.1.*"
+    }
+}

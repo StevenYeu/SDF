@@ -1,0 +1,7 @@
+<div
+    ng-repeat="type in kmc.keys.permission_types"
+    ng-click="kmc.addPermissionType(key,type)"
+    ng-show="kmc.showPermissionType(key, type)"
+>
+    <a href="javascript:void(0)">{{type}}</a>
+</div>

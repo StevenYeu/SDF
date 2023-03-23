@@ -1,0 +1,10 @@
+truncate terms; 
+truncate term_synonyms; 
+truncate term_existing_ids; 
+truncate term_superclasses; 
+truncate ilx_identifiers; 
+truncate term_annotations; 
+truncate term_relationships;
+truncate term_ontology_join;
+truncate term_versions;
+truncate term_vote_logs;

@@ -1,0 +1,3 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands, Kendalls Tau, Kendalls Tau Error,RMSEc (kcal/mol),RMSEc Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Method Type
+0psyy, Julien Michel,Julien Michel,0,14,0.03,0.22,1.91,0.37,alchemical free energy protocol with average network analysis and only uncharged compounds ,"FESetup, NetworkX",Free energy method
+6xixa,Merck,Yuan Hu,0,0,nan,nan,nan,nan,MMGBSA ranking Prediction from 20 replicates of molecular dynamics simulations ,"Glide, Gold, Amber-MMGBSA",Structure-based scoring method

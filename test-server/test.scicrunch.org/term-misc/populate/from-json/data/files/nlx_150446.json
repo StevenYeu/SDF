@@ -1,0 +1,1 @@
+{"Override Reason":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_0066","SuperCategory":"DICOM term","Id":"nlx_150446","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"ST","Definition":"User-defined description of reason for override of parameter specified by Override Parameter Pointer (3008,0062)."}}

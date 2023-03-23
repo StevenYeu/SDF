@@ -1,0 +1,1 @@
+{"Number of Stages":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_2124","SuperCategory":"DICOM term","Id":"nlx_150372","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"Number of Stages in this protocol. Required if image was acquired in a Staged protocol."}}

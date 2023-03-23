@@ -1,0 +1,1 @@
+{"Reporting Priority":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_1009","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150776","Has role":"DICOM administration attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"Requested Reporting Priority. Defined Terms: HIGH, ROUTINE, MEDIUM, LOW."}}

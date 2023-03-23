@@ -1,0 +1,1 @@
+{"Grid":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1166","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150087","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Identify the grid. Only a single value shall be present."}}

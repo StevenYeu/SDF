@@ -1,0 +1,28 @@
+<div class="modal-header">
+    <h3>Keywords</h3>
+</div>
+<form name="form.keywordsForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- KEYWORDS -->
+
+        <div class="form-group">
+<strong>Keywords:</strong> {{ keywords }}
+            <div class='container-fluid typeahead-demo'>
+            <input type="text" ng-model="asyncSelected" placeholder="Search for new keyword" uib-typeahead="term for term in getTerm($viewValue)" typeahead-loading="loadingTerms" typeahead-no-results="noResults" class="form-control" required>
+
+            <i ng-show="loadingTerms" class="glyphicon glyphicon-refresh"></i>
+                <div ng-show='noResults'>
+                <i class='glyphicon glyphicon-remove'></i> No Results Found
+                </div>
+
+                <input type="hidden" ng-model="next_position_keyword" id="next_position_keyword" name="next_position_keyword" value="' . $next_position['keyword'] . '" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" ng-disabled="form.keywordsForm.$invalid" ng-click="addItem()">Save</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

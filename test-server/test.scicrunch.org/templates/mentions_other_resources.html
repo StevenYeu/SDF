@@ -1,0 +1,6 @@
+<div ng-show="mention.other_resources === undefined">
+    Loading...
+</div>
+<div ng-hide="mention.other_resources === undefined" ng-repeat="other_resource in mention.other_resources">
+    <a target="_self" ng-href="{{'/scicrunch/Resource/record/nlx_144509-1/' + other_resource.uuid + '/search'}}">{{other_resource.resource_name}}</a>
+</div>

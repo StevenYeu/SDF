@@ -1,0 +1,1 @@
+{"Pixel Representation":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_0103","SuperCategory":"DICOM term","Id":"nlx_150552","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Data representation of the pixel samples. Each sample shall have the same pixel representation."}}

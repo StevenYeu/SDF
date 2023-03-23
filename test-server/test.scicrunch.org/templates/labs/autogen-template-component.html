@@ -1,0 +1,349 @@
+<style>
+    .scrollme {
+        overflow-x: auto;
+    }
+    #rightcol { overflow: hidden; }
+    #inner-right { overflow-y: scroll; max-height: 200px; height: 100px; width: 600px; border: 1px solid #ddd;}
+    #inner-right li { margin: 0; }
+</style>
+<div>
+    <div class="col-md-12" ng-show="($ctrl.type == 'dataset-update') && ($ctrl.mode == 'naming')">
+        <p>There are two options for updating datasets. You can <strong>upload a new version</strong>, or you can <strong>append</strong> new data. In some cases, you may have to do both. </p>
+        <p><strong>Upload new version</strong> - This option will remove all the data in your dataset and will replace it with new data. The current data will be deleted.</p>
+
+        <p><strong>Appending rows</strong> - This option will add new data rows to the dataset. The current data entries will not be changed. Note: if your dataset was too large to upload or replace, you should split your data file into smaller files and use the Append Rows workflow to upload each piece.</p>
+
+        I want to: <button class="btn" style="background-color: #427c98; color: white; padding-left: 10px; padding-right: 10px" ng-click="$ctrl.changeMode('namingUpload')" onClick="next(); return false;">Upload New Version</button> <button class="btn" style="background-color: #427c98; color: white; padding-left: 10px; padding-right: 10px" ng-click="$ctrl.changeMode('namingAppend')" onClick="next(); return false;">Append Rows</button>
+    </div>
+
+    <div class="col-md-12" ng-show="!$ctrl.errors_file.hasError()">
+        <div ng-show="$ctrl.type == 'dataset-update' && ($ctrl.mode == 'namingUpload' || ($ctrl.whichNaming == 'namingUpload' && $ctrl.mode == 'preview'))">
+            <h2>Upload new version</h2>
+            <span style="color:red; font-weight: bold";>WARNING</span><br />
+            <p>By uploading a new version of your dataset, you will be deleting the existing records in your dataset. We recommend that you <a ng-href="{{ $ctrl.downloadCSVUrl }}" target="_self">download the current version</a> before continuing in case you need to undo your upload.</p>
+            <p>You can use this "Upload new version" process to modify your dataset by downloading the current version, making the changes, and reuploading it without deleting any of the dataset associated documents or metadata.</p>
+        </div>
+
+        <div ng-show="$ctrl.type == 'dataset-update' && ($ctrl.mode == 'namingAppend' || ($ctrl.whichNaming == 'namingAppend' && $ctrl.mode == 'preview'))">
+            <h2>Append rows</h2>
+            <span style="color:red; font-weight: bold";>WARNING</span><br />
+            <p>The process will add the new data directly below your existing data entries. Make sure to check that you are not uploading duplicate rows.</p>
+            <p>When appending data, your data must be formatted with the same fields as the current dataset. We recommend that you <a ng-href="{{ $ctrl.downloadCSVUrl }}" target="_self">download the current version</a> before continuing in case you need to see the current fields.</p>
+        </div>
+        <div id="prepare-your-data" ng-show="(($ctrl.mode == 'naming') && ($ctrl.type == 'dataset')) || ($ctrl.mode == 'namingUpload') || ($ctrl.mode == 'namingAppend') ">
+            <div>
+                <h3>Prepare Your Data</h3>
+                <p>Datasets must be .csv files. You can convert a spreadsheet (excel) file to .csv using Microsoft Excel and “saving as” a csv (comma separated value) file.</p>
+                <p>This will convert only the FIRST spreadsheet of your excel file and remove all graphs, leaving only the cell values. For additional information, visit the csv Help section.</p>
+            </div>
+            
+            <div>
+                <div class="form-group">
+                    <input type="hidden" name="whichNaming" value="namingUpload" id="whichNaming" ng-if="$ctrl.mode == 'namingUpload'">
+                    <input type="hidden" name="whichNaming" value="namingAppend" id="whichNaming" ng-if="$ctrl.mode == 'namingAppend'">
+                    <label>Select a <span data-name="csv-info.html" class="help-tooltip-btn help-tooltip-text">CSV</span> file</label>
+                    <br>
+                    <input type="file" id="browse-file-select" class="hidden" custom-on-change="$ctrl.datasetFileSelect" />
+                    <label for="browse-file-select" style="cursor: pointer;" class="lab-button lab-small-button">Select File</label>
+                    
+                    <input type="button" id="browse-file-selectaf" ng-click="$ctrl.changeMode('naming')" class="hidden"/>
+                    <label for="browse-file-selectaf" style="cursor: pointer;" class="lab-button lab-small-button" ng-show="$ctrl.type != 'dataset'" >Go back</label>
+                    <br>
+                    <label style="display: inline;" ng-show="$ctrl.filename">
+                        Selected file: {{$ctrl.filename | limitTo:30}}{{$ctrl.filename.length > 30 ? '&hellip;' : ''}}
+                    </label>
+                    <label ng-show="$ctrl.goodFile" class="fa fa-check-circle" style="color: #72C02C"></label>
+                    <label class="text-danger">{{ $ctrl.errors.file }}</label>
+                    <label class="text-info" ng-show="$ctrl.errors.file">
+                        Field headers cannot be repeated and cannot begin with an underscore.
+                    </label>
+                    <label ng-show="$ctrl.errors.file_blank_headers_count > 0" class="text-warning">
+                        Skipped {{ $ctrl.errors.file_blank_headers_count }} blank header columns.
+                    </label>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- for dataset-update, only show Preview button if no errors -->
+        <div ng-show="$ctrl.type == 'dataset-update' && $ctrl.file_contents.data" >
+            <div id="update_notification" ng-if="(notice_add.length > 0 || notice_delete.length > 0) && !$ctrl.errors_file.hasError()">
+                <div ng-show="$ctrl.mode == 'namingUpload'">
+                    <div style="float: left; color: orange; font-size: 2em; width: 40px;"><i class="fa fa-exclamation-triangle"></i></div>
+                    <div style="width: 100%">
+                        <h4 style=" font-weight: bold">Note: Your update file has field differences from the current dataset. </h4>
+
+                        <span ng-if="notice_add.length > 0"><strong>{{ notice_add.length }}</strong> field(s) will be added.</span>
+                        <span ng-if="notice_delete.length > 0"><strong>{{ notice_delete.length }}</strong> field(s) will be removed.</span>
+                        See details below.
+
+                        <div id="rightcol">
+                            <div id="inner-right">
+                                <div style="float: left; width: 290px; padding: 2px;" ng-if="notice_add">
+                                    <strong>Field(s) to be added:</strong><br />
+                                    <ul>
+                                    <li ng-repeat="notice in notice_add">
+                                        {{ notice }}
+                                    </li>
+                                    </ul>
+                                </div>
+                                <div style="float: left; width: 290px; padding: 2px;" ng-if="notice_delete">
+                                    <strong>Field(s) to be removed:</strong><br />
+                                    <ul>
+                                    <li ng-repeat="notice in notice_delete">
+                                        <span ng-style="set_color(notice)">{{ subject_id(notice)}}</span>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            <br />
+            <input ng-click="$ctrl.changeMode('preview')"  onClick="next(); return false;" type="submit" class="btn btn-success" value="{{ $ctrl.submitTemplateButtonValue() }}" />
+                </div>
+                <div ng-show="$ctrl.mode == 'namingAppend'">
+                    <div style="float: left; color: red; font-size: 2em; width: 40px;"><i class="fa fa-exclamation-triangle"></i></div>
+                    <div style="width: 100%">
+                        <h4 style=" font-weight: bold">Error: Your update file has field differences from the current dataset. See details below.</h4>
+                        <div id="rightcol">
+                            <div id="inner-right">
+                                <div style="float: left; width: 290px; padding: 2px;" ng-if="notice_add">
+                                    <strong>New field(s):</strong><br />
+                                    <ul>
+                                    <li ng-repeat="notice in notice_add">
+                                        {{ notice }}
+                                    </li>
+                                    </ul>
+                                </div>
+                                <div style="float: left; width: 290px; padding: 2px;" ng-if="notice_delete">
+                                    <strong>Missing field(s):</strong><br />
+                                    <ul>
+                                    <li ng-repeat="notice in notice_delete">
+                                        <span ng-style="set_color(notice)">{{ subject_id(notice)}}</span>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div ng-if="(($ctrl.mode == 'namingAppend') || ($ctrl.mode == 'namingUpload')) && (notice.add === undefined || (notice_add.length == 0)) && (notice_delete === undefined || notice_delete.length == 0) && !$ctrl.errors_file.hasError()">
+            <br />
+            <input ng-hide="((notice_add.length > 0 && notice_delete === undefined) || (notice_add === undefined && notice_delete.length > 0))" ng-click="$ctrl.changeMode('preview')"  onClick="next(); return false;" type="submit" class="btn btn-success" value="{{ $ctrl.submitTemplateButtonValue() }}" />
+            </div>
+        </div>
+
+        <div ng-show="$ctrl.mode == 'naming'">
+            <form ng-submit="$ctrl.submitTemplate()" name="testform">
+                <div ng-show="$ctrl.type == 'dataset'">
+                    <h4>Enter dataset information</h4>
+
+                    <div class="form-group">
+                        <label>Dataset name <span class="text-danger">*</span></label><br />
+                        <input ng-change="$ctrl.newDatasetNameChange()" ng-model="$ctrl.fields.dataset_name" ng-model-options="{debounce: 1000}" type="text" size="50"/>
+                        <div class="text-danger">
+                            {{ $ctrl.errors.new_dataset_name }}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Dataset description <span class="text-danger">*</span></label><br />
+                        <textarea ng-model="$ctrl.fields.dataset_description" rows="5" cols="80"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input ng-change="$ctrl.userUpdatedNewTemplateName()" ng-model="$ctrl.fields.template_name" class="form-control" type="hidden" />
+                </div>
+                <span ng-show="$ctrl.named()">
+                    <input ng-click="$ctrl.changeMode('preview')" type="submit" class="btn btn-success" value="{{ $ctrl.submitTemplateButtonValue() }}" />
+                </span>
+            </form>
+            <div ng-show="$ctrl.submitting_template.in_progress">
+                <h4>Submitting template</h4>
+                <progress-bar percent="$ctrl.submitting_template.percent" />
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12" ng-if="$ctrl.mode == 'preview' && !$ctrl.errors_file.hasError()">
+        <!--
+        <div id="check-cdes">
+            <h2>Check CDEs (In Development)</h2>
+            <p>Community Data Elements (CDEs) are standardized key terms on the ODC-SCI representing specific variables, measures, and outcomes.</p>
+            <p>We are still developing the CDE Mapping System on the ODC-SCI. For now, you only need to choose a subject field (column representing your subject ID) before you upload.</p>
+        </div>
+        -->
+        <div class="well">
+            <div ng-if="$ctrl.type !='dataset-update'">
+                <h2>Update preview</h2>
+            </div>
+            <div ng-if="$ctrl.type =='dataset-update'">
+                <h2>Preview Data</h2>
+            </div>
+
+            <div ng-show="$ctrl.whichNaming != 'namingAppend'">
+                <h4>Before submitting</h4>
+                <ul >
+                    <li class="uploadpreview">
+                        Choose a subject field (required) 
+                        <i class="fa fa-check-circle text-success" ng-show="$ctrl.subjectChosen()"></i>
+                        <a ng-click="$ctrl.showSubjectPickHelp()" ng-hide="$ctrl.show_subject_pick_help" href="javascript:void(0)" class="lab-link">[How do I choose a subject?]</a> &nbsp;&nbsp;&nbsp;
+                        <div ng-show="$ctrl.show_subject_pick_help">
+                            Click on the <strong>Subject</strong> checkbox for one of your dataset columns to be the subject field for your dataset.
+                        </div>
+                    </li>
+                    <!--
+                    <li class="uploadpreview">
+                        Map fields to CDEs (In Development)
+                        <i class="fa fa-check-circle text-success" ng-show="!$ctrl.hasUnmappedCDEs()"></i>
+                    </li>
+                    -->
+                </ul>
+            </div>
+
+            <div ng-if="$ctrl.type == 'dataset-update'">
+                <button class="btn btn-success" ng-click="$ctrl.submitFullDatasetButton()" ng-show="$ctrl.submitable()" >Upload</button>
+            <button type="button" class="btn btn-success disabled" data-toggle="tooltip" title="Select a subject field before submitting" ng-hide="$ctrl.submitable()">Upload</button>
+                <button class="btn" style="background-color: #427c98; color: white; padding-left: 10px; padding-right: 10px" ng-click="$ctrl.changeMode($ctrl.whichNaming)">Go back</button>
+
+            </div>
+            <div ng-if="$ctrl.type != 'dataset-update'">
+                <button class="btn btn-success" ng-click="$ctrl.submitFullDatasetButton()" ng-show="$ctrl.submitable()" onClick="next(); return false;" >Upload</button>
+                <button type="button" class="btn btn-success disabled" data-toggle="tooltip" title="Select a subject field before submitting" ng-hide="$ctrl.submitable()">Upload</button>
+                <button class="btn" style="background-color: #427c98; color: white; padding-left: 10px; padding-right: 10px" ng-click="$ctrl.changeMode('naming')">Go back</button>
+        </div>
+            
+            <div style="overflow-x: scroll">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center" ng-repeat="h in $ctrl.file_contents.header | orderBy: 'position'" ng-show="h.name != 'notes'">
+                                <div>{{ h.name }}</div>
+                                <!--
+                                <div>
+                                    <span style="cursor:pointer" ng-class="{'text-warning': h.term.ilx == $ctrl.defaultILX()}" ng-click="$ctrl.changeCDE(h)">{{h.term.label}} ({{ h.term.ilx }})</span>
+                                </div>
+
+
+                                                <th ng-repeat="field in $ctrl.dataset.template.fields">
+                    {{ field.name }}<span class="text-danger" ng-show="$ctrl.isSubjectField(field)">*</span>
+                </th>
+
+                                -->
+                                <div ng-hide="$ctrl.whichNaming == 'namingAppend'">
+                                        <i class="fa fa-caret-right fast-grow-and-shrink" ng-show="$ctrl.highlight_subject_row"></i>
+                                        <span ng-class="{'lab-link': $ctrl.show_subject_pick_help}" ng-hide="$ctrl.subject_index == h.id" ng-click="$ctrl.selectIndex(h.id)" style="cursor:pointer">Subject: <i class="fa fa-square-o"></i></span>
+                                        <span ng-class="{'lab-link': $ctrl.show_subject_pick_help}" ng-show="$ctrl.subject_index == h.id">Subject: <i class="fa fa-check-square-o"></i></span>
+                                    <div>
+                                        <i ng-hide="$first" style="cursor:pointer" ng-click="$ctrl.moveHeader(h, 'up')" class="fa fa-arrow-left"></i>
+                                        <i ng-hide="$last" style="cursor:pointer" ng-click="$ctrl.moveHeader(h, 'down')" class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody ng-show="$ctrl.file_contents.data.length > 0">
+                        <tr style="text-align: center" ng-repeat="row in $ctrl.file_contents.data | startFrom: $ctrl.previewStartIndex() | limitTo: $ctrl.preview_per_page" ng-hide="$last && row.length == 1 && row[0] == ''">
+                            <td ng-repeat="h in $ctrl.file_contents.header | orderBy: 'position'">{{ row[h.id] }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <ul uib-pagination
+                ng-hide="$ctrl.file_contents.data.length == 0"
+                total-items="$ctrl.file_contents.data.length - 1"
+                items-per-page="$ctrl.preview_per_page"
+                ng-model="$ctrl.preview_page"
+                max-size="7"
+                boundary-links="true"
+            ></ul>
+        </div>
+    </div>
+    <div class="col-md-12" ng-show="$ctrl.mode == 'uploading'">
+        <h2 ng-show="$ctrl.type == 'dataset'">Your dataset is being submitted...</h2>
+        <h2 ng-show="$ctrl.type == 'template'">Your template is being submitted...</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped active" style="width: 100%"></div>
+        </div>
+    </div>
+    <div class="col-md-12" ng-show="$ctrl.mode == 'post-upload'">
+        <h2>Upload completed</h2>
+        <div ng-show="$ctrl.type == 'dataset'">
+            <p>Your upload is done but the dataset is still being processed for viewing on the ODC. You can go to the dataset now, but don’t worry if the dataset doesn’t show up yet!</p>
+            
+            <h3>Important associated files</h3>
+            <p>It's extremely important and helpful to include a Data dictionary and Methodology document with your dataset to increase the data interpretability. While they are not required for your initial upload, you will be required to submit these for a DOI and dataset publication. You can upload these documents on the dataset's page. For more instructions on how to prepare and upload these documents, click here.</p>
+
+            <a class="btn btn-success" target="_self" ng-href="/{{$ctrl.portalName}}/lab/dataset?labid={{$ctrl.labid}}&datasetid={{$ctrl.new_dataset.id}}">Go to new dataset</a>
+        </div>
+        <div ng-show="$ctrl.type == 'template'">
+            <a class="btn btn-success" target="_self" ng-href="/{{$ctrl.portalName}}/lab/template?labid={{$ctrl.labid}}&templateid={{$ctrl.new_template.id}}">Go to new template</a>
+        </div>
+        <div ng-show="$ctrl.type == 'dataset-update'">
+            <p>Your upload is done but the update is still being processed. You can go to the dataset now, but don’t worry if the updated data doesn’t show up yet!</p>
+            
+            <a class="btn btn-success" target="_self" ng-href="/{{$ctrl.portalName}}/lab/dataset?labid={{$ctrl.labid}}&datasetid={{ $ctrl.dataset.id }}">Go to dataset</a>
+        </div>    </div>
+
+    <div class="col-md-12" ng-show="$ctrl.mode == 'post-upload-error'">
+        <h2>
+            <span ng-show="$ctrl.type == 'dataset'">
+                There was an error when submitting your dataset.
+            </span>
+            <span ng-show="$ctrl.type == 'template'">
+                There was an error when creating your template.
+            </span>
+            <span ng-show="$ctrl.type == 'dataset-update'">
+                There was an error when submitting your update.
+            </span>
+            Please try again later or contact our help desk using the form in the bottom right corner.
+        </h2>
+    </div>
+    <div class="col-md-12" ng-if="$ctrl.errors_file.hasError()">
+        <div href="javascript:void(0)" style="cursor:pointer" class="lab-button lab-small-button" ng-click="$ctrl.resetFile()">Go back</div>
+        <div id="csv_error"> <!--ng-if="$ctrl.type != 'dataset-update'"-->
+            <h4>There were problems when reading the CSV.</h4>
+            <div style="color:red">{{ foooo }}</div>
+        </div>
+        <div class="scrollme">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th ng-repeat="header in $ctrl.file_contents.header track by $index">
+                        {{ header_errors=$ctrl.csvHeaderError(header.name);"" }}
+                        <div ng-class="{'text-warning': header_errors.length > 0}">
+                            {{ header.name }}
+                        </div>
+                        <div class="text-danger" ng-repeat="error in header_errors">
+                            {{ error }}
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody ng-show="$ctrl.file_contents.data.length > 0">
+                <tr ng-hide="$last && row.length == 1 && row[0] == ''" ng-repeat="row in $ctrl.file_contents.data | limitTo: 15 track by $index">
+                    <td ng-repeat="data in row track by $index">{{ data }}</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 " ng-show="$ctrl.mode == 'upload-data'">
+        <h4>Almost done... Please review the data below then click the Upload data button when ready</h4>
+        <div class="well" style="overflow-x:scroll">
+            <h4>Upload data</h4>
+            <upload-data-component
+                dataset="$ctrl.new_dataset"
+                uploadable="$ctrl.uploadable"
+                portal-name="$ctrl.portalName"
+                labid="$ctrl.labid"
+            />
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-12" ng-show="$ctrl.mode == 'parsing-data'">
+        <div class="well" style="min-height:200px">
+            <h4>Reading data into the new template <i class="fa fa-cog fa-spin"></i></h4>
+        </div>
+    </div>
+</div>

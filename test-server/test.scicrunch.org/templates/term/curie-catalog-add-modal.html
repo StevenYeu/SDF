@@ -1,0 +1,80 @@
+<script type="text/ng-template" id="curie-catalog-add-modal">
+<form ng-submit="submit()">
+    <div class="modal-header">
+        <h4>Add to Curie Catalog</h4>
+    </div>
+
+    <div class="modal-body" style="height:100%;">
+        <table style="width:100%;border-spacing:5px;border-collapse:separate;">
+        <tr>
+        <td><label class="col-sm-3">Prefix</label></td>
+        <td class="col-sm-9">
+            <input type="text" class="form-control input-sm" ng-model="newCurieCatalogEntry.prefix" enter-directive />
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">Namespace</label></td>
+        <td class="col-sm-9">
+            <input type="text" class="form-control input-sm" ng-model="newCurieCatalogEntry.namespace" enter-directive />
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">name</label></td>
+        <td class="col-sm-9">
+            <input type="text" class="form-control input-sm" ng-model="newCurieCatalogEntry.name" enter-directive />
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">description</label></td>
+        <td class="col-sm-9">
+            <textarea class="form-control input-sm" ng-model="newCurieCatalogEntry.description" enter-directive />
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">Homepage</label></td>
+        <td class="col-sm-9">
+            <input type="text" class="form-control input-sm" ng-model="newCurieCatalogEntry.homepage" enter-directive />
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">Logo (URL)</label></td>
+        <td class="col-sm-9">
+            <input type="text" class="form-control input-sm" ng-model="newCurieCatalogEntry.logo" enter-directive />
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">Type</label></td>
+        <td class="col-sm-9">
+            <select name="type" class="form-control input-sm" ng-model="newCurieCatalogEntry.type">
+                <option value="ontology">Ontology</option>
+                <option value="vocabulary">Vocabulary</option>
+                <option value="datasource">Datasource</option>
+            </select>
+        </td>
+        </tr>
+
+        <tr>
+        <td><label class="col-sm-3">Source URI?</label></td>
+        <td class="col-sm-9">
+            <select name="type" class="form-control input-sm" ng-model="newCurieCatalogEntry.source_uri">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+        </td>
+        </tr>
+
+        </table>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">OK</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+</script>

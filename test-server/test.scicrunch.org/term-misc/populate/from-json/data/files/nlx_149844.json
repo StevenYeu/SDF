@@ -1,0 +1,1 @@
+{"Delivered Treatment Time":{"ValueRepresentation":"DS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_003B","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149844","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"Treatment Time actually delivered (sec)."}}

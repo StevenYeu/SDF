@@ -1,0 +1,44 @@
+<div class="modal-header">
+    <h3>PROVENANCE / ORIGINATING PUBLICATIONS</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- DOI -->
+        <div class="form-group">
+            <label>DOI</label><br />
+            <input type="text" ng-model="publication_doi" name="publication_doi" size="50" value="{{ publication_doi }}" />
+        </div>
+
+        <div class="form-group">
+            <label>PMID</label><br />
+            <input type="text" ng-model="publication_pmid" name="publication_pmid" size="50" value="{{ publication_pmid }}" />
+        </div>
+
+        <!-- Title -->
+        <div class="form-group">
+            <label>Title</label><br />
+            <input type="text" ng-model="publication_title" name="publication_title" size="50" value="{{ publication_title }}" />
+        </div>
+
+        <!-- CITATION -->
+        <div class="form-group">
+            <label>Citation</label><br />
+            <textarea ng-model="publication" name="publication" rows="6" cols="80" ></textarea>
+        </div>
+
+        <!-- CITATION RELEVANCE -->
+        <div class="form-group">
+            <label>Citation Relevance</label><br />
+            <textarea ng-model="relevance" name="relevance" rows="7" cols="80"></textarea>
+        </div>
+
+        <input type="hidden" name="position"  class="form-control" ng-model="position" value="{{ position }}" >
+        <input type="hidden" name="typee"  class="form-control" ng-model="typee" value="publication">
+    </div>
+
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid" ng-click="update()">Update</button>
+        <button type="submit" class="btn btn-danger" ng-click="delete()">Remove</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

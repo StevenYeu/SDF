@@ -1,0 +1,48 @@
+AfferentProjections	Afferent projection	object property	Dorsal root ganglion	make singular
+AxonDiameter	Axon diameter	annotation property	mean: 1.63 micrometer	
+AxonLength	Axon length	annotation property	Rat: several millimeters (association fibers extending to the olfactory bulb	
+AxonMyelination	Axon myelination	annotation property	unmyelinated	
+AxonProjectionLaterality	Axon projection laterality	object property	ipsilateral	
+AxonTract	Axon tract	object property	Brachium of the inferior colliculus	
+BranchingMetrics	Branching metric		unipolar	future phenotype objectproperty
+CellSomaShape	Cell soma shape		oval	future phenotype objectproperty
+CellSomaShapeOther	Cell soma shape other		Round	future phenotype objectproperty
+CellSomaSize	Cell soma size	object property	smaill soma	future phenotype objectproperty
+CellularSynapticTarget	Cellular synaptic target	object property	medial geniculate body stellate cell	
+ConnDefiningCriteria	Connection defining criteria	annotation property	Field L receives inputs from the nucleus ovoidalis and projects to caudomedial nidopallium.	?
+DOI	DOI		10.1007/7089_012	future data federation dataproperty
+DendriteLength	Dendrite length		Rat: basal dendrites: 100-200 um; apical dendrite: 400-500 um	future phenotype objectproperty
+DendriteLocation	Dendrite location	object property	Islands of Calleja	
+DendriteShape	Dendrite shape	annotation property	horizontal	
+DendriteThickness	Dendrite thickness	annotation property	2-3 um	
+Destination	Destination	object property	Caudomedial Mesopallium	
+EfferentProjections	Efferent projection	object property	Cerebellum	make everything singular
+Has role	Has role	object property	Processed image attribute	
+Is part of	Is part of	object property	Major White Matter Structures of CIVM postnatal rat brain atlas	should be object need to be able to record a comment/annotation on object property
+Is_part_of	Is part of	object property		
+Located in	Located in	object property	Ganglion cell layer	
+Located_in	Located in	object property		
+LocationOfAxonArborization	Location of axon arborization	object property	Substantia innominata	
+LocationOfLocalAxonArborization	Location of local axon arborization	object property	Basolateral nuclear complex	
+MolecularConstituents	Molecular constituents	object property	Neuropeptide	
+Neurotransmitter	Neurotransmitter	object property	GABA	
+NeurotransmitterReceptors	Neurotransmitter receptors	object property	AMPA-type glutamate-gated cationic channel	
+NumberOfPrimaryDendrites	Number of primary dendrites	annotation property	3.5	
+Organism	Organism	object property	mouse	
+Origin	Origin	object property	Caudomedial Nidopallium	
+OriginOfAxon	Origin of axon		soma	
+ParcellationScheme	Parcellation scheme		ABA 2009 adult mouse brain parcellation scheme	
+Parcellation_scheme	Parcellation scheme			
+PartiallyOverlapsWith	Partially overlaps with	object property	Secondary motor area  layer 1	
+Polarity	Polarity		unipolar	
+Related application	Related application	annotation property	Research	
+Related disease	Related disease	object property	Cancer	
+Related organisms	Related organisms	object property	Human	
+RelatedTo	Related to		BIRN-INCF Derived Data Project	
+RetrievedOn	Retrieved on		Pub Med	?
+Species	Species		Macaca fuscata fuscata	
+SpineDensityOnDendrites	Spine density on dendrites	object property	spiny low density	?
+SpontaneousFiringPatterns	Spontaneous firing patterns	annotation property	regular firing	?
+SpontaneousFiringRate	Spontaneous firing rate	annotation property	slow firing	?
+SubcellularSynapticTarget	Subcellular synaptic target		dendrite	
+ValueRepresentation	Value representation		SQ	?

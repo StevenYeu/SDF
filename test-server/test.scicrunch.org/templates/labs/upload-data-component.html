@@ -1,0 +1,160 @@
+<div class="row" ng-show="$ctrl.submitting_data.in_progress">
+    <div class="col-md-12">
+        <h4>Uploading your data...</h4>
+        <progress-bar percent="$ctrl.submitting_data.percent" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 col-xs-4">
+            <a href="javascript:void(0)">
+                <button ng-click="$ctrl.upload()" class="btn btn-success">Upload data - cheating now ...</button>
+                <span class="page-workflow-step" data-page-workflow-step="dataupload-button"></span>
+            </a>
+            <a href="javascript:void(0)" ng-show="$ctrl.uploadReady()">
+                <button ng-click="$ctrl.upload()" class="btn btn-success">Upload data</button>
+                <span class="page-workflow-step" data-page-workflow-step="dataupload-button"></span>
+            </a>
+            <a href="javascript:void(0)" ng-show="$ctrl.table_mode == 'normal' && $ctrl.uploadable.hasError()">
+                <button ng-click="$ctrl.changeTableMode('error')" class="btn btn-danger">Errors Found! Click to view errors.</button>
+            </a>
+            <a ng-show="$ctrl.dataset != null && $ctrl.uploadable.complete" target="_self" ng-href="/{{ $ctrl.portalName }}/lab/dataset?labid={{ $ctrl.labid }}&datasetid={{ $ctrl.dataset.id }}">
+                <button class="btn btn-primary">Go to dataset</button>
+            </a>
+            <a href="javascript:void(0)" ng-show="$ctrl.table_mode == 'error'" ng-click="$ctrl.changeTableMode('normal')">
+                <button class="btn btn-primary">View data</button>
+            </a>
+    </div>
+
+</div>
+<div style="padding:5px">
+    <span class="text-danger">*</span> = required subject field
+</div>
+<div ng-show="$ctrl.table_mode == 'normal'">
+    <ul uib-pagination
+        ng-hide="!$ctrl.uploadable.data"
+        total-items="$ctrl.uploadable.data.length"
+        items-per-page="$ctrl.page_length"
+        ng-model="$ctrl.current_page"
+        max-size="7"
+        boundary-links="true"
+    ></ul>
+    <div>SUBJECT: {{ hasSubject }}</div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th ng-show="$ctrl.uploadable">
+                    <i class="text-muted">Status</i>
+                </th>
+                <th ng-repeat="field in $ctrl.dataset.template.fields">
+                    {{ field.name }}<span class="text-danger" ng-show="$ctrl.isSubjectField(field)">*</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody ng-show="$ctrl.uploadable">
+            <tr ng-repeat="datum in $ctrl.uploadable.data | startFrom: $ctrl.pageIndex() | limitTo: $ctrl.page_length">
+                <td>
+                    <i ng-class="{'text-muted': datum.upload_success, 'text-danger': !datum.upload_success}">{{ datum.status }}</i>
+                </td >
+                <td ng-repeat="field in $ctrl.dataset.template.fields">
+                    {{ datum.values[field.name] }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <ul uib-pagination
+        ng-hide="!$ctrl.uploadable.data"
+        total-items="$ctrl.uploadable.data.length"
+        items-per-page="$ctrl.page_length"
+        ng-model="$ctrl.current_page"
+        max-size="7"
+        boundary-links="true"
+    ></ul>
+</div>
+<div ng-show="$ctrl.table_mode == 'upload-error'">
+    <ul uib-pagination
+        ng-hide="!$ctrl.upload_error_rows"
+        total-items="$ctrl.upload_error_rows.length"
+        items-per-page="$ctrl.page_length"
+        ng-model="$ctrl.current_page"
+        max-size="7"
+        boundary-links="true"
+    ></ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th><i class="text-muted">Status</i></th>
+                <th><i class="text-muted">Line number</i></th>
+                <th ng-repeat="field in $ctrl.dataset.template.fields">
+                    {{ field.name }}
+                    <span class="text-danger" ng-show="$ctrl.isSubjectField(field)">*</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="row in $ctrl.upload_error_rows | startFrom: $ctrl.pageIndex() | limitTo: $ctrl.page_length">
+                <td><i class="text-danger">{{ $ctrl.uploadable.data[row].status }}</i></td>
+                <td><i>{{ row + 2 }}</i></td>
+                <td ng-repeat="field in $ctrl.dataset.template.fields">
+                    {{ $ctrl.uploadable.data[row].values[field.name] }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <ul uib-pagination
+        ng-hide="!$ctrl.upload_error_rows"
+        total-items="$ctrl.upload_error_rows.length"
+        items-per-page="$ctrl.page_length"
+        ng-model="$ctrl.current_page"
+        max-size="7"
+        boundary-links="true"
+    ></ul>
+</div>
+<div ng-show="$ctrl.table_mode == 'error'">
+    <div class="panel panel-default" ng-show="$ctrl.uploadable.errors.file">
+        <div class="panel-body">
+            <strong><span class="fa fa-exclamation-circle text-danger"></span> {{ $ctrl.uploadable.errors.file }}</strong>
+        </div>
+    </div>
+    <div class="panel panel-default" ng-show="$ctrl.uploadable.errors.missing_header.length > 0">
+        <div class="panel-body">
+            <strong><span class="fa fa-exclamation-circle text-danger"></span> Columns missing from CSV:</strong>
+            <ul>
+                <li ng-repeat="header in $ctrl.uploadable.errors.missing_header">
+                    {{ header }}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panel panel-default" ng-show="$ctrl.uploadable.errors.missing_subject.length > 0">
+        <div class="panel-body">
+            <strong><span class="fa fa-exclamation-triangle text-warning"></span> Records missing subject data</strong>
+            <ul>
+                <li ng-repeat="record in $ctrl.uploadable.errors.missing_subject">
+                    {{ record.data.join(", ") }}
+                    (line number: {{ record.line }})
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panel panel-default" ng-show="$ctrl.uploadable.errors.incomplete_records.length > 0">
+        <div class="panel-body">
+            <strong><span class="fa fa-exclamation-triangle text-warning"></span> Incomplete records</strong>
+            <ul>
+                <li ng-repeat="record in $ctrl.uploadable.errors.incomplete_records">
+                    {{ record.data.join(", ") }}
+                    (line number: {{ record.line }})
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panel panel-default" ng-show="$ctrl.uploadable.errors.extra_header.length > 0">
+        <div class="panel-body">
+            <strong><span class="fa fa-exclamation-triangle text-warning"></span> Extra headers in file, but not in template</strong>
+            <ul>
+                <li ng-repeat="header in $ctrl.uploadable.errors.extra_header">
+                    {{ header }}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

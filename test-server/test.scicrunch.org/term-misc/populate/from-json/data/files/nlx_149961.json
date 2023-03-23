@@ -1,0 +1,1 @@
+{"Event Elapsed Times":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_2130","SuperCategory":"DICOM term","Id":"nlx_149961","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"An array of values associated with each event timer. Units in milliseconds."}}

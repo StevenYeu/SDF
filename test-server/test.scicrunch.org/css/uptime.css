@@ -1,0 +1,19 @@
+.glyphicon-success { color: #3c763d; }
+.glyphicon-danger { color: #a94442; }
+.glyphicon-info { color: #31708f; }
+.popover-hide { position: absolute; top: 15; right: 10px; }
+.popover-chart { min-width: 400px; }
+.popover-centered {
+  position: fixed !important;
+  top: 10% !important;
+  left: 50% !important;
+  margin-top: -50px !important;
+  margin-left: -100px !important;
+  max-width: 430px;
+}
+.refresh:hover{
+    cursor: default;
+}
+#all-charts:hover {
+	cursor: default;
+}

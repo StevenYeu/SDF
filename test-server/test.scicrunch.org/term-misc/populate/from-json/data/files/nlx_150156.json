@@ -1,0 +1,1 @@
+{"In-plane Phase Encoding Direction":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1312","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150156","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"The axis of phase encoding with respect to the image. "}}

@@ -1,0 +1,1 @@
+{"MR Velocity Encoding Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9197","SuperCategory":"DICOM term","Id":"nlx_150316","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Identifies the velocity encoding of this frame. Only a single Item shall be permitted in this sequence."}}

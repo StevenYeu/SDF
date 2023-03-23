@@ -1,0 +1,1 @@
+{"Stage Name":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_2120","SuperCategory":"DICOM term","Id":"nlx_151033","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SH","Definition":"A Stage is a particular time slice of a protocol in which a set of images are collected. The names can be free form text."}}

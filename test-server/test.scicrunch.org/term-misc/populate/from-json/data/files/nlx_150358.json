@@ -1,0 +1,1 @@
+{"Number of Frames in Rotation":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0053","SuperCategory":"DICOM term","Id":"nlx_150358","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US","Definition":"Number of angular views in this rotation. Required if a sequence Item is present."}}

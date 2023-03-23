@@ -1,0 +1,38 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true",
+            "url": "$$URL"
+        },
+        {
+            "name": "Description",
+            "esField": "item.description",
+            "order": "2",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Keywords",
+            "esField": "item.keywords.[].keyword",
+            "order": "3",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "URL",
+            "esField": "distributions.current.[].uri",
+            "order": "4",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        }
+    ],
+    "viewType": "discovery"
+}

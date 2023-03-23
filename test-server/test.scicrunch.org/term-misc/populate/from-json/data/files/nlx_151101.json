@@ -1,0 +1,1 @@
+{"Table Top Vertical Position Tolerance":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0051","SuperCategory":"DICOM term","Id":"nlx_151101","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Maximum permitted difference (in mm) between planned and delivered Table Top Vertical Position."}}

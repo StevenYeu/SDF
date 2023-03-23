@@ -1,0 +1,1 @@
+{"Horizontal Field of View":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0022_000C","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150111","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FL","Definition":"The horizontal field of view in degrees."}}

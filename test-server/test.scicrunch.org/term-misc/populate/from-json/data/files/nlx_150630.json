@@ -1,0 +1,1 @@
+{"Radionuclide Half Life":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1075","SuperCategory":"DICOM term","Id":"nlx_150630","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The radionuclide half life, in seconds, that was used in the correction of this image."}}

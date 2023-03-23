@@ -1,0 +1,1 @@
+{"Echo Number":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0086","SuperCategory":"DICOM term","Id":"nlx_149935","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"IS","Definition":"The echo number used in generating this image. In the case of segmented k-space, it is the effective Echo Number."}}

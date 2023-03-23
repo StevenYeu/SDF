@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.7295/W9T72FMZ</identifier>
+  <creators>
+    <creator>
+      <creatorName>Ferguson, Adam R.</creatorName>
+      <givenName>Adam R.</givenName>
+      <familyName>Ferguson</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="orcid.org">0000-0001-7102-1608</nameIdentifier>
+      <affiliation>University of California San Francisco (UCSF)</affiliation>
+    </creator>
+    <creator>
+      <creatorName>Beattie, Michael S.</creatorName>
+      <givenName>Michael S.</givenName>
+      <familyName>Beattie</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="orcid.org">0000-0001-9463-3631</nameIdentifier>
+      <affiliation>University of California San Francisco (UCSF)</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title xml:lang="en">Cervical (C5), unilateral spinal cord injury with diverse injury modalities, multiple behavioral outcomes, and histopathology. Open Data Commons for Spinal Cord Injury</title>
+  </titles>
+  <publisher>Open Data Commons for Spinal Cord Injury (ODC-SCI)</publisher>
+  <publicationYear>2018</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Tabular</resourceType>
+  <subjects>
+    <subject xml:lang="en">cervical spinal cord injury</subject>
+    <subject xml:lang="en">NYU impactor</subject>
+    <subject xml:lang="en">IH impactor</subject>
+    <subject xml:lang="en">principal component analysis</subject>
+    <subject>bioinformatics</subject>
+    <subject>rodents</subject>
+    <subject>syndromics</subject>
+    <subject>translation</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="ContactPerson">
+      <contributorName>Ferguson, Adam R.</contributorName>
+      <givenName>Adam R.</givenName>
+      <familyName>Ferguson</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="orcid.org">0000-0001-7102-1608</nameIdentifier>
+      <affiliation>University of California San Francisco (UCSF)</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Issued">2018-11-04</date>
+    <date dateType="Updated">2019-04-25</date>
+  </dates>
+  <language>en-us</language>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="local accession number">odc-sci:26</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDocumentedBy">10.1371/journal.pone.0059712</relatedIdentifier>
+    <relatedIdentifier relationType="IsDocumentedBy" relatedIdentifierType="DOI">10.1038/ncomms9581</relatedIdentifier>
+    <relatedIdentifier relationType="IsDocumentedBy" relatedIdentifierType="DOI">10.1089/neu.2006.23.36</relatedIdentifier>
+    <relatedIdentifier relationType="IsDocumentedBy" relatedIdentifierType="URL">http://rave.ohiolink.edu/etdc/view?acc_num=osu1167753874</relatedIdentifier>
+  </relatedIdentifiers>
+  <sizes>
+    <size>95 KB</size>
+  </sizes>
+  <formats>
+    <format>text/csv</format>
+    <format>application/zip</format>
+    <format>application/x-zip-compressed</format>
+  </formats>
+  <version>1.0</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International Public License</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract" xml:lang="en">STUDY PURPOSE: This project was a multivariate validation study of unilateral cervical contusion (hemi-contusion) model-development efforts.&#13;
+&#13;
+DATA COLLECTED: The dataset includes N=159 rats with hemisections (n=9), NYU MASCIS weight drop contusions: sham (n=10), 6.25 mm (n=10), 12.5 mm (n=32); Infinite Horizon Impactor: sham (n=6), 75 kdyn (n=58), 100 kdyn (n=34). Behavioral recovery was monitored over 6 weeks using mutiple assements taken from the same subjects: Grooming Score, Paw Placement in a Cylinder, BBB locomotor subscore, Forelimb Open Field Score, and numerous Catwalk footprint analysis metrics. Histopathology metrics included lesion epicenter gray matter sparing, white matter sparing, total tissue sparing, and motorneuron numbers.&#13;
+&#13;
+PRIMARY CONCLUSION: Principal component analysis (PCA)-based multidimensional pattern detectors can resolve the ‘syndrome space’ across multiple models of SCI, allowing direct comparison of subjects with diverse injury types, outcome sets and therapeutics.</description>
+  </descriptions>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>National Institutes of Health</funderName>
+      <funderIdentifier funderIdentifierType="Other">NS067092 (ARF), NS069537 (ARF), NS038079 (JCB and MSB), NS031193 (MSB and JCB), AG032518 (MSB and JCB), F32NS079030 (JLN), NS079030 (JLN), NS032000 (WY; MSB site PI, multicentre study)</funderIdentifier>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Craig H. Neilsen Foundation</funderName>
+      <funderIdentifier funderIdentifierType="Other">224308 (ARF)</funderIdentifier>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Wings for Life Foundation</funderName>
+      <funderIdentifier funderIdentifierType="Other">WFLUS008/12 (ARF) and WFLUS006/14 (ARF)</funderIdentifier>
+    </fundingReference>
+    <fundingReference>
+      <funderName>International Spinal Research Trust</funderName>
+      <funderIdentifier funderIdentifierType="Other"/>
+    </fundingReference>
+    <fundingReference>
+      <funderName>Department of Defense (DoD)</funderName>
+      <funderIdentifier funderIdentifierType="Other">W81XWH-10-1-0910 (MSB) and W81XWH-13-1-0297 (MSB)</funderIdentifier>
+    </fundingReference>
+    <fundingReference>
+      <funderName>NY State CoRE</funderName>
+      <funderIdentifier funderIdentifierType="Other">CO19772 (MSB and JCB)</funderIdentifier>
+    </fundingReference>
+  </fundingReferences>
+</resource>

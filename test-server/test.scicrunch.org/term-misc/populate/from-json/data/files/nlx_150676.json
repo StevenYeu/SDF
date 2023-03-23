@@ -1,0 +1,1 @@
+{"Reference Pixel Y0":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_6022","SuperCategory":"DICOM term","Id":"nlx_150676","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SL","Definition":"This coordinate pair, x0,y0 defines the location of a virtual \"reference\" pixel."}}

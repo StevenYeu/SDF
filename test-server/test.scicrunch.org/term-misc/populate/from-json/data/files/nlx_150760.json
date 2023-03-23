@@ -1,0 +1,1 @@
+{"Region Location Min X0":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_6018","SuperCategory":"DICOM term","Id":"nlx_150760","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"The bounds of a rectangle specifying the location of the region, x0,y0,x1,y1."}}

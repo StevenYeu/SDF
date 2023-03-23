@@ -1,0 +1,1 @@
+{"Partial Fourier":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9081","SuperCategory":"DICOM term","Id":"nlx_150456","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Partial Fourier. Required if Frame Type (0008,9007) Value 1 of this frame is ORIGINAL. May be present otherwise."}}

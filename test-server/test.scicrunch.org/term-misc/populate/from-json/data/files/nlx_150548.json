@@ -1,0 +1,1 @@
+{"Pixel Intensity Relationship":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_1040","SuperCategory":"DICOM term","Id":"nlx_150548","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"The relationship between the Pixel sample values and the X-Ray beam intensity."}}

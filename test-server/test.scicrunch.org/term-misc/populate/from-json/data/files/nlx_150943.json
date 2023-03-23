@@ -1,0 +1,1 @@
+{"Signal Domain Columns":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_9108","SuperCategory":"DICOM term","Id":"nlx_150943","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Data representation of the data points. Each data point shall have the same representation."}}

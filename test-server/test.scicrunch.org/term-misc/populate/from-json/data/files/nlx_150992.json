@@ -1,0 +1,1 @@
+{"Source to Beam Limiting Device Distance":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_00BA","SuperCategory":"DICOM term","Id":"nlx_150992","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Radiation source to beam limiting device (collimator) distance (mm)."}}

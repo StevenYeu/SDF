@@ -1,0 +1,43 @@
+<script type="text/ng-template" id="term-community-curate-modal">
+<form ng-submit="submit()">
+    <div class="modal-header">
+        <h4>Approve/Deny Term Community</h4>
+    </div>
+
+    <div class="modal-body" style="">
+    <table style="width:100%;border-spacing:5px;border-collapse:separate;">
+        <tr>
+        <td>
+            <label>Term:</label> {{communityEntry.term}}<br>
+            <label>Community:</label> {{communityEntry.community_name}}<br>
+            <label>Suggested:</label> by {{communityEntry.user_suggested}} on {{communityEntry.date_suggested}}<br>
+            <label>Current status:</label> {{communityEntry.status}}
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+            <label>Change status to:</label><br>
+            <input type="radio" ng-model="communityEntry.status" value="approved"> Approved
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" ng-model="communityEntry.status" value="denied"> Denied
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" ng-model="communityEntry.status" value="suggested"> Pending (suggested)
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        <label>Notes:</label><br>
+            <textarea class="form-control input-sm" ng-model="communityEntry.notes" enter-directive />
+        </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">OK</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+</script>

@@ -1,0 +1,1 @@
+{"Respiratory Cycle Position":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_9214","SuperCategory":"DICOM term","Id":"nlx_150800","Has role":"imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Description of the position in the respiratory cycle that is most representative of this frame."}}

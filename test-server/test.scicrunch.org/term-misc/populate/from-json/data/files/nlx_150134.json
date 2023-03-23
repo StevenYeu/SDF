@@ -1,0 +1,1 @@
+{"Image Orientation (Patient)":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_0037","SuperCategory":"DICOM term","Id":"nlx_150134","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The direction cosines of the first row and the first column with respect to the patient."}}

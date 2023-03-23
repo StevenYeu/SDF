@@ -1,0 +1,49 @@
+<div class="modal-header">
+    <h3>Abstract</h3>
+</div>
+<form name="form.modalForm" ng-submit="submitForm()" novalidate>
+    <div class="modal-body">
+        <!-- ABSTRACT -->
+
+        <div class="form-group">
+            <!-- STUDY PURPOSE -->
+            <div class="form-group">
+                <label>Study Purpose</label>
+                <textarea ng-model="study_purpose" name="study_purpose" rows="6" cols="80" ></textarea>
+            </div>
+
+            <!-- DATA COLLECTED -->
+            <div class="form-group">
+                <label>Data Collected</label>
+                <textarea ng-model="data_collected" name="data_collected" rows="6" cols="80"></textarea>
+            </div>
+
+            <!-- CONCLUSIONS -->
+            <div class="form-group">
+                <label>Conclusions</label>
+                <textarea ng-model="conclusions" name="conclusions" rows="5" cols="80"></textarea>
+            </div>
+            <!-- DATA USAGE NOTES
+            <div class="form-group">
+                <label>Data Usage Notes</label>
+                <textarea ng-model="data_usage_notes" name="data_usage_notes" rows="5" cols="80"></textarea>
+            </div>
+            -->
+            <!-- PRIMARY CONCLUSION 
+            <div class="form-group">
+                <label>Primary Conclusion</label>
+                <textarea ng-model="primary_conclusion" name="primary_conclusion" rows="5" cols="80"></textarea>
+            </div>
+            -->
+        </div>
+        <input type="hidden" name="position"  class="form-control" ng-model="position" value="0" >
+        <input type="hidden" name="typee"  class="form-control" ng-model="typee" value="abstract">
+    </div>
+
+    <div class="modal-footer">
+        <p>{{ 5000 - study_purpose.length - data_collected.length - conclusions.length  - 45 }} characters left <span ng-if="((study_purpose.length + data_collected.length + conclusions.length) > 4955)" style="color:red">5000 character length exceeded</span> </p>
+        <button ng-if="isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid || ((study_purpose.length + data_collected.length + conclusions.length) > 4955) " ng-click="update()">Update</button>
+        <button ng-if="!isUpdate" type="submit" class="btn btn-success" ng-disabled="form.modalForm.$invalid || ((study_purpose.length + data_collected.length + conclusions.length) > 4955) " ng-click="add()">Save</button>
+        <button class="btn btn-warning" ng-click="cancel()">Close</button>
+    </div>
+</form>

@@ -1,0 +1,1 @@
+{"Illumination Type Code Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0022_0016","SuperCategory":"DICOM term","Id":"nlx_150118","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Coded value for illumination. Zero or one item shall be present in the sequence."}}

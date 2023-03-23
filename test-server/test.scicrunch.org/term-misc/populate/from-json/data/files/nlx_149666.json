@@ -1,0 +1,1 @@
+{"Calibration Data Sequence":{"ValueRepresentation":"SQ","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0306","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_149666","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Sequence that contains calibration data."}}

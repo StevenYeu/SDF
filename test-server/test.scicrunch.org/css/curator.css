@@ -1,0 +1,29 @@
+.input-button:hover {
+    cursor: pointer;
+}
+.delete-button {
+    color: red;
+    float: left;
+}
+.thumb-green{
+    color: green;
+}
+.thumb-red {
+    color: red;
+}
+.thumb-gray {
+    color: gray;
+}
+.right-panel {
+    height: 200px;
+    overflow: auto;
+}
+.diff-added {
+    color: green;
+}
+.diff-removed {
+    color: red;
+}
+.diff-modified {
+    color: orange;
+}

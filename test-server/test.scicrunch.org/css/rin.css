@@ -1,0 +1,156 @@
+.rin {
+  font-family: Helvetica, sans-serif; }
+  .rin .report {
+    .right-margin-margin-right: 5px;
+    .left-margin-margin-left: 5px; }
+    .rin .report .rrid-name {
+      font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+      color: #1C2D5C;
+      font-size: 24pt;
+      font-weight: bold; }
+    .rin .report .rrid {
+      font-family: Helvetica, sans-serif;
+      color: #1C2D5C;
+      font-size: 20pt; }
+    .rin .report .wrapper {
+      padding: 5px 10px;
+      border: solid 1px #408DC9;
+      margin: 0px 0px 5px;
+      position: relative;
+      background: #FFFFFF;
+      min-height: 150px; }
+    .rin .report .section {
+      border-top: solid 2px #305E8F;
+      padding: 5px;
+      .body-no-margin-margin-left: 0px; }
+      .rin .report .section .title {
+        font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+        color: #1C2D5C;
+        font-size: 16pt; }
+      .rin .report .section .body {
+        margin-left: 50px; }
+    .rin .report .review-star {
+      color: gold; }
+    .rin .report .top-link {
+      border-top: 1px solid;
+      margin-right: 10px;
+      font-size: 14pt;
+      font-family: Helvetica, sans-serif;
+      text-transform: uppercase;
+      position: relative;
+      white-space: nowrap; }
+    .rin .report .citation {
+      position: absolute;
+      top: 100%;
+      right: 0%;
+      background: #EEE;
+      border: 1px solid black;
+      padding: 10px;
+      cursor: default;
+      color: black;
+      z-index: 1; }
+    .rin .report .citation-wrapper {
+      position: relative; }
+    .rin .report .header {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      width: 100%;
+      height: 13em;
+      background: linear-gradient(to bottom,#F57F29 35%,#1C2D5C 0%);
+      border-bottom-width: 0pt;
+      font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+      z-index: 0;
+      color: #FFFFFF; }
+      .rin .report .header h1 {
+        font-size: 36pt;
+        color: #FFFFFF;
+        line-height: 1.2;
+        margin-top: 0px;
+        margin-bottom: 0px; }
+      .rin .report .header li a.active {
+        cursor: text;
+        text-decoration: underline; }
+      .rin .report .header li a:hover {
+        color: #FFFFFF; }
+      .rin .report .header .breadcrumb {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px; }
+    .rin .report .header-background {
+      position: absolute;
+      height: 100px;
+      width: 100%;
+      background-color: #1C2D5C; }
+    .rin .report .mention-page-button {
+      background-color: #76BD43;
+      color: #FFFFFF;
+      font-family: Helvetica, sans-serif;
+      margin: 5px 10px;
+      padding: 0px 5px;
+      display: inline-block;
+      cursor: pointer; }
+    .rin .report .mention-page-button.selected {
+      background-color: #53852F;
+      color: #FFFFFF; }
+  .rin .cant-find-rrid-bottom {
+    background-color: #666766;
+    color: #FFFFFF;
+    z-index: 10000;
+    width: 200px;
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px 5px 0 0; }
+    .rin .cant-find-rrid-bottom .close-button {
+      position: absolute;
+      right: 5px;
+      top: 5px; }
+    .rin .cant-find-rrid-bottom .closed {
+      height: 5px;
+      display: none; }
+  .rin .copy-alert {
+    background-color: #427F3D;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 2px; }
+  .rin p, .rin ul, .rin ol {
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt; }
+  .rin a:not(.btn):not(.not-rin):not(.btn-u) {
+    color: #408DC9; }
+  .rin li.active.ng-scope > a.ng-scope.ng-binding {
+    color: #FFFFFF; }
+  .rin .color-darkblue {
+    color: #1C2D5C !important; }
+  .rin .color-lightgreen {
+    color: #76BD43 !important; }
+  .rin .color-grey {
+    color: #666766 !important; }
+  .rin .color-lightblue {
+    color: #408DC9 !important; }
+  .rin .color-orange {
+    color: #F57F29 !important; }
+  .rin .color-yellow {
+    color: #FABD1B !important; }
+  .rin .color-green {
+    color: #427F3D !important; }
+  .rin .color-white {
+    color: #FFFFFF !important; }
+  .rin .background-darkblue {
+    background-color: #1C2D5C !important; }
+  .rin .background-lightgreen {
+    background-color: #76BD43 !important; }
+  .rin .background-grey {
+    background-color: #666766 !important; }
+  .rin .background-lightblue {
+    background-color: #408DC9 !important; }
+  .rin .background-orange {
+    background-color: #F57F29 !important; }
+  .rin .background-yellow {
+    background-color: #FABD1B !important; }
+  .rin .background-green {
+    background-color: #427F3D !important; }
+  .rin .background-white {
+    background-color: #FFFFFF !important; }

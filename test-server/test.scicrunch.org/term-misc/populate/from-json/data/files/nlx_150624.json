@@ -1,0 +1,1 @@
+{"Radiation Machine SSD":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3002_0024","SuperCategory":"DICOM term","Id":"nlx_150624","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Source to patient surface distance (in mm) of radiation machine used in acquiring or computing image."}}

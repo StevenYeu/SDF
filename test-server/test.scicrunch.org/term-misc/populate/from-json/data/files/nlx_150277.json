@@ -1,0 +1,1 @@
+{"Medical Record Locator":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0010_1090","SuperCategory":"DICOM term","Id":"nlx_150277","Has role":"Patient attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"An identifier used to find the patient\"s existing medical record (e.g. film jacket)."}}

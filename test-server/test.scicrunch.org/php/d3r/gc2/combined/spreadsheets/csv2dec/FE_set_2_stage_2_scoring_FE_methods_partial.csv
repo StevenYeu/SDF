@@ -1,0 +1,4 @@
+Submission ID,Group/PI name,Submitter Name,isAnonymous,Number of ligands, Kendalls Tau, Kendalls Tau Error,RMSD (kcal/mol),RMSD Uncertainty,Protocol Name from Protocol File,List of Software Packages Used,Full FE Method?
+0jz8u,Julien Michel,Julien Michel,0,14,0.36,0.16,1.36,0.23,alchemical free energy protocol with average network analysis using same charge compounds ,"FESetup, NetworkX",Free energy method
+x8jt0,,,1,0,nan,nan,nan,nan,eTOX ALLIES,eTOX ALLIES,Structure-based scoring method
+c1nbt,Julien Michel,Julien Michel,0,14,0.3,0.19,1.29,0.21,alchemical free energy protocol with average network analysis using same charge compounds and partial charge scaling ,"FESetup, NetworkX",Free energy method

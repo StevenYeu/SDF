@@ -1,0 +1,1 @@
+{"Scan Arc":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1143","SuperCategory":"DICOM term","Id":"nlx_150867","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The effective angular range of the scan data in degrees. The value shall be positive. Required if a sequence Item is present."}}

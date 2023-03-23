@@ -1,0 +1,1 @@
+{"Frame of Reference Transformation Matrix":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3006_00C6","SuperCategory":"DICOM term","Id":"nlx_150042","Has role":"Imaging data attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The matrix used to transform one frame of reference to another."}}

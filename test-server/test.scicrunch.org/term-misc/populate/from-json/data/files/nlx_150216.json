@@ -1,0 +1,1 @@
+{"IVUS Pullback Rate":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_3101","SuperCategory":"DICOM term","Id":"nlx_150216","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Required if IVUS Acquisition (0018,3100) value is MOTOR_PULLBACK. Specified in units of mm\/sec."}}

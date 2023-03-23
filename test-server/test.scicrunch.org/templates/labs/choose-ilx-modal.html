@@ -1,0 +1,18 @@
+<div class="modal-header">
+    <h3 class="modal-title">Choose an ILX</h3>
+</div>
+
+<div class="modal-body">
+    <input
+        type="text"
+        class="form-control"
+        placeholder="Search for CDEs"
+        ng-model="newFieldTypeFilter"
+        ng-model-options="{debounce: 700}"
+        ng-change="filterFieldTypes(newFieldTypeFilter)"
+    />
+    <select class="form-control" size="10" ng-model="new_term" ng-options="term as term.label for term in terms">
+    </select>
+    <button class="btn btn-success" ng-click="submit()">Submit</button>
+    <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+</div>

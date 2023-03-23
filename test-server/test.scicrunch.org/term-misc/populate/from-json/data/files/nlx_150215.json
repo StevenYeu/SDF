@@ -1,0 +1,1 @@
+{"IVUS Gated Rate":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_3102","SuperCategory":"DICOM term","Id":"nlx_150215","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Required if IVUS Acquisition (0018,3100) value is GATED_PULLBACK. Specified in units of mm\/beat."}}

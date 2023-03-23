@@ -1,0 +1,1 @@
+{"Spacing Between Slices":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_0088","SuperCategory":"DICOM term","Id":"nlx_151002","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Spacing between slices, in mm. The spacing is measured from the center-tocenter of each slice."}}

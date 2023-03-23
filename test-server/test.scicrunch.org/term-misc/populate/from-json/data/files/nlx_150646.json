@@ -1,0 +1,1 @@
+{"Real World Value LUT Data":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0040_9212","SuperCategory":"DICOM term","Id":"nlx_150646","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"FD","Definition":"LUT Data in this Sequence. Required if Real World Value Intercept (0040,9224) is not present."}}

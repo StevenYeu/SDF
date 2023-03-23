@@ -1,0 +1,15 @@
+<div ng-show="ver.diffs === undefined">
+    Loading...
+</div>
+<div ng-hide="ver.diffs === undefined">
+    <table class="table">
+        <thead><tr><th>Changes made in current version:</th></tr></thead>
+        <tbody>
+            <tr ng-repeat="diff in ver.diffs">
+                <td>
+                    <span ng-class="rv.diffClassColor(diff.type)"><i class="fa" ng-class="rv.diffClassFA(diff.type)"></i> {{diff.column}}</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

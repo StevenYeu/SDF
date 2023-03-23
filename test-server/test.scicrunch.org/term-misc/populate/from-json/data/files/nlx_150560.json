@@ -1,0 +1,1 @@
+{"Plane Position Sequence":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0020_9113","SuperCategory":"DICOM term","Id":"nlx_150560","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"SQ","Definition":"Identifies the position of the plane of this frame. Only a single Item shall be permitted in this sequence."}}

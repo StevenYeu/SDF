@@ -1,0 +1,1 @@
+{"ROI Name":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3006_0026","SuperCategory":"DICOM term","Id":"nlx_150820","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"LO","Definition":"User-defined name for ROI. Required if Structure Set ROI Sequence (3006,0020) is sent."}}

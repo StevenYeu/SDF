@@ -1,0 +1,1 @@
+{"Number of Waveform Samples":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:003A_0010","SuperCategory":"DICOM term","Id":"nlx_150384","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"UL","Definition":"Number of samples per channel in this multiplex group."}}

@@ -1,0 +1,21 @@
+<script type="text/ng-template" id="term-vote-modal">
+<form ng-submit="submit()">
+    <div class="modal-header">
+        <h4>Vote on term property</h4>
+    </div>
+
+    <div class="modal-body" style="height:100%;">
+        <h5>Are you sure you want to <span class="text-danger">{{ voteEntry.vote }}</span> on the following?</h5>
+        <table style="width:100%;border-spacing:5px;border-collapse:separate;">
+        <tr>
+        <td>{{ voteEntry.subject }}</td><td>{{ voteEntry.predicate }}</td><td>{{ voteEntry.object }}</td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">Yes</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+</script>

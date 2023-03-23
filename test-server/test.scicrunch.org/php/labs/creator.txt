@@ -1,0 +1,1 @@
+datacite.creator: Random Citizennnn datacite.contributor: Mike Chiu datacite.title: Random Thoughts datacite.publisher: Random Houses datacite.publicationyear: 2020 datacite.resourcetype: Text

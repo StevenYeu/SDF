@@ -1,0 +1,55 @@
+{
+    "all": {
+        "name": "All Sources",
+        "plural_name": "All Sources",
+        "config": "general_config.json",
+        "es_type": "",
+        "icon": "",
+        "description": ""
+    },
+    "rin": {
+        "name": "Resource Information Network",
+        "plural_name": "Resource Information Network",
+        "config": "rin_index.json",
+        "es_type": "rin",
+        "es_index": "RIN_*_pr",
+        "icon": "",
+        "description": ""
+    },
+    "ks": {
+        "name": "Knowledge Base",
+        "plural_name": "Knowledge Base",
+        "config": "ks_index.json",
+        "es_type": "ks",
+        "es_index": "KS_*_pr",
+        "icon": "",
+        "description": ""
+    },
+    "viraldb_rsc": {
+        "name": "Rapid Response Viral Resource",
+        "plural_name": "Rapid Response Viral Resources",
+        "config": "viraldb_rsc_index.json",
+        "es_type": "rin",
+        "es_index": "RIN_Tool_pr,RIN_Antibody_new,RIN_CellLine_pr",
+        "icon": "",
+        "description": ""
+    },
+    "viraldb_data": {
+        "name": "Rapid Response Viral Data",
+        "plural_name": "Rapid Response Viral Data",
+        "config": "viraldb_data_index.json",
+        "es_type": "ks",
+        "es_index": "scr_006555-pdb-ks_2020jul09,ViralDB_Data_pr",
+        "icon": "",
+        "description": ""
+    },
+    "viraldb_lit": {
+        "name": "Rapid Response Viral Literature",
+        "plural_name": "Rapid Response Viral Literature",
+        "config": "viraldb_lit_index.json",
+        "es_type": "literature",
+        "es_index": "LIT_pubmed_pr,LIT_biorxiv_pr,LIT_medrxiv_pr,ViralDB_Projects_pr",
+        "icon": "",
+        "description": ""
+    }
+}

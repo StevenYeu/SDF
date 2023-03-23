@@ -1,0 +1,27 @@
+<div>
+    <div class="modal-body">
+        <div ng-show="bad_mentionids.length > 0">
+            <h2>The following mention IDs were not formatted properly</h2>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="mentionid in bad_mentionids">{{ mentionid }}</li>
+            </ul>
+        </div>
+        <div ng-show="existing_mentions.length > 0">
+            <h2>The following mentions already exist</h2>
+            <div ng-repeat="mention in existing_mentions">
+                <div single-resource-mention-dir></div>
+                <hr/>
+            </div>
+        </div>
+        <div ng-show="added_mentions.length > 0">
+            <h2>The following mentions were added</h2>
+            <div ng-repeat="mention in added_mentions">
+                <div single-resource-mention-dir></div>
+                <hr/>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-info" ng-click="ok()">Ok</button>
+        </div>
+    </div>
+</div>

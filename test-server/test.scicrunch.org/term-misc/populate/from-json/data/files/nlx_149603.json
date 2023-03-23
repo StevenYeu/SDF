@@ -1,0 +1,1 @@
+{"Beat Rejection Flag":{"ValueRepresentation":"CS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1080","Comment":"DICOM specific term","SuperCategory":"DICOM term","Id":"nlx_149603","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Beat length sorting has been applied."}}

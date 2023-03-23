@@ -1,0 +1,1 @@
+{"Beam Stopper Position":{"ValueRepresentation":"CS","RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:3008_0230","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_149600","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Position of Beam Stopper during beam administration."}}

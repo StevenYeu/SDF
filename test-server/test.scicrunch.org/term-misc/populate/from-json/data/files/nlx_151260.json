@@ -1,0 +1,1 @@
+{"Wedge Position":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:300A_0118","SuperCategory":"DICOM term","Id":"nlx_151260","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"Position of Wedge at current Control Point. Required if Wedge Position Sequence (300A,0116) is sent."}}

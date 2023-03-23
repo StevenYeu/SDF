@@ -1,0 +1,1 @@
+{"Estimated Radiographic Magnification Factor":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1114","SuperCategory":"DICOM term","Id":"nlx_149959","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"Ratio of Source Image Receptor Distance (SID) over Source Object Distance (SOD)."}}

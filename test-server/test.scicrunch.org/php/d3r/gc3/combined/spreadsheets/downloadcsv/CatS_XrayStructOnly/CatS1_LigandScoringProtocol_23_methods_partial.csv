@@ -1,0 +1,2 @@
+Submission ID,Method Type,Number of Ligands,Kendalls Tau,Kendalls Tau Error,Spearman's Rho,Spearman's Rho Error,isAnonymous,Last Name,First Name,Organization,PI Name,Method Name,Software
+hwsq5,ligand-based scoring,17,0.01,0.18,0.03,0.25,0,evangelidis,thomas,"central european institute of technology, brno, czech republic",thomas evangelidis,scaffopt_score2,ligprep v33013   scaffopt

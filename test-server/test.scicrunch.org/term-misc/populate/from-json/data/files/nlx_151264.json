@@ -1,0 +1,1 @@
+{"Whole Body Technique":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1301","SuperCategory":"DICOM term","Id":"nlx_151264","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"CS","Definition":"The type of scan performed. Used only if Image Type (0008,0008), Value 3, contains the value WHOLE BODY."}}

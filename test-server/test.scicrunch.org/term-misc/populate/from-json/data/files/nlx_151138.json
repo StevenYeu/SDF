@@ -1,0 +1,1 @@
+{"Time of Last Calibration":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0018_1201","SuperCategory":"DICOM term","Id":"nlx_151138","Has role":"Imaging hardware attribute","Is part of":"Resource:DICOM standard","Value_Representation":"TM","Definition":"Time when the image acquisition device calibration was last changed in any way. Multiple entries may be used."}}

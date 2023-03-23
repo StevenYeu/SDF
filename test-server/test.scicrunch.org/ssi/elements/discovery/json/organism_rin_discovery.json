@@ -1,0 +1,157 @@
+{
+    "fields": [
+        {
+            "name": "Organism Name",
+            "esField": "item.name",
+            "order": "1",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Proper Citation",
+            "esField": "rrid.properCitation",
+            "facetField": "rrid.properCitation",
+            "order": "2",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Database",
+            "esField": "vendors.[].name",
+            "order": "3",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Database Abbreviation",
+            "esField": "vendors.[].abbreviation",
+            "facetField": "vendors.abbreviation.keyword",
+            "order": "4",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Species",
+            "esField": "organisms.primary.[].species.name",
+            "order": "5",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Phenotype",
+            "esField": "phenotypes.[].name",
+            "order": "6",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Availability",
+            "esField": "item.availability.[].description",
+            "facetField": "item.availability.keyword",
+            "order": "7",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "References",
+            "esField": "references.[].curie",
+            "order": "8",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Notes",
+            "esField": "item.notes.[].description",
+            "order": "9",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Affected Gene",
+            "esField": "genotype.gene.[].name",
+            "order": "10",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Genomic Alteration",
+            "esField": "genotype.genomicAlterations.[].name",
+            "order": "11",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Catalog Number",
+            "esField": "item.identifier",
+            "visibilities": {"snippet-filter": "1"},
+            "order": "12",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "false"
+        },
+        {
+            "name": "Background",
+            "esField": "organisms.primary.[].background.name",
+            "order": "13",
+            "isFacet": "true",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Mentions Count",
+            "esField": "mentions.[].totalMentions.count",
+            "facetField": "mentions.totalMentions.count",
+            "visibilities": {"table": "0"},
+            "order": "14",
+            "isFacet": "false",
+            "isSearchable": "true",
+            "isSortable": "true"
+        },
+        {
+            "name": "Mentions",
+            "esField": "mentions.[].availability",
+            "facetField": "mentions.availability.keyword",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        },
+        {
+            "name": "Database",
+            "esField": "vendors.[].abbreviation",
+            "facetField": "vendors.abbreviation.keyword",
+            "isFacet": "true",
+            "isSearchable": "false",
+            "isSortable": "true"
+        }
+    ],
+    "snippet_body": [
+        "<strong>Source Database:</strong> $1",
+        "<strong>Genetic Background:</strong> $2",
+        "<strong>Affected Genes:</strong> $3",
+        "<strong>Genomic Alteration: </strong> $4",
+        "<strong>Availability:</strong> $5",
+        "<strong>Reference:</strong> $6",
+        "<strong>Notes:</strong> $7"
+    ],
+    "snippet_params": {
+        "1": "vendors.[].name",
+        "2": "organisms.primary.[].background.name",
+        "3": "genotype.gene.[].name",
+        "4": "genotype.genomicAlterations.[].name",
+        "5": "item.availability.[].description",
+        "6": "references.[].curie",
+        "7": "item.notes.[].description"
+    },
+    "viewType": "discovery"
+}

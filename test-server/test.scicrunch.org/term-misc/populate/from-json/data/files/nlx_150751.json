@@ -1,0 +1,1 @@
+{"Referring Physician's Address":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_0092","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150751","Has role":"Scan-related personnel attribute","Is part of":"Resource:DICOM standard","Value_Representation":"ST","Definition":"Text providing the location address of the referring physician."}}

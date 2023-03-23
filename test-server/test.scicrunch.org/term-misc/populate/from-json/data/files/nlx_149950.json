@@ -1,0 +1,1 @@
+{"Energy Window Lower Limit":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0054_0014","SuperCategory":"DICOM term","Id":"nlx_149950","Has role":"Imaging protocol attribute","Is part of":"Resource:DICOM standard","Value_Representation":"DS","Definition":"The lower limit of the energy window in keV."}}

@@ -1,0 +1,1 @@
+{"Electrical offset":{"RelatedTo":"Device","Synonym":"zeroing","CurationStatus":"uncurated","SuperCategory":"Device parameter","Id":"oen_0001211","Has role":"Electrophysiology concept","Definition":"DC shift in input voltage required to produce a zero output voltage when no signal is applied to an amplifier."}}

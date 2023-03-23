@@ -1,0 +1,1 @@
+{"Performing Physician's Name":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0008_1050","Comment":"general term","SuperCategory":"DICOM term","Id":"nlx_150518","Has role":"Scan-related personnel attribute","Is part of":"Resource:DICOM standard","Value_Representation":"PN","Definition":"Name of the physician administering the study."}}

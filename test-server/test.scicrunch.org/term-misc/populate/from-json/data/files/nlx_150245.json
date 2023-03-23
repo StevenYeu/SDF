@@ -1,0 +1,1 @@
+{"LUT Descriptor":{"RelatedTo":"BIRN-INCF Derived Data Project","DICOMID":"DICOM:0028_3002","SuperCategory":"DICOM term","Id":"nlx_150245","Has role":"Processed image attribute","Is part of":"Resource:DICOM standard","Value_Representation":"US or SS","Definition":"Specifies the format of the LUT Data in this Sequence. Required if the VOI LUT Sequence (0028,3010) is sent."}}

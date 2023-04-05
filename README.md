@@ -13,6 +13,12 @@ The catalog is based on the [SciCrunch Portal](https://github.com/SciCrunch/SciC
 - Made SDF specific components to display resources
 
 
+## CILogon Setup
+Please follow the [CILogon Instructions](https://www.cilogon.org/oidc) on integrate it with this applications
+
+## OSC Integration
+This [repo](https://github.com/OpenScienceChain/Catalog-CLU) has the scripts that sends resources from SDF to OSC and block chain.
+
 ## How to run 
 
 ### Prerequisites  
